@@ -5,17 +5,18 @@ const Navbar = () => {
         <div className="h-[48px] sticky transition-all ease-in flex justify-center w-full ">
           <header className="py-2 px-4 max-w-[480px] flex items-center sticky top-0 w-full justify-between z-[9999] font-[family-name:inter-regular]">
             <div className="flex items-center ">
-              <a href="#" className="me-3 text-[#333]">
+              <a href="#" className="me-3 text-[#333] h-[27px]">
                 <img
                   src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI1IDI0IiBmaWxsPSJub25lIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzExNzg3Xzg3NzY3KSI+CjxwYXRoIGQ9Ik00LjUgMTJIMjAuNSIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIxLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNNC41IDYuMjVIMjAuNSIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIxLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNNC41IDE3Ljc1SDIwLjUiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMS40IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMF8xMTc4N184Nzc2NyI+CjxyZWN0IHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0id2hpdGUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuNSkiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K"
                   alt="Menu"
                   width="24"
-                  height="24"
+                  className="h-[24px]"
+                  
                 />
               </a>
-              <div className="pt-0.5 ">
-                <a href="#">
-                  <picture title="Flipkart">
+              <div className="pt-0.5  max-w-[120px]">
+                <a href="#" >
+                  <picture >
                     <source
                       srcSet="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"
                       media="(min-width:767px)"
@@ -26,8 +27,10 @@ const Navbar = () => {
                     />
                     <img
                       src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"
-                      className="w-[160px] h-[40px]"
+                      height="40px" width="160px"
+                    //   style={{display:"unset", verticalAlign:"unset" ,maxWidth:"unset"}}
                       title="Flipkart"
+                      className="!h-[40px] ![display:unset] ![vertical-align:unset] ![max-width:unset]"
                     />
                   </picture>
                 </a>
