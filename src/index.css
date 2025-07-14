@@ -1,1 +1,22 @@
 @import "tailwindcss";
+@font-face {
+  font-family: inter-regular;
+  src: url("https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-Regular.woff2");
+}
+@font-face {
+  font-family: inter-semibold;
+  src: url("https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-SemiBold.woff2");
+}
+
+@font-face {
+  font-family: inter-bold;
+  src: url("https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-Bold.woff2");
+}
+@font-face {
+  font-family: roboto-regular;
+  src: url("https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/roboto-regular.woff2");
+}
+@font-face {
+  font-family: roboto-medium;
+  src: url("https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/roboto-medium.woff2");
+}
