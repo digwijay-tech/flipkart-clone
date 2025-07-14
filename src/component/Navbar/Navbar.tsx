@@ -1,3 +1,5 @@
+import SideNavbar from "./SideNavbar";
+
 const Navbar = () => {
   return (
     <nav>
@@ -64,6 +66,7 @@ const Navbar = () => {
           </header>
         </div>
       </div>
+      <SideNavbar/>
     </nav>
   );
 };
