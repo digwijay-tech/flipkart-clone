@@ -1,13 +1,16 @@
+import { useState } from "react";
 import SideNavbar from "./SideNavbar";
 
 const Navbar = () => {
+    const [isVisible, setIsVisible] = useState(false)
+    console.log(isVisible)
   return (
     <nav>
       <div className="bg-white flex justify-center flex-col text-[12px] tracking-normal ">
         <div className="h-[48px] sticky transition-all ease-in flex justify-center w-full ">
           <header className="py-2 px-4 max-w-[480px] flex items-center sticky top-0 w-full justify-between z-[9999] font-[family-name:inter-regular]">
             <div className="flex items-center ">
-              <a href="#" className="me-3 text-[#333] h-[27px]">
+              <a href="#" className="me-3 text-[#333] h-[27px]" onClick={()=>setIsVisible(!isVisible)}>
                 <img
                   src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI1IDI0IiBmaWxsPSJub25lIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzExNzg3Xzg3NzY3KSI+CjxwYXRoIGQ9Ik00LjUgMTJIMjAuNSIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIxLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNNC41IDYuMjVIMjAuNSIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIxLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNNC41IDE3Ljc1SDIwLjUiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMS40IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMF8xMTc4N184Nzc2NyI+CjxyZWN0IHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0id2hpdGUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuNSkiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K"
                   alt="Menu"
@@ -66,7 +69,7 @@ const Navbar = () => {
           </header>
         </div>
       </div>
-      <SideNavbar/>
+      <SideNavbar isvisible={isVisible}/>
     </nav>
   );
 };

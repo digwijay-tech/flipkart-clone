@@ -1,34 +1,22 @@
-
-const SideNavbar = () => {
+type SidebarProps={
+    isvisible :boolean
+}
+const SideNavbar = ({isvisible}:SidebarProps) => {
   return (
-    <div className={` fixed h-[120%] top-0 left-0 z-10 w-full visible `}>
-      <div className="absolute h-full w-full bg-[rgba(0,0,0,.6)] opacity-[1] visible "></div>
-      <div className="visible transform-[translate3d(0px,0px,0px)] bg-white fixed h-[120%] w-[75%] top-0 left-0 shadow-[3px_0px_8px_1px_rgba(0,0,0,0.4)]">
+    <div className={` fixed h-[120%] top-0 left-0 z-10 w-full ${isvisible ? "visible" :"hidden"}`}>
+      <div className={`absolute h-full w-full bg-[rgba(0,0,0,.6)] ${isvisible?"opacity-[1] visible" : "opacity-0 hidden"}  `}></div>
+      <div className={` bg-white fixed h-[120%] w-[75%] top-0 left-0 shadow-[3px_0px_8px_1px_rgba(0,0,0,0.4)]${isvisible?"visible transform-[translate3d(0px,0px,0px)]":"hidden translate3d[]"} `}>
         <div className="h-[923px] flex flex-col  ">
-          <div className=" flex items-center bg-[linear-gradient(30deg,#2874f0,#0065c5)] h-[60px] py-0.5">
-            <table className="fixed w-full">
-              <tbody>
-                <tr>
-                  <td className="flex items-center">
-                    <img
-                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCI+CiAgPHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNyAwYTMuNSAzLjUgMCAxIDEgMCA3IDMuNSAzLjUgMCAwIDEgMC03em0wIDguNzVjMy44NjcgMCA3IDEuNTY2IDcgMy41VjE0SDB2LTEuNzVjMC0xLjkzNCAzLjEzMi0zLjUgNy0zLjV6Ii8+Cjwvc3ZnPgo="
-                      alt=""
-                      className="ms-3 w-[15px] h-[15px]"
-                    />
-                    <div className="w-[75%] ms-5 text-[16px] self-end text-white overflow-hidden whitespace-nowrap  text-ellipsis mt-[1px] font-[inter-regular]">
-                      Login & Signup
-                    </div>
-                  </td>
-                  <td className="w-[40px]">
-                    <img
-                      src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/logo_lite-cbb357.png"
-                      alt="flipkart logo"
-                      className="w-5 align-middle me-[15px] "
-                    />
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+          <div className=" flex items-center bg-[linear-gradient(30deg,#2874f0,#0065c5)] h-[60px] px-0.5 ">
+            <div className="flex justify-between w-full items-center">
+                <div className="flex justify-center items-center">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCI+CiAgPHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNyAwYTMuNSAzLjUgMCAxIDEgMCA3IDMuNSAzLjUgMCAwIDEgMC03em0wIDguNzVjMy44NjcgMCA3IDEuNTY2IDcgMy41VjE0SDB2LTEuNzVjMC0xLjkzNCAzLjEzMi0zLjUgNy0zLjV6Ii8+Cjwvc3ZnPgo=" alt=" profile-icon" className="ms-[12px] w-[15px] h-[15px]" />
+                    <span className="text-white font-[inter-regular] w-[75%] ms-[20px] text-[16px] whitespace-nowrap overflow-hidden mt-[1px] self-end">Login & Signup</span>
+                </div>
+                <div className="w-[40px]">
+                    <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/logo_lite-cbb357.png" width="20px" alt="FlipKart logo" className="align-middle me-[15px]" />
+                </div>
+            </div>
           </div>
           <div className="overflow-y-auto ">
             {/* btn-1 */}
@@ -133,8 +121,8 @@ const SideNavbar = () => {
                   <div className="w-3.5 h-3.5 relative min-w-[inherit] min-h-[inherit] flex items-center justify-center">
                     <img
                       srcSet="https://rukminim1.flixcart.com/www/100/14/promos/01/08/2019/23d1528b-d57d-440e-a21f-f374f518b6ed.png?q=80 1x, https://rukminim1.flixcart.com/www/200/28/promos/01/08/2019/23d1528b-d57d-440e-a21f-f374f518b6ed.png?q=60 2x, https://rukminim1.flixcart.com/www/300/42/promos/01/08/2019/23d1528b-d57d-440e-a21f-f374f518b6ed.png?q=40 3x, "
-                      src=""
-                      alt=""
+                      src="https://rukminim1.flixcart.com/www/undefined/14/promos/01/08/2019/23d1528b-d57d-440e-a21f-f374f518b6ed.png?q=80"
+                      alt="Language-icon"
                     />
                   </div>
                   <span className="ms-3 font-[inter-regular]">
