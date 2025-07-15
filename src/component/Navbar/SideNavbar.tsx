@@ -1,11 +1,12 @@
 type SidebarProps={
     isvisible :boolean
+    setIsVisible:React.Dispatch<React.SetStateAction<boolean>>
 }
-const SideNavbar = ({isvisible}:SidebarProps) => {
+const SideNavbar = ({isvisible , setIsVisible}:SidebarProps) => {
   return (
     <div className={` fixed h-[120%] top-0 left-0 z-10 w-full ${isvisible ? "visible" :"hidden"}`}>
-      <div className={`absolute h-full w-full bg-[rgba(0,0,0,.6)] ${isvisible?"opacity-[1] visible" : "opacity-0 hidden"}  `}></div>
-      <div className={` bg-white fixed h-[120%] w-[75%] top-0 left-0 shadow-[3px_0px_8px_1px_rgba(0,0,0,0.4)]${isvisible?"visible transform-[translate3d(0px,0px,0px)]":"hidden translate3d[]"} `}>
+      <div className={`absolute h-full w-full bg-[rgba(0,0,0,.6)] ${isvisible?"opacity-[1] visible" : "opacity-0 hidden"}  `} onClick={()=>setIsVisible(false)}></div>
+      <div className={` bg-white fixed h-[120%] w-[75%] top-0 left-0 shadow-[3px_0px_8px_1px_rgba(0,0,0,0.4)] ${isvisible?"visible transform-[translate3d(0px,0px,0px)]":"hidden transform-[translate3d(-120%,0px,0px)]"} `}>
         <div className="h-[923px] flex flex-col  ">
           <div className=" flex items-center bg-[linear-gradient(30deg,#2874f0,#0065c5)] h-[60px] px-0.5 ">
             <div className="flex justify-between w-full items-center">
@@ -20,11 +21,11 @@ const SideNavbar = ({isvisible}:SidebarProps) => {
           </div>
           <div className="overflow-y-auto ">
             {/* btn-1 */}
-            <div>
+            <div>  
               <a
                 href="#"
                 className="h-[35px] text-[14px] ps-[15px] relative overflow-hidden flex items-center text-[#333] w-full"
-              >
+              >                                  
                 <div className="flex items-center text-[#353535] ">
                   <div className="w-3.5 h-3.5 relative min-w-[inherit] min-h-[inherit] flex items-center justify-center">
                     <img

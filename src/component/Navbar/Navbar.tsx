@@ -69,7 +69,7 @@ const Navbar = () => {
           </header>
         </div>
       </div>
-      <SideNavbar isvisible={isVisible}/>
+      <SideNavbar isvisible={isVisible} setIsVisible={setIsVisible}/>
     </nav>
   );
 };
