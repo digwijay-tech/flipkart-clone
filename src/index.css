@@ -21,3 +21,6 @@
   src: url("https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/roboto-medium.woff2");
 }
 
+*{
+  line-height: normal;
+}
