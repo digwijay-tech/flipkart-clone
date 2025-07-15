@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav>
       <div className="bg-white flex justify-center flex-col text-[12px] tracking-normal ">
         <div className="h-[48px] md:h-[unset] sticky transition-all ease-in flex justify-center w-full ">
-          <header className="py-2 px-4 md:p-3 lg:py-3 lg:px-7 max-w-[480px] md:max-w-[996px] lg:max-w-[1600px] flex items-center sticky top-0 w-full justify-between z-[9999] font-[family-name:inter-regular]">
+          <header className="py-2 px-4 md:p-3 min-[1192px]:py-3 min-[1192px]:px-7 max-w-[480px] md:max-w-[996px] min-[1192px]:max-w-[1600px] flex items-center sticky top-0 w-full justify-between z-[9999] font-[family-name:inter-regular]">
             {/* Section One */}
             <div className="flex items-center grow">
               {/* Menu icon  */}
@@ -107,7 +107,7 @@ const Navbar = () => {
               </div>
 
               {/* Login button */}
-              <div className="md:px-1.5 lg:px-5 md:flex items-center relative">
+              <div className="md:px-1.5 min-[1192px]:px-5 md:flex items-center relative">
                 <div className="md:flex items-center md:border md:border-[transparent] md:p-2">
                   <a
                     href="#"
@@ -133,7 +133,7 @@ const Navbar = () => {
               </div>
 
               {/* Cart icon */}
-              <div className="md:px-1.5 lg:px-5 md:flex items-center">
+              <div className="md:px-1.5 min-[1192px]:px-5 md:flex items-center">
                 <a
                   href="#"
                   className="flex justify-center items-center text-[#333]"
@@ -144,11 +144,11 @@ const Navbar = () => {
                     className="ms-3 md:ms-0 md:me-2"
                   />
                 </a>
-                <a href="#" className=" hidden lg:flex items-center text-black text-[16px] leading-6 text-center font-[inter-regular]">Cart</a>
+                <a href="#" className=" hidden min-[1192px]:flex items-center text-black text-[16px] leading-6 text-center font-[inter-regular]">Cart</a>
               </div>
 
               {/*Seller icon */}
-              <div className="hidden md:flex px-1.5 lg:px-5 items-center  ">
+              <div className="hidden md:flex px-1.5 min-[1192px]:px-5 items-center  ">
                 <a href="" className="flex justify-center items-center">
                   <img
                     src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg"
@@ -156,11 +156,11 @@ const Navbar = () => {
                     className="me-2"
                   />
                 </a>
-                <a href="" className="hidden lg:flex items-center text-black text-[16px] leading-6 text-center font-[inter-regular]">Become a Seller</a>
+                <a href="" className="hidden min-[1192px]:flex items-center text-black text-[16px] leading-6 text-center font-[inter-regular]">Become a Seller</a>
               </div>
 
               {/* vertical  Menu icon */}
-              <div className="hidden md:flex items-center px-1.5 lg:px-5 relative">
+              <div className="hidden md:flex items-center px-1.5 min-[1192px]:px-5 relative">
                 <div className="flex items-center border !border-[transparent] p-2">
                   <a
                     href=""
