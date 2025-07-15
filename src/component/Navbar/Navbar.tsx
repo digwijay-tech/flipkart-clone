@@ -1,14 +1,21 @@
 import { useState } from "react";
 import SideNavbar from "./SideNavbar";
+import NavProfileDropDown from "./NavProfileDropDown";
 
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const [isLoginDropDown,setIsLoginDropDown]=useState(false)
   console.log(isVisible);
+
+  const showLoginDetails=()=>{
+    setIsLoginDropDown(!isLoginDropDown)
+  }
+  console.log(isLoginDropDown)
   return (
     <nav>
       <div className="bg-white flex justify-center flex-col text-[12px] tracking-normal ">
         <div className="h-[48px] md:h-[unset] sticky transition-all ease-in flex justify-center w-full ">
-          <header className="py-2 px-4 md:p-3 min-[1192px]:py-3 min-[1192px]:px-7 max-w-[480px] md:max-w-[996px] min-[1192px]:max-w-[1600px] flex items-center sticky top-0 w-full justify-between z-[9999] font-[family-name:inter-regular]">
+          <header className="py-2 px-4 md:p-3 min-[1192px]:py-3 min-[1192px]:px-7 max-w-[480px] md:max-w-[996px] lg:max-w-[1600px] flex items-center sticky top-0 w-full justify-between z-[9999] font-[family-name:inter-regular]">
             {/* Section One */}
             <div className="flex items-center grow">
               {/* Menu icon  */}
@@ -107,6 +114,7 @@ const Navbar = () => {
               </div>
 
               {/* Login button */}
+              
               <div className="md:px-1.5 min-[1192px]:px-5 md:flex items-center relative">
                 <div className="md:flex items-center md:border md:border-[transparent] md:p-2">
                   <a
@@ -122,15 +130,19 @@ const Navbar = () => {
                       Login
                     </div>
                   </a>
-                  <div className="hidden md:block">
+
+                  <a className="hidden md:block" onClick={showLoginDetails}>
                     <img
                       src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxNCAxMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfZF80OTc0Xzc1OTY5KSI+CjxwYXRoIGQ9Ik0zIDJMNyA2TDExIDIiIHN0cm9rZT0iIzExMTExMiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L2c+CjxkZWZzPgo8ZmlsdGVyIGlkPSJmaWx0ZXIwX2RfNDk3NF83NTk2OSIgeD0iMC4yNSIgeT0iMC4yNSIgd2lkdGg9IjEzLjUiIGhlaWdodD0iOS44MTI1IiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIiByZXN1bHQ9ImhhcmRBbHBoYSIvPgo8ZmVPZmZzZXQgZHk9IjEiLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMSIvPgo8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMC4xNiAwIi8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0iZWZmZWN0MV9kcm9wU2hhZG93XzQ5NzRfNzU5NjkiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJlZmZlY3QxX2Ryb3BTaGFkb3dfNDk3NF83NTk2OSIgcmVzdWx0PSJzaGFwZSIvPgo8L2ZpbHRlcj4KPC9kZWZzPgo8L3N2Zz4K"
                       alt=""
                       className="transform-[rotate(0deg)] transition-[transform_.3s_ease-in-out] ms-2 w-3 h-3"
                     />
-                  </div>
+                  </a>
                 </div>
+                <NavProfileDropDown isLogin={isLoginDropDown}/>
               </div>
+              
+              
 
               {/* Cart icon */}
               <div className="md:px-1.5 min-[1192px]:px-5 md:flex items-center">
