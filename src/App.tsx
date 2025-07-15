@@ -6,9 +6,7 @@ const App = () => {
     <>
       <Navbar />
 
-      <Routes>
-
-      </Routes>
+      <Routes></Routes>
     </>
   );
 };

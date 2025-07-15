@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav>
       <div className="bg-white flex justify-center flex-col text-[12px] tracking-normal ">
         <div className="h-[48px] md:h-[unset] sticky transition-all ease-in flex justify-center w-full ">
-          <header className="py-2 px-4 md:p-3 max-w-[480px] md:max-w-[996px] flex items-center sticky top-0 w-full justify-between z-[9999] font-[family-name:inter-regular]">
+          <header className="py-2 px-4 md:p-3 lg:py-3 lg:px-7 max-w-[480px] md:max-w-[996px] lg:max-w-[1600px] flex items-center sticky top-0 w-full justify-between z-[9999] font-[family-name:inter-regular]">
             {/* Section One */}
             <div className="flex items-center grow">
               {/* Menu icon  */}
@@ -80,7 +80,12 @@ const Navbar = () => {
                       </svg>
                     </button>
                     <div className="relative inline-block w-full ">
-                      <input type="text" className="overflow-ellipsis border-0 outline-0 text-[17px] h-10 w-full w-100% font-[inter-regular]" placeholder="Search for Products, Brands and More" /> </div>
+                      <input
+                        type="text"
+                        className="overflow-ellipsis border-0 outline-0 text-[17px] h-10 w-full w-100% font-[inter-regular]"
+                        placeholder="Search for Products, Brands and More"
+                      />{" "}
+                    </div>
                   </div>
                 </form>
               </div>
@@ -102,28 +107,33 @@ const Navbar = () => {
               </div>
 
               {/* Login button */}
-              <div className="md:px-1.5 md:flex items-center relative">
-              <div className="md:flex items-center md:border md:border-[transparent] md:p-2">
-                <a
-                  href="#"
-                  className=" flex items-center text-black text-[14px] md:text-[16px] text-center leading-6"
-                >
-                  <img
-                    src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-52e0dc.svg"
-                    alt=""
-                    className="ms-3 md:ms-0 md:me-2 "
-                  />
-                  <div className="ms-1 md:ms-0 text-[16px] leading-6">Login</div>
-                </a>
-                <div className="hidden md:block">
-                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxNCAxMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfZF80OTc0Xzc1OTY5KSI+CjxwYXRoIGQ9Ik0zIDJMNyA2TDExIDIiIHN0cm9rZT0iIzExMTExMiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L2c+CjxkZWZzPgo8ZmlsdGVyIGlkPSJmaWx0ZXIwX2RfNDk3NF83NTk2OSIgeD0iMC4yNSIgeT0iMC4yNSIgd2lkdGg9IjEzLjUiIGhlaWdodD0iOS44MTI1IiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIiByZXN1bHQ9ImhhcmRBbHBoYSIvPgo8ZmVPZmZzZXQgZHk9IjEiLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMSIvPgo8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMC4xNiAwIi8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0iZWZmZWN0MV9kcm9wU2hhZG93XzQ5NzRfNzU5NjkiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJlZmZlY3QxX2Ryb3BTaGFkb3dfNDk3NF83NTk2OSIgcmVzdWx0PSJzaGFwZSIvPgo8L2ZpbHRlcj4KPC9kZWZzPgo8L3N2Zz4K" alt="" className="transform-[rotate(0deg)] transition-[transform_.3s_ease-in-out] ms-2 w-3 h-3" />
+              <div className="md:px-1.5 lg:px-5 md:flex items-center relative">
+                <div className="md:flex items-center md:border md:border-[transparent] md:p-2">
+                  <a
+                    href="#"
+                    className=" flex items-center text-black text-[14px] md:text-[16px] text-center leading-6"
+                  >
+                    <img
+                      src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-52e0dc.svg"
+                      alt=""
+                      className="ms-3 md:ms-0 md:me-2 "
+                    />
+                    <div className="ms-1 md:ms-0 text-[16px] leading-6">
+                      Login
+                    </div>
+                  </a>
+                  <div className="hidden md:block">
+                    <img
+                      src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxNCAxMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfZF80OTc0Xzc1OTY5KSI+CjxwYXRoIGQ9Ik0zIDJMNyA2TDExIDIiIHN0cm9rZT0iIzExMTExMiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L2c+CjxkZWZzPgo8ZmlsdGVyIGlkPSJmaWx0ZXIwX2RfNDk3NF83NTk2OSIgeD0iMC4yNSIgeT0iMC4yNSIgd2lkdGg9IjEzLjUiIGhlaWdodD0iOS44MTI1IiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIiByZXN1bHQ9ImhhcmRBbHBoYSIvPgo8ZmVPZmZzZXQgZHk9IjEiLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMSIvPgo8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMC4xNiAwIi8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0iZWZmZWN0MV9kcm9wU2hhZG93XzQ5NzRfNzU5NjkiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJlZmZlY3QxX2Ryb3BTaGFkb3dfNDk3NF83NTk2OSIgcmVzdWx0PSJzaGFwZSIvPgo8L2ZpbHRlcj4KPC9kZWZzPgo8L3N2Zz4K"
+                      alt=""
+                      className="transform-[rotate(0deg)] transition-[transform_.3s_ease-in-out] ms-2 w-3 h-3"
+                    />
+                  </div>
                 </div>
               </div>
 
-              </div>
-
               {/* Cart icon */}
-              <div className="md:px-1.5 md:flex items-center">
+              <div className="md:px-1.5 lg:px-5 md:flex items-center">
                 <a
                   href="#"
                   className="flex justify-center items-center text-[#333]"
@@ -134,20 +144,34 @@ const Navbar = () => {
                     className="ms-3 md:ms-0 md:me-2"
                   />
                 </a>
+                <a href="#" className=" hidden lg:flex items-center text-black text-[16px] leading-6 text-center font-[inter-regular]">Cart</a>
               </div>
 
               {/*Seller icon */}
-              <div className="hidden md:flex px-1.5 items-center  ">
+              <div className="hidden md:flex px-1.5 lg:px-5 items-center  ">
                 <a href="" className="flex justify-center items-center">
-                  <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg" alt="" className="me-2" />
+                  <img
+                    src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg"
+                    alt=""
+                    className="me-2"
+                  />
                 </a>
+                <a href="" className="hidden lg:flex items-center text-black text-[16px] leading-6 text-center font-[inter-regular]">Become a Seller</a>
               </div>
 
               {/* vertical  Menu icon */}
-              <div className="hidden md:flex items-center px-1.5 relative">
+              <div className="hidden md:flex items-center px-1.5 lg:px-5 relative">
                 <div className="flex items-center border !border-[transparent] p-2">
-                  <a href="" className="text-[16px] leading-6 flex items-center">
-                    <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg" alt="" width="24px" height="24px" />
+                  <a
+                    href=""
+                    className="text-[16px] leading-6 flex items-center"
+                  >
+                    <img
+                      src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg"
+                      alt=""
+                      width="24px"
+                      height="24px"
+                    />
                   </a>
                 </div>
               </div>
