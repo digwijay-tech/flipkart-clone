@@ -1,16 +1,28 @@
 import { useState } from "react";
 import SideNavbar from "./SideNavbar";
 import NavProfileDropDown from "./NavProfileDropDown";
+import NavVerticalMenu from "./NavVerticalMenu";
 
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const [isLoginDropDown,setIsLoginDropDown]=useState(false)
+  const [isLoginDropDown, setIsLoginDropDown] = useState(false);
+  const [isverticalMenuOpen, setIsVerticalMenuOpen] = useState(false);
   console.log(isVisible);
 
-  const showLoginDetails=()=>{
-    setIsLoginDropDown(!isLoginDropDown)
-  }
-  console.log(isLoginDropDown)
+  const showLoginDetails = () => {
+    setIsLoginDropDown(!isLoginDropDown);
+    if (isverticalMenuOpen) {
+      setIsVerticalMenuOpen(!isverticalMenuOpen);
+    }
+  };
+  console.log(isLoginDropDown);
+
+  const handleVerticalMenuClick = () => {
+    setIsVerticalMenuOpen(!isverticalMenuOpen);
+    if (isLoginDropDown) {
+      setIsLoginDropDown(!isLoginDropDown);
+    }
+  };
   return (
     <nav>
       <div className="bg-white flex justify-center flex-col text-[12px] tracking-normal ">
@@ -114,17 +126,27 @@ const Navbar = () => {
               </div>
 
               {/* Login button */}
-              
+
               <div className="md:px-1.5 min-[1192px]:px-5 md:flex items-center relative">
-                <div className="md:flex items-center md:border md:border-[transparent] md:p-2">
+                <div
+                  className={`md:flex items-center md:border md:border-[transparent] md:p-2 ${
+                    isLoginDropDown
+                      ? "bg-[#2a55e5] border-[#2a55e5] rounded-[8px]"
+                      : " "
+                  }`}
+                >
                   <a
                     href="#"
-                    className=" flex items-center text-black text-[14px] md:text-[16px] text-center leading-6"
+                    className={`flex items-center text-black text-[14px] md:text-[16px] text-center leading-6 ${
+                      isLoginDropDown ? "text-white" : ""
+                    }`}
                   >
                     <img
                       src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-52e0dc.svg"
                       alt=""
-                      className="ms-3 md:ms-0 md:me-2 "
+                      className={`ms-3 md:ms-0 md:me-2  ${
+                        isLoginDropDown ? "invert-[100%]" : " "
+                      } `}
                     />
                     <div className="ms-1 md:ms-0 text-[16px] leading-6">
                       Login
@@ -134,15 +156,17 @@ const Navbar = () => {
                   <a className="hidden md:block" onClick={showLoginDetails}>
                     <img
                       src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxNCAxMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfZF80OTc0Xzc1OTY5KSI+CjxwYXRoIGQ9Ik0zIDJMNyA2TDExIDIiIHN0cm9rZT0iIzExMTExMiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L2c+CjxkZWZzPgo8ZmlsdGVyIGlkPSJmaWx0ZXIwX2RfNDk3NF83NTk2OSIgeD0iMC4yNSIgeT0iMC4yNSIgd2lkdGg9IjEzLjUiIGhlaWdodD0iOS44MTI1IiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIiByZXN1bHQ9ImhhcmRBbHBoYSIvPgo8ZmVPZmZzZXQgZHk9IjEiLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMSIvPgo8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMC4xNiAwIi8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0iZWZmZWN0MV9kcm9wU2hhZG93XzQ5NzRfNzU5NjkiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJlZmZlY3QxX2Ryb3BTaGFkb3dfNDk3NF83NTk2OSIgcmVzdWx0PSJzaGFwZSIvPgo8L2ZpbHRlcj4KPC9kZWZzPgo8L3N2Zz4K"
-                      alt=""
-                      className="transform-[rotate(0deg)] transition-[transform_.3s_ease-in-out] ms-2 w-3 h-3"
+                      alt="dropdown arrow"
+                      className={`transform-[rotate(0deg)] transition-[transform_.3s_ease-in-out] ms-2 w-3 h-3 cursor-pointer ${
+                        isLoginDropDown
+                          ? "invert-[100%] transform-[rotate(180deg)] transition-[transform_.3s_ease-in-out]"
+                          : " "
+                      }`}
                     />
                   </a>
                 </div>
-                <NavProfileDropDown isLogin={isLoginDropDown}/>
+                <NavProfileDropDown isLogin={isLoginDropDown} />
               </div>
-              
-              
 
               {/* Cart icon */}
               <div className="md:px-1.5 min-[1192px]:px-5 md:flex items-center">
@@ -156,7 +180,12 @@ const Navbar = () => {
                     className="ms-3 md:ms-0 md:me-2"
                   />
                 </a>
-                <a href="#" className=" hidden min-[1192px]:flex items-center text-black text-[16px] leading-6 text-center font-[inter-regular]">Cart</a>
+                <a
+                  href="#"
+                  className=" hidden min-[1192px]:flex items-center text-black text-[16px] leading-6 text-center font-[inter-regular]"
+                >
+                  Cart
+                </a>
               </div>
 
               {/*Seller icon */}
@@ -168,15 +197,27 @@ const Navbar = () => {
                     className="me-2"
                   />
                 </a>
-                <a href="" className="hidden min-[1192px]:flex items-center text-black text-[16px] leading-6 text-center font-[inter-regular]">Become a Seller</a>
+                <a
+                  href=""
+                  className="hidden min-[1192px]:flex items-center text-black text-[16px] leading-6 text-center font-[inter-regular]"
+                >
+                  Become a Seller
+                </a>
               </div>
 
               {/* vertical  Menu icon */}
               <div className="hidden md:flex items-center px-1.5 min-[1192px]:px-5 relative">
-                <div className="flex items-center border !border-[transparent] p-2">
+                <div
+                  className={`flex items-center border  p-2  ${
+                    isverticalMenuOpen
+                      ? "bg-[#fafafa] rounded-[8px] border-[#e0e0e0]"
+                      : " border-[transparent]"
+                  } `}
+                >
                   <a
-                    href=""
+                    href="#"
                     className="text-[16px] leading-6 flex items-center"
+                    onClick={handleVerticalMenuClick}
                   >
                     <img
                       src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg"
@@ -186,6 +227,7 @@ const Navbar = () => {
                     />
                   </a>
                 </div>
+                <NavVerticalMenu isMenuOpen={isverticalMenuOpen} />
               </div>
             </div>
           </header>
