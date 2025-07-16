@@ -15,7 +15,7 @@ const HeroCarousel = () => {
       .catch((error) => console.log(error));
   }, []);
   return (
-    <div className="relative flex flex-col">
+    <div className="relative flex flex-col md:mb-4 md:bg-white ">
       <div className="grid grid-flow-col overflow-x-auto overflow-y-hidden auto-cols-[100%] [scrollbar-width:none]">
         {carousel.map((item) => (
           <div className="grid auto-cols-fr grid-flow-col " key={item.id}>
@@ -30,7 +30,7 @@ const HeroCarousel = () => {
                   <img
                     src={item.src}
                     alt="Image"
-                    className="opacity-[1] w-full block object-cover  rounded-2xl"
+                    className="opacity-[1] w-full block object-cover  rounded-2xl md:rounded-none"
                   />
                 </picture>
               </a>
@@ -38,12 +38,12 @@ const HeroCarousel = () => {
           </div>
         ))}
       </div>
-      <div className="w-[375px] pt-2 pb-3 flex items-center justify-center flex-row bg-white relative ">
+      <div className="w-full  pt-2 pb-3 flex items-center justify-center flex-row bg-white relative ">
         <div className="w-3 h-1 rounded-[2px] mx-1 bg-[#00000021] "></div>
         <div className="w-3 h-1 rounded-[2px] mx-1 bg-[#00000021] "></div>
         <div className="w-3 h-1 rounded-[2px] mx-1 bg-[#00000021] "></div>
         <div className="w-[48px] h-1 rounded-[2px] mx-1 bg-[#00000021] "></div>
-        <div className="w-3 h-1 rounded-[2px] mx-1 bg-[#00000021] "></div>
+        <div className="w-3 h-1 rounded-[2px] mx-1 bg-[#00000021] "></div> 
         <div className="w-3 h-1 rounded-[2px] mx-1 bg-[#00000021] "></div>
         <div className="w-3 h-1 rounded-[2px] mx-1 bg-[#00000021] "></div>
         <div className="w-3 h-1 rounded-[2px] mx-1 bg-[#00000021] "></div>
