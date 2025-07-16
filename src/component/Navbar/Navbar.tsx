@@ -2,20 +2,23 @@ import { useState } from "react";
 import SideNavbar from "./SideNavbar";
 import NavProfileDropDown from "./NavProfileDropDown";
 import NavVerticalMenu from "./NavVerticalMenu";
+import HeaderSearchArea from "./HeaderSearchArea";
 
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isLoginDropDown, setIsLoginDropDown] = useState(false);
   const [isverticalMenuOpen, setIsVerticalMenuOpen] = useState(false);
-  console.log(isVisible);
-
+  const [search, setSearch] = useState("");
+  const handleSearchhandle = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearch(e.target.value);
+    console.log(search);
+  };
   const showLoginDetails = () => {
     setIsLoginDropDown(!isLoginDropDown);
     if (isverticalMenuOpen) {
       setIsVerticalMenuOpen(!isverticalMenuOpen);
     }
   };
-  console.log(isLoginDropDown);
 
   const handleVerticalMenuClick = () => {
     setIsVerticalMenuOpen(!isverticalMenuOpen);
@@ -100,6 +103,8 @@ const Navbar = () => {
                     </button>
                     <div className="relative inline-block w-full ">
                       <input
+                        onChange={(e) => handleSearchhandle(e)}
+                        value={search}
                         type="text"
                         className="overflow-ellipsis border-0 outline-0 text-[17px] h-10 w-full w-100% font-[inter-regular]"
                         placeholder="Search for Products, Brands and More"
@@ -235,6 +240,7 @@ const Navbar = () => {
       </div>
       {/* Side NavBar */}
       <SideNavbar isvisible={isVisible} setIsVisible={setIsVisible} />
+      <HeaderSearchArea/>
     </nav>
   );
 };
