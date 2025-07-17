@@ -46,7 +46,7 @@ const HeroCarousel = () => {
   }, []);
 
   return (
-    <div className="relative flex flex-col md:mb-4 md:bg-white overflow-hidden z-0">
+    <div className="relative flex flex-col md:mb-4 md:bg-white overflow-hidden z-0 col-[1/13]">
       <div
         className={`  flex scroll-smooth snap-x snap-mandatory transition-[transform_.4s_ease-in-out] transform-[translateX(-${
           currentSlide * 100
