@@ -10,7 +10,7 @@ type ProductCardProps = {
 
 const ProductCard = ({ product }: ProductCardProps) => {
   return (
-    <div className="w-[172px] flex snap-start shrink-0">
+    <div className="w-[172px] lg:w-[216px] flex snap-start shrink-0">
       <div className="m-2 flex-[1] ">
         <div className="h-full w-full ">
           <a
@@ -28,12 +28,14 @@ const ProductCard = ({ product }: ProductCardProps) => {
                     srcSet={product.srcset2}
                     media="(min-width: 768px) and (max-width: 1191px)"
                   />
+                  {/* <div className="h-[152px] w-[152px]"> */}
                   <img
                     src={product.src}
                     alt="Image"
-                    className="object-contain [aspect-ratio:1/1] w-full block  m-auto"
-                    height="108"
+                    className="object-contain [aspect-ratio:1/1]  block  m-auto lg:h-[152px] w-full"
+                   
                   />
+                  {/* </div> */}
                 </picture>
               </div>
               <div className="flex flex-col items-center pt-3 font-[inter-regular]">

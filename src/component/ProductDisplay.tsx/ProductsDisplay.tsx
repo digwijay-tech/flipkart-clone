@@ -15,9 +15,9 @@ const ProductsDisplay = () => {
       .catch((error) => console.log(error));
   });
   return (
-    <div className="h-[274px] bg-white mb-[16px] ">
+    <div className="h-auto bg-white mb-[16px] lg:w-[1170.66px]">
       <div className="flex flex-col relative z-0">
-        <div className="flex flex-[1] flex-row items-center px-3 py-4">
+        <div className="flex flex-[1] flex-row items-center px-3 py-4  lg:p-4 ">
           <div className="text-[#1f1f1f] inline whitespace-nowrap overflow-hidden overflow-ellipsis align-middle text-[22px] !leading-[30px] tracking-[-.02px] font-[inter-semibold]">
             {productTitle}
           </div>
