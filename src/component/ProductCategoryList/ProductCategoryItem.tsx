@@ -1,0 +1,27 @@
+type CategoryItemsProps ={
+  item :{
+    title:string
+    src:string
+  }
+}
+
+const ProductCategoryItem = ({item}:CategoryItemsProps) => {
+  return (
+    <div className="p-4 ps-6">
+      <a href="" className="min-w-[90px] block relative cursor-pointer">
+        <div>
+          <div className="mb-1 text-center ">
+            <div className="mx-auto h-16 w-16 " >
+            <img src={item.src} alt=""  className=""/>
+          </div>
+          </div>
+          <div className=" text-[14px] flex items-center justify-center text-center font-[inter-regular] ">
+            <span>{item.title}</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  );
+};
+
+export default ProductCategoryItem;

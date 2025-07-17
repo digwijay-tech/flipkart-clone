@@ -3,7 +3,7 @@ import SideNavbar from "./SideNavbar";
 import NavProfileDropDown from "./NavProfileDropDown";
 import NavVerticalMenu from "./NavVerticalMenu";
 import HeaderSearchArea from "./HeaderSearchArea";
-
+ 
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isLoginDropDown, setIsLoginDropDown] = useState(false);
@@ -11,21 +11,15 @@ const Navbar = () => {
   const [search, setSearch] = useState("");
   const handleSearchhandle = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearch(e.target.value);
-    console.log(search);
+    console.log(search); 
   };
-  const showLoginDetails = () => {
+  const showLoginDetails = () => {      
     setIsLoginDropDown(!isLoginDropDown);
-    if (isverticalMenuOpen) {
-      setIsVerticalMenuOpen(!isverticalMenuOpen);
-    }
-  };
-
+  };       
+    
   const handleVerticalMenuClick = () => {
     setIsVerticalMenuOpen(!isverticalMenuOpen);
-    if (isLoginDropDown) {
-      setIsLoginDropDown(!isLoginDropDown);
-    }
-  };
+  };  
   return (
     <nav>
       <div className="bg-white flex justify-center flex-col text-[12px] tracking-normal ">
@@ -129,10 +123,12 @@ const Navbar = () => {
                   />
                 </a>
               </div>
-
               {/* Login button */}
-
-              <div className="md:px-1.5 min-[1192px]:px-5 md:flex items-center relative">
+              <div
+                className="md:px-1.5 min-[1192px]:px-5 md:flex items-center relative"
+                onMouseEnter={showLoginDetails}
+                onMouseLeave={showLoginDetails}
+              >
                 <div
                   className={`md:flex items-center md:border md:border-[transparent] md:p-2 ${
                     isLoginDropDown
@@ -157,7 +153,6 @@ const Navbar = () => {
                       Login
                     </div>
                   </a>
-
                   <a className="hidden md:block" onClick={showLoginDetails}>
                     <img
                       src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxNCAxMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfZF80OTc0Xzc1OTY5KSI+CjxwYXRoIGQ9Ik0zIDJMNyA2TDExIDIiIHN0cm9rZT0iIzExMTExMiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L2c+CjxkZWZzPgo8ZmlsdGVyIGlkPSJmaWx0ZXIwX2RfNDk3NF83NTk2OSIgeD0iMC4yNSIgeT0iMC4yNSIgd2lkdGg9IjEzLjUiIGhlaWdodD0iOS44MTI1IiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIiByZXN1bHQ9ImhhcmRBbHBoYSIvPgo8ZmVPZmZzZXQgZHk9IjEiLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMSIvPgo8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMC4xNiAwIi8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0iZWZmZWN0MV9kcm9wU2hhZG93XzQ5NzRfNzU5NjkiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJlZmZlY3QxX2Ryb3BTaGFkb3dfNDk3NF83NTk2OSIgcmVzdWx0PSJzaGFwZSIvPgo8L2ZpbHRlcj4KPC9kZWZzPgo8L3N2Zz4K"
@@ -172,7 +167,6 @@ const Navbar = () => {
                 </div>
                 <NavProfileDropDown isLogin={isLoginDropDown} />
               </div>
-
               {/* Cart icon */}
               <div className="md:px-1.5 min-[1192px]:px-5 md:flex items-center">
                 <a
@@ -192,7 +186,6 @@ const Navbar = () => {
                   Cart
                 </a>
               </div>
-
               {/*Seller icon */}
               <div className="hidden md:flex px-1.5 min-[1192px]:px-5 items-center  ">
                 <a href="" className="flex justify-center items-center">
@@ -209,9 +202,12 @@ const Navbar = () => {
                   Become a Seller
                 </a>
               </div>
-
               {/* vertical  Menu icon */}
-              <div className="hidden md:flex items-center px-1.5 min-[1192px]:px-5 relative">
+              <div
+                className="hidden md:flex items-center px-1.5 min-[1192px]:px-5 relative cursor-pointer"
+                onMouseEnter={handleVerticalMenuClick}
+                onMouseLeave={handleVerticalMenuClick}
+              >
                 <div
                   className={`flex items-center border  p-2  ${
                     isverticalMenuOpen
@@ -240,7 +236,7 @@ const Navbar = () => {
       </div>
       {/* Side NavBar */}
       <SideNavbar isvisible={isVisible} setIsVisible={setIsVisible} />
-      <HeaderSearchArea/>
+      <HeaderSearchArea />
     </nav>
   );
 };
