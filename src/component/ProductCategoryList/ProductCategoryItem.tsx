@@ -3,11 +3,12 @@ type CategoryItemsProps ={
     title:string
     src:string
   }
+  index: number
 }
 
-const ProductCategoryItem = ({item}:CategoryItemsProps) => {
+const ProductCategoryItem = ({item,index}:CategoryItemsProps) => {
   return (
-    <div className="p-4 ps-6">
+    <div className={`p-4  ${index===0 && "ps-6"}`}>
       <a href="" className="min-w-[90px] block relative cursor-pointer">
         <div>
           <div className="mb-1 text-center ">

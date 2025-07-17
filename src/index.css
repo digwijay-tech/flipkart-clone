@@ -24,3 +24,6 @@
 * {
   line-height: normal;
 }
+body{
+  scrollbar-width: none !important;
+}
