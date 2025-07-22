@@ -8,15 +8,16 @@ import SuggestedForMe from "../component/Suggestion/SuggestedForMe";
 
 const Home = () => {
   return (
-    <div className="md:px-4 min-h-lvh bg-[#f1f2f4] md:pt-2 md:[scrollbar-width:none] ">
+    <div className="bg-[#f1f2f4]">
+    <div className="md:px-4 min-h-lvh  md:pt-2 md:[scrollbar-width:none] max-[1190px]:max-w-[996px] mx-auto">
       <div className="grid grid-cols-[repeat(12,1fr)] gap-x-[12px]  w-full">
         <ProductCategoryList />
         <HeroCarousel />
 
-        <div className="col-[1/13] lg:col-[1/11]">
+        <div className="col-[1/13] min-[1190px]:col-[1/11]">
           <ProductsDisplay categoryname={"BestDealMobile"} />
         </div>
-        <div className=" col-[11/13] lg:block hidden">
+        <div className=" col-[11/13] min-[1190px]:flex  hidden  bg-white items-center mb-4 ">
           <a href="">
             <div className="[aspect-ratio:28/43] w-full flex-[1] ">
               <picture>
@@ -31,7 +32,7 @@ const Home = () => {
                 <img
                   src="https://rukminim1.flixcart.com/fk-p-flap/530/810/image/2d5c4c77b41d0d84.jpeg?q=90"
                   alt=""
-                  className="[aspect-ratio:28/43] object-cover w-full"
+                  className="[aspect-ratio:28/43] object-cover w-full my-auto"
                 />
               </picture>
             </div>
@@ -45,8 +46,9 @@ const Home = () => {
         </div>
         <SuggestedForMe/>
         <AdsBanner/>
-        <ProductDisplayLimited/>
+        <ProductDisplayLimited category={"MobiletoCheckout"} />
       </div>
+    </div>
     </div>
   );
 };

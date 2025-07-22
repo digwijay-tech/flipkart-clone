@@ -21,9 +21,9 @@ const Navbar = () => {
     setIsVerticalMenuOpen(!isverticalMenuOpen);
   };  
   return (
-    <nav>
+    <nav >
       <div className="bg-white flex justify-center flex-col text-[12px] tracking-normal ">
-        <div className="h-[48px] md:h-[unset] sticky top-0 z-50 transition-all ease-in flex justify-center w-full ">
+        <div className="h-[48px] md:h-[unset] sticky top-0 z-50 transition-all ease-in flex justify-center w-full max-[1190px]:max-w-[996px] mx-auto ">
           <header className="py-2 px-4 md:p-3 min-[1192px]:py-3 min-[1192px]:px-7 max-w-[480px] md:max-w-[996px] lg:max-w-[1600px] flex items-center sticky top-0 w-full justify-between z-[9999] font-[family-name:inter-regular]">
             {/* Section One */}
             <div className="flex items-center grow">
