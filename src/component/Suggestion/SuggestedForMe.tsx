@@ -6,7 +6,7 @@ const SuggestedForMe = () => {
           <div className="px-3 py-4 whitespace-nowrap overflow-ellipsis align-middle  text-[22px] !leading-[30px] tracking-[-.02px] font-[inter-semibold]">
             Suggested for you
           </div>
-          
+           
         </div>
       </div>
     </div>

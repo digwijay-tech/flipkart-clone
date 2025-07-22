@@ -49,8 +49,17 @@ const Home = () => {
         <AdsBanner/>
         
         <ProductDisplayLimited category={"MobiletoCheckout"} />
+        <ProductDisplayLimited category={"HomeDecoreDeals"}/>
         <ProductDisplayLimited category={"FashionDeals"}/>
         <ProductDisplayLimited category={"HomeProductsDeal"}/>
+        <ProductDisplayLimited category={"LaptopDeal"}/>
+        <ProductDisplayLimited category={"SeasonalTopDeal"}/>
+        {/* No limit product display  */}
+        <ProductDisplayLimited category={"MonsoonStyle"}/>
+        <ProductDisplayLimited category={"SkinCareDeal"}/>
+        <ProductDisplayLimited category={"EssensialDeals"}/> 
+        {/* No limit product display  */}
+        <ProductDisplayLimited category={"TrendGadgetDeals"}/>
       </div>
     </div>
     </div>

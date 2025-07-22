@@ -20,7 +20,7 @@ const ProductDisplayLimited = ({category}: CategoryProps) => {
     
   return (
     <div className=" min-h-[381px] col-[1/13] ">
-      <div className="bg-white mb-4 flex flex-col  ">
+      <div className="bg-white mb-4 flex flex-col  "> 
         <div className="flex flex-col ">
           {/* Heading of the component */}
           <a href="#" className="flex items-center z-0">
@@ -31,7 +31,7 @@ const ProductDisplayLimited = ({category}: CategoryProps) => {
               <div className=" m-1 flex basis-auto flex-col items-stretch relative ">
                 <div className=" flex basis-auto shrink-0 bg-[#2a55e5] rounded-[42px]">
                   <div className="m-1">
-                    <svg width="16" height="16" fill="none" viewBox="0 0 17 17">
+                    <svg width="16" height="16" fill="none" viewBox="0 0 17 17"> 
                       <path
                         d="m6.627 3.749 5 5-5 5"
                         stroke="#FFFFFF"
