@@ -1,7 +1,7 @@
 const AdsBanner = () => {
   return (
-    <div className="col-[7/13] cursor-pointer ">
-      <div className="h-[616px] overflow-hidden flex justify-center items-center relative min-[1190px]:hidden">
+    <div className="col-[7/13] cursor-pointer mb-4 min-[1190px]:hidden">
+      <div className="h-[616px] overflow-hidden flex justify-center items-center relative ">
         <div className="w-full flex basis-auto shrink-0 flex-col">
           <a href="#" className="aspect-[490/632] w-full block ">
             <picture>

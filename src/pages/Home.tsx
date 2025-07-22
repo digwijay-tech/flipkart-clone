@@ -44,9 +44,13 @@ const Home = () => {
         <div className="col-[1/13]">
         <ProductsDisplay categoryname={"SportsHealth&Toy"}/>
         </div>
+        
         <SuggestedForMe/>
         <AdsBanner/>
+        
         <ProductDisplayLimited category={"MobiletoCheckout"} />
+        <ProductDisplayLimited category={"FashionDeals"}/>
+        <ProductDisplayLimited category={"HomeProductsDeal"}/>
       </div>
     </div>
     </div>

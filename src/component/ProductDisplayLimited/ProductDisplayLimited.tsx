@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import ProductCardLimited from "./ProductCardLimited";
 import axios from "axios";
+import  ProductNotFound from "../../pages/ProductNotFound";
 
 type CategoryProps ={
     category : string 
@@ -18,7 +19,7 @@ const ProductDisplayLimited = ({category}: CategoryProps) => {
     },[])
     
   return (
-    <div className=" min-h-[381px] col-[1/13] mt-[16px]">
+    <div className=" min-h-[381px] col-[1/13] ">
       <div className="bg-white mb-4 flex flex-col  ">
         <div className="flex flex-col ">
           {/* Heading of the component */}
@@ -50,7 +51,7 @@ const ProductDisplayLimited = ({category}: CategoryProps) => {
             <div className="px-1.5 pb-1 flex items-stretch flex-wrap">
               {/* Card items  */}
 
-              {products.length === 0 ?<div>No Data founded</div> : products.map((items,index)=>(
+              {products.length === 0 ?<ProductNotFound/> : products.map((items,index)=>(
                 
                 <ProductCardLimited key={index} product={items}/>
               ))}

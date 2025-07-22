@@ -98,194 +98,488 @@
       "src": "https://rukminim1.flixcart.com/fk-p-flap/64/64/image/2ebb95ec20eae8f1.png?q=100"
     }
   ],
-  "ProductHighlight": 
-    {
-      "BestDealMobile": {
-        "title": "Best Deals on Smartphones",
-        "Products": [
-          {
-            "title": "Vivo T4 5G",
-            "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/k/t/x/-original-imahbgpzbumfzkbh.jpeg?q=90",
-            "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/mobile/k/t/x/-original-imahbgpzbumfzkbh.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/mobile/k/t/x/-original-imahbgpzbumfzkbh.jpeg?q=60 2x, ",
-            "srcset2": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/k/t/x/-original-imahbgpzbumfzkbh.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/mobile/k/t/x/-original-imahbgpzbumfzkbh.jpeg?q=60 2x, ",
-            "pricestartfrom": "from 20499*"
-          },
-          {
-            "title": "Motorola G85 5G",
-            "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/n/l/u/-original-imah2fjd7wfd9ksh.jpeg?q=90",
-            "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/mobile/n/l/u/-original-imah2fjd7wfd9ksh.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/mobile/n/l/u/-original-imah2fjd7wfd9ksh.jpeg?q=60 2x, ",
-            "srcset2": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/n/l/u/-original-imah2fjd7wfd9ksh.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/mobile/n/l/u/-original-imah2fjd7wfd9ksh.jpeg?q=60 2x, ",
-            "pricestartfrom": "from 14999*"
-          },
-          {
-            "title": "Oppo k13 5G",
-            "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/f/k/e/-original-imahbfd4zqn9zazz.jpeg?q=90",
-            "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/mobile/f/k/e/-original-imahbfd4zqn9zazz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/mobile/f/k/e/-original-imahbfd4zqn9zazz.jpeg?q=60 2x, ",
-            "srcset2": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/f/k/e/-original-imahbfd4zqn9zazz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/mobile/f/k/e/-original-imahbfd4zqn9zazz.jpeg?q=60 2x, ",
-            "pricestartfrom": "from 16499*"
-          },
+  "ProductHighlight": {
+    "BestDealMobile": {
+      "title": "Best Deals on Smartphones",
+      "Products": [
+        {
+          "title": "Vivo T4 5G",
+          "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/k/t/x/-original-imahbgpzbumfzkbh.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/mobile/k/t/x/-original-imahbgpzbumfzkbh.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/mobile/k/t/x/-original-imahbgpzbumfzkbh.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/k/t/x/-original-imahbgpzbumfzkbh.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/mobile/k/t/x/-original-imahbgpzbumfzkbh.jpeg?q=60 2x, ",
+          "pricestartfrom": "from 20499*"
+        },
+        {
+          "title": "Motorola G85 5G",
+          "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/n/l/u/-original-imah2fjd7wfd9ksh.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/mobile/n/l/u/-original-imah2fjd7wfd9ksh.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/mobile/n/l/u/-original-imah2fjd7wfd9ksh.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/n/l/u/-original-imah2fjd7wfd9ksh.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/mobile/n/l/u/-original-imah2fjd7wfd9ksh.jpeg?q=60 2x, ",
+          "pricestartfrom": "from 14999*"
+        },
+        {
+          "title": "Oppo k13 5G",
+          "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/f/k/e/-original-imahbfd4zqn9zazz.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/mobile/f/k/e/-original-imahbfd4zqn9zazz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/mobile/f/k/e/-original-imahbfd4zqn9zazz.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/f/k/e/-original-imahbfd4zqn9zazz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/mobile/f/k/e/-original-imahbfd4zqn9zazz.jpeg?q=60 2x, ",
+          "pricestartfrom": "from 16499*"
+        },
 
-          {
-            "title": "Realme P3 5G",
-            "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/t/c/y/-original-imahaff2rbuykhcw.jpeg?q=90",
-            "srcset1": "https://rukminim1.flixcart.com/image/170/170/xif0q/mobile/t/c/y/-original-imahaff2rbuykhcw.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/xif0q/mobile/t/c/y/-original-imahaff2rbuykhcw.jpeg?q=60 2x, ",
-            "srcset2": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/t/c/y/-original-imahaff2rbuykhcw.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/mobile/t/c/y/-original-imahaff2rbuykhcw.jpeg?q=60 2x, ",
-            "pricestartfrom": "from 15999*"
-          },
-          {
-            "title": "Motorola g45 5G",
-            "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/r/l/c/-original-imah3xk892aj9gck.jpeg?q=90",
-            "srcset1": "https://rukminim1.flixcart.com/image/170/170/xif0q/mobile/r/l/c/-original-imah3xk892aj9gck.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/xif0q/mobile/r/l/c/-original-imah3xk892aj9gck.jpeg?q=60 2x, ",
-            "srcset2": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/r/l/c/-original-imah3xk892aj9gck.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/mobile/r/l/c/-original-imah3xk892aj9gck.jpeg?q=60 2x, ",
-            "pricestartfrom": "from 10999*"
-          },
-          {
-            "title": "POCO F7 5G",
-            "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/y/i/6/-original-imahdpu7wqfgfryp.jpeg?q=90",
-            "srcset1": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/y/i/6/-original-imahdpu7wqfgfryp.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/mobile/y/i/6/-original-imahdpu7wqfgfryp.jpeg?q=60 2x, ",
-            "srcset2": "https://rukminim1.flixcart.com/image/170/170/xif0q/mobile/y/i/6/-original-imahdpu7wqfgfryp.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/xif0q/mobile/y/i/6/-original-imahdpu7wqfgfryp.jpeg?q=60 2x, ",
-            "pricestartfrom": "from 29999*"
-          }
-        ]
-      },
-      "Home & Furniture Top Deals": {
-        "title": "Home & Furniture Top Deals",
-        "Products": [
-          {
-            "title": "Indoor Plants",
-            "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg",
-            "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=60 2x, ",
-            "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=60 2x, ",
-            "pricestartfrom": "Up to 85% Off"
-          },
-          {
-            "title": "Wall Clock",
-            "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/wall-clock-for-home-decore-28-wallclock-1-ga-analog-gulabi-art-original-imah2xxdydfj9suz.jpeg",
-            "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/wall-clock/e/n/d/wall-clock-for-home-decore-28-wallclock-1-ga-analog-gulabi-art-original-imah2xxdydfj9suz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/wall-clock/e/n/d/wall-clock-for-home-decore-28-wallclock-1-ga-analog-gulabi-art-original-imah2xxdydfj9suz.jpeg?q=60 2x, ",
-            "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/wall-clock/e/n/d/wall-clock-for-home-decore-28-wallclock-1-ga-analog-gulabi-art-original-imah2xxdydfj9suz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/wall-clock/e/n/d/wall-clock-for-home-decore-28-wallclock-1-ga-analog-gulabi-art-original-imah2xxdydfj9suz.jpeg?q=60 2x, ",
-            "pricestartfrom": "From $149"
-          },
-          {
-            "title": "Dressing Table",
-            "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg",
-            "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=60 2x, ",
-            "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=60 2x, ",
-            "pricestartfrom": "From $2,899"
-          },
-          {
-            "title": "Mosquito Nets",
-            "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg",
-            "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=60 2x, ",
-            "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=60 2x, ",
-            "pricestartfrom": "From $249"
-          },
-          {
-            "title": "Casserole",
-            "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/3-cthfftk202grey0001-milton-original-imagg9k8fnrpdgcu.jpeg",
-            "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/casserole/o/o/i/3-cthfftk202grey0001-milton-original-imagg9k8fnrpdgcu.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/casserole/o/o/i/3-cthfftk202grey0001-milton-original-imagg9k8fnrpdgcu.jpeg?q=60 2x, ",
-            "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/casserole/o/o/i/3-cthfftk202grey0001-milton-original-imagg9k8fnrpdgcu.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/casserole/o/o/i/3-cthfftk202grey0001-milton-original-imagg9k8fnrpdgcu.jpeg?q=60 2x, ",
-            "pricestartfrom": "from $299"
-          },
-          {
-            "title": "Water Bottles",
-             "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg",
-            "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=60 2x, ",
-            "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=60 2x, ",
-            "pricestartfrom": "from $199"
-          },
-           {
-            "title": "Gas Stove",
-            "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg",
-            "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=60 2x, ",
-            "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=60 2x, ",
-            "pricestartfrom": "From $536"
-          }
-        ]
-      },
-      "SportsHealth&Toy": {
-        "title": "Sports, Healthcare & more",
-        "Products": [
-          {
-            "title": "learning & Education....",
-            "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg",
-            "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=60 2x, ",
-            "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=60 2x, ",
-            "pricestartfrom": "Up to 80% Off"
-          },
-          {
-            "title": "Tea powder",
-            "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/wall-clock-for-home-decore-28-wallclock-1-ga-analog-gulabi-art-original-imah2xxdydfj9suz.jpeg",
-            "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/wall-clock/e/n/d/wall-clock-for-home-decore-28-wallclock-1-ga-analog-gulabi-art-original-imah2xxdydfj9suz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/wall-clock/e/n/d/wall-clock-for-home-decore-28-wallclock-1-ga-analog-gulabi-art-original-imah2xxdydfj9suz.jpeg?q=60 2x, ",
-            "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/wall-clock/e/n/d/wall-clock-for-home-decore-28-wallclock-1-ga-analog-gulabi-art-original-imah2xxdydfj9suz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/wall-clock/e/n/d/wall-clock-for-home-decore-28-wallclock-1-ga-analog-gulabi-art-original-imah2xxdydfj9suz.jpeg?q=60 2x, ",
-            "pricestartfrom": "Upto 75% Off"
-          },
-          {
-            "title": "Breakfast cereal",
-            "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg",
-            "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=60 2x, ",
-            "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=60 2x, ",
-            "pricestartfrom": "Upto 75% Off"
-          },
-          {
-            "title": "Musical Toys",
-            "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg",
-            "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=60 2x, ",
-            "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=60 2x, ",
-            "pricestartfrom": "under 199"
-          },
-          {
-            "title": "honey",
-            "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/3-cthfftk202grey0001-milton-original-imagg9k8fnrpdgcu.jpeg",
-            "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/casserole/o/o/i/3-cthfftk202grey0001-milton-original-imagg9k8fnrpdgcu.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/casserole/o/o/i/3-cthfftk202grey0001-milton-original-imagg9k8fnrpdgcu.jpeg?q=60 2x, ",
-            "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/casserole/o/o/i/3-cthfftk202grey0001-milton-original-imagg9k8fnrpdgcu.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/casserole/o/o/i/3-cthfftk202grey0001-milton-original-imagg9k8fnrpdgcu.jpeg?q=60 2x, ",
-            "pricestartfrom": "Upto 75% Off "
-          },
-          {
-            "title": "puzzle & Cubes",
-             "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg",
-            "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=60 2x, ",
-            "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=60 2x, ",
-            "pricestartfrom": "from $79"
-          }
-        ]
-      }
+        {
+          "title": "Realme P3 5G",
+          "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/t/c/y/-original-imahaff2rbuykhcw.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/xif0q/mobile/t/c/y/-original-imahaff2rbuykhcw.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/xif0q/mobile/t/c/y/-original-imahaff2rbuykhcw.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/t/c/y/-original-imahaff2rbuykhcw.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/mobile/t/c/y/-original-imahaff2rbuykhcw.jpeg?q=60 2x, ",
+          "pricestartfrom": "from 15999*"
+        },
+        {
+          "title": "Motorola g45 5G",
+          "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/r/l/c/-original-imah3xk892aj9gck.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/xif0q/mobile/r/l/c/-original-imah3xk892aj9gck.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/xif0q/mobile/r/l/c/-original-imah3xk892aj9gck.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/r/l/c/-original-imah3xk892aj9gck.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/mobile/r/l/c/-original-imah3xk892aj9gck.jpeg?q=60 2x, ",
+          "pricestartfrom": "from 10999*"
+        },
+        {
+          "title": "POCO F7 5G",
+          "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/y/i/6/-original-imahdpu7wqfgfryp.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/y/i/6/-original-imahdpu7wqfgfryp.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/mobile/y/i/6/-original-imahdpu7wqfgfryp.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/170/170/xif0q/mobile/y/i/6/-original-imahdpu7wqfgfryp.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/xif0q/mobile/y/i/6/-original-imahdpu7wqfgfryp.jpeg?q=60 2x, ",
+          "pricestartfrom": "from 29999*"
+        }
+      ]
     },
+    "Home & Furniture Top Deals": {
+      "title": "Home & Furniture Top Deals",
+      "Products": [
+        {
+          "title": "Indoor Plants",
+          "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=60 2x, ",
+          "pricestartfrom": "Up to 85% Off"
+        },
+        {
+          "title": "Wall Clock",
+          "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/wall-clock-for-home-decore-28-wallclock-1-ga-analog-gulabi-art-original-imah2xxdydfj9suz.jpeg",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/wall-clock/e/n/d/wall-clock-for-home-decore-28-wallclock-1-ga-analog-gulabi-art-original-imah2xxdydfj9suz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/wall-clock/e/n/d/wall-clock-for-home-decore-28-wallclock-1-ga-analog-gulabi-art-original-imah2xxdydfj9suz.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/wall-clock/e/n/d/wall-clock-for-home-decore-28-wallclock-1-ga-analog-gulabi-art-original-imah2xxdydfj9suz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/wall-clock/e/n/d/wall-clock-for-home-decore-28-wallclock-1-ga-analog-gulabi-art-original-imah2xxdydfj9suz.jpeg?q=60 2x, ",
+          "pricestartfrom": "From $149"
+        },
+        {
+          "title": "Dressing Table",
+          "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=60 2x, ",
+          "pricestartfrom": "From $2,899"
+        },
+        {
+          "title": "Mosquito Nets",
+          "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=60 2x, ",
+          "pricestartfrom": "From $249"
+        },
+        {
+          "title": "Casserole",
+          "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/3-cthfftk202grey0001-milton-original-imagg9k8fnrpdgcu.jpeg",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/casserole/o/o/i/3-cthfftk202grey0001-milton-original-imagg9k8fnrpdgcu.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/casserole/o/o/i/3-cthfftk202grey0001-milton-original-imagg9k8fnrpdgcu.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/casserole/o/o/i/3-cthfftk202grey0001-milton-original-imagg9k8fnrpdgcu.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/casserole/o/o/i/3-cthfftk202grey0001-milton-original-imagg9k8fnrpdgcu.jpeg?q=60 2x, ",
+          "pricestartfrom": "from $299"
+        },
+        {
+          "title": "Water Bottles",
+          "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=60 2x, ",
+          "pricestartfrom": "from $199"
+        },
+        {
+          "title": "Gas Stove",
+          "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=60 2x, ",
+          "pricestartfrom": "From $536"
+        }
+      ]
+    },
+    "SportsHealth&Toy": {
+      "title": "Sports, Healthcare & more",
+      "Products": [
+        {
+          "title": "learning & Education....",
+          "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=60 2x, ",
+          "pricestartfrom": "Up to 80% Off"
+        },
+        {
+          "title": "Tea powder",
+          "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/wall-clock-for-home-decore-28-wallclock-1-ga-analog-gulabi-art-original-imah2xxdydfj9suz.jpeg",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/wall-clock/e/n/d/wall-clock-for-home-decore-28-wallclock-1-ga-analog-gulabi-art-original-imah2xxdydfj9suz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/wall-clock/e/n/d/wall-clock-for-home-decore-28-wallclock-1-ga-analog-gulabi-art-original-imah2xxdydfj9suz.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/wall-clock/e/n/d/wall-clock-for-home-decore-28-wallclock-1-ga-analog-gulabi-art-original-imah2xxdydfj9suz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/wall-clock/e/n/d/wall-clock-for-home-decore-28-wallclock-1-ga-analog-gulabi-art-original-imah2xxdydfj9suz.jpeg?q=60 2x, ",
+          "pricestartfrom": "Upto 75% Off"
+        },
+        {
+          "title": "Breakfast cereal",
+          "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=60 2x, ",
+          "pricestartfrom": "Upto 75% Off"
+        },
+        {
+          "title": "Musical Toys",
+          "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/dressing-table/s/d/n/40-41-particle-board-117-kosmo-premium-dressing-table-natural-original-imagzwnyyeaapfgc.jpeg?q=60 2x, ",
+          "pricestartfrom": "under 199"
+        },
+        {
+          "title": "honey",
+          "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/3-cthfftk202grey0001-milton-original-imagg9k8fnrpdgcu.jpeg",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/casserole/o/o/i/3-cthfftk202grey0001-milton-original-imagg9k8fnrpdgcu.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/casserole/o/o/i/3-cthfftk202grey0001-milton-original-imagg9k8fnrpdgcu.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/casserole/o/o/i/3-cthfftk202grey0001-milton-original-imagg9k8fnrpdgcu.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/casserole/o/o/i/3-cthfftk202grey0001-milton-original-imagg9k8fnrpdgcu.jpeg?q=60 2x, ",
+          "pricestartfrom": "Upto 75% Off "
+        },
+        {
+          "title": "puzzle & Cubes",
+          "src": "./Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!_files/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/shopsy-plant-sapling/b/m/r/perennial-yes-yes-platone-18-pack-of-1-brazilian-lucky-bamboo-original-imah52tnjpghjwpr.jpeg?q=60 2x, ",
+          "pricestartfrom": "from $79"
+        }
+      ]
+    }
+  },
 
-  "ProductDisplayBtn":{
-    "MobiletoCheckout":{
-      "title":"Mobiles To Check Out",
-      "products":[
+  "ProductDisplayBtn": {
+    "MobiletoCheckout": {
+      "title": "Mobiles To Check Out",
+      "products": [
         {
-          "srcset1":"https://rukminim1.flixcart.com/image/310/310/xif0q/mobile/g/r/b/-original-imahd872ftjsb6xh.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/620/620/xif0q/mobile/g/r/b/-original-imahd872ftjsb6xh.jpeg?q=60 2x, ",
-          "srcset2":"https://rukminim1.flixcart.com/image/190/190/xif0q/mobile/g/r/b/-original-imahd872ftjsb6xh.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/380/380/xif0q/mobile/g/r/b/-original-imahd872ftjsb6xh.jpeg?q=60 2x, ",
-          "src":"https://rukminim1.flixcart.com/image/190/190/xif0q/mobile/g/r/b/-original-imahd872ftjsb6xh.jpeg?q=90",
-          "title":"Mediatek",
-          "description":"Best Selling Products"
+          "srcset1": "https://rukminim1.flixcart.com/image/310/310/xif0q/mobile/g/r/b/-original-imahd872ftjsb6xh.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/620/620/xif0q/mobile/g/r/b/-original-imahd872ftjsb6xh.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/190/190/xif0q/mobile/g/r/b/-original-imahd872ftjsb6xh.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/380/380/xif0q/mobile/g/r/b/-original-imahd872ftjsb6xh.jpeg?q=60 2x, ",
+          "src": "https://rukminim1.flixcart.com/image/190/190/xif0q/mobile/g/r/b/-original-imahd872ftjsb6xh.jpeg?q=90",
+          "title": "Mediatek",
+          "description": "Best Selling Products"
         },
         {
-          "srcset1":"https://rukminim1.flixcart.com/image/310/310/xif0q/mobile/j/t/v/-original-imahavdv28z4nrkn.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/620/620/xif0q/mobile/j/t/v/-original-imahavdv28z4nrkn.jpeg?q=60 2x, ",
-          "srcset2":"https://rukminim1.flixcart.com/image/190/190/xif0q/mobile/j/t/v/-original-imahavdv28z4nrkn.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/380/380/xif0q/mobile/j/t/v/-original-imahavdv28z4nrkn.jpeg?q=60 2x, ",
-          "src":"https://rukminim1.flixcart.com/image/190/190/xif0q/mobile/j/t/v/-original-imahavdv28z4nrkn.jpeg?q=90",
-          "title":"Top Rated ",
-          "description":"4 Stars and Above"
+          "srcset1": "https://rukminim1.flixcart.com/image/310/310/xif0q/mobile/j/t/v/-original-imahavdv28z4nrkn.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/620/620/xif0q/mobile/j/t/v/-original-imahavdv28z4nrkn.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/190/190/xif0q/mobile/j/t/v/-original-imahavdv28z4nrkn.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/380/380/xif0q/mobile/j/t/v/-original-imahavdv28z4nrkn.jpeg?q=60 2x, ",
+          "src": "https://rukminim1.flixcart.com/image/190/190/xif0q/mobile/j/t/v/-original-imahavdv28z4nrkn.jpeg?q=90",
+          "title": "Top Rated ",
+          "description": "4 Stars and Above"
         },
         {
-          "srcset1":"https://rukminim1.flixcart.com/image/310/310/xif0q/mobile/q/e/0/guru-music-2-b310ed-guru-music-2-samsung-original-imahbppg8etzvztv.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/620/620/xif0q/mobile/q/e/0/guru-music-2-b310ed-guru-music-2-samsung-original-imahbppg8etzvztv.jpeg?q=60 2x, ",
-          "srcset2":"https://rukminim1.flixcart.com/image/190/190/xif0q/mobile/q/e/0/guru-music-2-b310ed-guru-music-2-samsung-original-imahbppg8etzvztv.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/380/380/xif0q/mobile/q/e/0/guru-music-2-b310ed-guru-music-2-samsung-original-imahbppg8etzvztv.jpeg?q=60 2x, ",
-          "src":"https://rukminim1.flixcart.com/image/190/190/xif0q/mobile/q/e/0/guru-music-2-b310ed-guru-music-2-samsung-original-imahbppg8etzvztv.jpeg?q=90",
-          "title":"Best Discounts",
-          "description":"Min. 50% Off"
+          "srcset1": "https://rukminim1.flixcart.com/image/310/310/xif0q/mobile/q/e/0/guru-music-2-b310ed-guru-music-2-samsung-original-imahbppg8etzvztv.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/620/620/xif0q/mobile/q/e/0/guru-music-2-b310ed-guru-music-2-samsung-original-imahbppg8etzvztv.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/190/190/xif0q/mobile/q/e/0/guru-music-2-b310ed-guru-music-2-samsung-original-imahbppg8etzvztv.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/380/380/xif0q/mobile/q/e/0/guru-music-2-b310ed-guru-music-2-samsung-original-imahbppg8etzvztv.jpeg?q=60 2x, ",
+          "src": "https://rukminim1.flixcart.com/image/190/190/xif0q/mobile/q/e/0/guru-music-2-b310ed-guru-music-2-samsung-original-imahbppg8etzvztv.jpeg?q=90",
+          "title": "Best Discounts",
+          "description": "Min. 50% Off"
         },
         {
-          "srcset1":"https://rukminim1.flixcart.com/image/310/310/xif0q/mobile/i/p/l/-original-imah2fjcxjdjykpc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/620/620/xif0q/mobile/i/p/l/-original-imah2fjcxjdjykpc.jpeg?q=60 2x, ",
-          "srcset2":"https://rukminim1.flixcart.com/image/190/190/xif0q/mobile/i/p/l/-original-imah2fjcxjdjykpc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/380/380/xif0q/mobile/i/p/l/-original-imah2fjcxjdjykpc.jpeg?q=60 2x, ",
-          "src":"https://rukminim1.flixcart.com/image/190/190/xif0q/mobile/i/p/l/-original-imah2fjcxjdjykpc.jpeg?q=90",
-          "title":"Top Quality",
-          "description":"Plus-Products"
+          "srcset1": "https://rukminim1.flixcart.com/image/310/310/xif0q/mobile/i/p/l/-original-imah2fjcxjdjykpc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/620/620/xif0q/mobile/i/p/l/-original-imah2fjcxjdjykpc.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/190/190/xif0q/mobile/i/p/l/-original-imah2fjcxjdjykpc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/380/380/xif0q/mobile/i/p/l/-original-imah2fjcxjdjykpc.jpeg?q=60 2x, ",
+          "src": "https://rukminim1.flixcart.com/image/190/190/xif0q/mobile/i/p/l/-original-imah2fjcxjdjykpc.jpeg?q=90",
+          "title": "Top Quality",
+          "description": "Plus-Products"
+        }
+      ]
+    },
+    "FashionDeals": {
+      "title": "Fashion's Top Deals",
+      "products": [
+        {
+          "srcset1": "https://rukminim1.flixcart.com/image/310/310/xif0q/shopsy-slipper-flip-flop/x/s/d/9-waker-maan-grey-original-imagpkf5bbd8khmv.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/620/620/xif0q/shopsy-slipper-flip-flop/x/s/d/9-waker-maan-grey-original-imagpkf5bbd8khmv.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/190/190/xif0q/shopsy-slipper-flip-flop/x/s/d/9-waker-maan-grey-original-imagpkf5bbd8khmv.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/380/380/xif0q/shopsy-slipper-flip-flop/x/s/d/9-waker-maan-grey-original-imagpkf5bbd8khmv.jpeg?q=60 2x, ",
+          "src": "https://rukminim1.flixcart.com/image/190/190/xif0q/shopsy-slipper-flip-flop/x/s/d/9-waker-maan-grey-original-imagpkf5bbd8khmv.jpeg?q=90",
+          "title": "Men’s Slippers & Flip Flops",
+          "description": "Min. 70% Off"
+        },
+        {
+          "srcset1": "https://rukminim1.flixcart.com/image/310/310/xif0q/t-shirt/e/d/c/xxl-mens-strip-polo-hs-black-red-tb-blue-original-imahfdzkrtqyqtzx.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/620/620/xif0q/t-shirt/e/d/c/xxl-mens-strip-polo-hs-black-red-tb-blue-original-imahfdzkrtqyqtzx.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/190/190/xif0q/t-shirt/e/d/c/xxl-mens-strip-polo-hs-black-red-tb-blue-original-imahfdzkrtqyqtzx.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/380/380/xif0q/t-shirt/e/d/c/xxl-mens-strip-polo-hs-black-red-tb-blue-original-imahfdzkrtqyqtzx.jpeg?q=60 2x, ",
+          "src": "https://rukminim1.flixcart.com/image/190/190/xif0q/t-shirt/e/d/c/xxl-mens-strip-polo-hs-black-red-tb-blue-original-imahfdzkrtqyqtzx.jpeg?q=90",
+          "title": "Men's T-shirts",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "https://rukminim1.flixcart.com/image/310/310/xif0q/shirt/u/r/z/3xl-met-veb-formal-wine-s-jadouncreation-original-imah5bzpmfgetbbb.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/620/620/xif0q/shirt/u/r/z/3xl-met-veb-formal-wine-s-jadouncreation-original-imah5bzpmfgetbbb.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/190/190/xif0q/shirt/u/r/z/3xl-met-veb-formal-wine-s-jadouncreation-original-imah5bzpmfgetbbb.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/380/380/xif0q/shirt/u/r/z/3xl-met-veb-formal-wine-s-jadouncreation-original-imah5bzpmfgetbbb.jpeg?q=60 2x, ",
+          "src": "https://rukminim1.flixcart.com/image/190/190/xif0q/shirt/u/r/z/3xl-met-veb-formal-wine-s-jadouncreation-original-imah5bzpmfgetbbb.jpeg?q=90",
+          "title": "Casual Shirts",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "https://rukminim1.flixcart.com/image/310/310/xif0q/ethnic-set/b/7/m/xl-ps-peach-2025-pschoice-original-imahavzewhkyyuzk.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/620/620/xif0q/ethnic-set/b/7/m/xl-ps-peach-2025-pschoice-original-imahavzewhkyyuzk.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/190/190/xif0q/ethnic-set/b/7/m/xl-ps-peach-2025-pschoice-original-imahavzewhkyyuzk.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/380/380/xif0q/ethnic-set/b/7/m/xl-ps-peach-2025-pschoice-original-imahavzewhkyyuzk.jpeg?q=60 2x, ",
+          "src": "https://rukminim1.flixcart.com/image/190/190/xif0q/ethnic-set/b/7/m/xl-ps-peach-2025-pschoice-original-imahavzewhkyyuzk.jpeg?q=90",
+          "title": "Women's Ethnic Sets",
+          "description": "Min. 50% Off"
+        }
+      ]
+    },
+    "HomeProductsDeal": {
+      "title": "Make your home stylish",
+      "products": [
+        {
+          "srcset1": "https://rukminim1.flixcart.com/image/310/310/xif0q/collapsible-wardrobe/v/l/o/280-carbon-steel-750-1-6-4-firozi-wd-brodio-firozi-880-original-imahfhdescfrtgr2.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/620/620/xif0q/collapsible-wardrobe/v/l/o/280-carbon-steel-750-1-6-4-firozi-wd-brodio-firozi-880-original-imahfhdescfrtgr2.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/190/190/xif0q/collapsible-wardrobe/v/l/o/280-carbon-steel-750-1-6-4-firozi-wd-brodio-firozi-880-original-imahfhdescfrtgr2.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/380/380/xif0q/collapsible-wardrobe/v/l/o/280-carbon-steel-750-1-6-4-firozi-wd-brodio-firozi-880-original-imahfhdescfrtgr2.jpeg?q=60 2x, ",
+          "src": "https://rukminim1.flixcart.com/image/190/190/xif0q/collapsible-wardrobe/v/l/o/280-carbon-steel-750-1-6-4-firozi-wd-brodio-firozi-880-original-imahfhdescfrtgr2.jpeg?q=90",
+          "title": "Shoe Rack",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "https://rukminim1.flixcart.com/image/310/310/xif0q/bed/g/v/x/single-na-no-synthetic-no-portable-folding-bed-3x6-feet-bed-size-original-imags27jhvtjrkfc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/620/620/xif0q/bed/g/v/x/single-na-no-synthetic-no-portable-folding-bed-3x6-feet-bed-size-original-imags27jhvtjrkfc.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/190/190/xif0q/bed/g/v/x/single-na-no-synthetic-no-portable-folding-bed-3x6-feet-bed-size-original-imags27jhvtjrkfc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/380/380/xif0q/bed/g/v/x/single-na-no-synthetic-no-portable-folding-bed-3x6-feet-bed-size-original-imags27jhvtjrkfc.jpeg?q=60 2x, ",
+          "src": "https://rukminim1.flixcart.com/image/190/190/xif0q/bed/g/v/x/single-na-no-synthetic-no-portable-folding-bed-3x6-feet-bed-size-original-imags27jhvtjrkfc.jpeg?q=90",
+          "title": "Beds",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "https://rukminim1.flixcart.com/image/310/310/xif0q/portable-laptop-table/w/e/d/pp-polypropylene-black143-khodal-arth-black-original-imah5kmeughmzbag.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/620/620/xif0q/portable-laptop-table/w/e/d/pp-polypropylene-black143-khodal-arth-black-original-imah5kmeughmzbag.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/190/190/xif0q/portable-laptop-table/w/e/d/pp-polypropylene-black143-khodal-arth-black-original-imah5kmeughmzbag.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/380/380/xif0q/portable-laptop-table/w/e/d/pp-polypropylene-black143-khodal-arth-black-original-imah5kmeughmzbag.jpeg?q=60 2x, ",
+          "src": "https://rukminim1.flixcart.com/image/190/190/xif0q/portable-laptop-table/w/e/d/pp-polypropylene-black143-khodal-arth-black-original-imah5kmeughmzbag.jpeg?q=90",
+          "title": "Portable Laptop Tables",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "https://rukminim1.flixcart.com/image/310/310/xif0q/kid-seating/k/s/x/22-blue-45-cotton-0-5-kids-baby-seats-shape-cushion-baby-sofa-original-imahahwcxmyudrkv.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/620/620/xif0q/kid-seating/k/s/x/22-blue-45-cotton-0-5-kids-baby-seats-shape-cushion-baby-sofa-original-imahahwcxmyudrkv.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/190/190/xif0q/kid-seating/k/s/x/22-blue-45-cotton-0-5-kids-baby-seats-shape-cushion-baby-sofa-original-imahahwcxmyudrkv.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/380/380/xif0q/kid-seating/k/s/x/22-blue-45-cotton-0-5-kids-baby-seats-shape-cushion-baby-sofa-original-imahahwcxmyudrkv.jpeg?q=60 2x, ",
+          "src": "https://rukminim1.flixcart.com/image/190/190/xif0q/kid-seating/k/s/x/22-blue-45-cotton-0-5-kids-baby-seats-shape-cushion-baby-sofa-original-imahahwcxmyudrkv.jpeg?q=90",
+          "title": "Kid Seating",
+          "description": "Min. 50% Off"
+        }
+      ]
+    },
+    "LaptopDeal": {
+      "title": "Laptops For You",
+      "products": [
+        {
+          "srcset1": "https://rukminim1.flixcart.com/image/310/310/xif0q/computer/2/v/v/-original-imagfdeqter4sj2j.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/620/620/xif0q/computer/2/v/v/-original-imagfdeqter4sj2j.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/190/190/xif0q/computer/2/v/v/-original-imagfdeqter4sj2j.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/380/380/xif0q/computer/2/v/v/-original-imagfdeqter4sj2j.jpeg?q=60 2x, ",
+          "src": "https://rukminim1.flixcart.com/image/190/190/xif0q/computer/2/v/v/-original-imagfdeqter4sj2j.jpeg?q=90",
+          "title": "0% interest",
+          "description": "No Cost EMI"
+        },
+        {
+          "srcset1": "https://rukminim1.flixcart.com/image/310/310/xif0q/computer/p/z/p/-original-imahdhc7tygd5ntz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/620/620/xif0q/computer/p/z/p/-original-imahdhc7tygd5ntz.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/190/190/xif0q/computer/p/z/p/-original-imahdhc7tygd5ntz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/380/380/xif0q/computer/p/z/p/-original-imahdhc7tygd5ntz.jpeg?q=60 2x, ",
+          "src": "https://rukminim1.flixcart.com/image/190/190/xif0q/computer/p/z/p/-original-imahdhc7tygd5ntz.jpeg?q=90",
+          "title": "Best Discounts",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "https://rukminim1.flixcart.com/image/310/310/xif0q/computer/x/h/s/-original-imahcd9hfhrgeen6.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/620/620/xif0q/computer/x/h/s/-original-imahcd9hfhrgeen6.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/190/190/xif0q/computer/x/h/s/-original-imahcd9hfhrgeen6.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/380/380/xif0q/computer/x/h/s/-original-imahcd9hfhrgeen6.jpeg?q=60 2x, ",
+          "src": "https://rukminim1.flixcart.com/image/190/190/xif0q/computer/x/h/s/-original-imahcd9hfhrgeen6.jpeg?q=90",
+          "title": "Top Rated ",
+          "description": "4 Stars and Above"
+        },
+        {
+          "srcset1": "https://rukminim1.flixcart.com/image/310/310/xif0q/computer/n/l/v/-original-imahcd9jggredwvf.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/620/620/xif0q/computer/n/l/v/-original-imahcd9jggredwvf.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/190/190/xif0q/computer/n/l/v/-original-imahcd9jggredwvf.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/380/380/xif0q/computer/n/l/v/-original-imahcd9jggredwvf.jpeg?q=60 2x, ",
+          "src": "https://rukminim1.flixcart.com/image/190/190/xif0q/computer/n/l/v/-original-imahcd9jggredwvf.jpeg?q=90",
+          "title": "Most Loved",
+          "description": "Best Selling Products"
+        }
+      ]
+    },
+    "": {
+      "title": "Laptops For You",
+      "products": [
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Shoe Rack",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Beds",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Portable Laptop Tables",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Kid Seating",
+          "description": "Min. 50% Off"
+        }
+      ]
+    },
+    "": {
+      "title": "Laptops For You",
+      "products": [
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Shoe Rack",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Beds",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Portable Laptop Tables",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Kid Seating",
+          "description": "Min. 50% Off"
+        }
+      ]
+    },
+    "": {
+      "title": "Laptops For You",
+      "products": [
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Shoe Rack",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Beds",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Portable Laptop Tables",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Kid Seating",
+          "description": "Min. 50% Off"
+        }
+      ]
+    },
+    "": {
+      "title": "Laptops For You",
+      "products": [
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Shoe Rack",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Beds",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Portable Laptop Tables",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Kid Seating",
+          "description": "Min. 50% Off"
+        }
+      ]
+    },
+    "": {
+      "title": "Laptops For You",
+      "products": [
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Shoe Rack",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Beds",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Portable Laptop Tables",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Kid Seating",
+          "description": "Min. 50% Off"
+        }
+      ]
+    },
+    "": {
+      "title": "Laptops For You",
+      "products": [
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Shoe Rack",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Beds",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Portable Laptop Tables",
+          "description": "Min. 50% Off"
+        },
+        {
+          "srcset1": "",
+          "srcset2": "",
+          "src": "",
+          "title": "Kid Seating",
+          "description": "Min. 50% Off"
         }
       ]
     }
   }
-    
-  
 }

@@ -31,7 +31,7 @@ const ProductsDisplay = ({categoryname}:ProductProps) => {
               <ProductCard product={productdetail} key={index} />
             ))}
           </div>
-          <button className=" hidden absolute   bottom-0 top-20 right-0 lg:flex h-[88px] w-10 shadow-[0px_1px_4px_rgba(0,0,0,.12)] rounded-[4px_0px_0px_4px] bg-white">
+          <button className=" hidden absolute   bottom-0 top-20 right-0 min-[1190px]:flex h-[88px] w-10 shadow-[0px_1px_4px_rgba(0,0,0,.12)] rounded-[4px_0px_0px_4px] bg-white">
             <span className="absolute right-[16px] top-[50%] transform-[scale(1)_translateY(-50%)] before: [content:''] before:relative before:border-[#878787] before:border-[2px_2px_0px_0px] before:inline-block before:h-[6px] before:w-[6px] before:transform-[rotate(45deg)] ">
 
             </span>
