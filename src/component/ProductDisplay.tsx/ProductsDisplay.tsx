@@ -1,19 +1,22 @@
 import { useEffect, useState } from "react";
 import ProductCard from "./ProductCard";
 import axios from "axios";
-
-const ProductsDisplay = () => {
+type ProductProps={
+  categoryname :string
+}
+const ProductsDisplay = ({categoryname}:ProductProps) => {
   const [productTitle, setProductTitle] = useState();
   const [productDetails, setProductDetails] = useState([]);
   useEffect(() => {
     axios
       .get("/carouse.json")
       .then((res) => {
-        setProductTitle(res.data.ProductHighlight[0].BestDealMobile.title);
-        setProductDetails(res.data.ProductHighlight[0].BestDealMobile.Products);
+        setProductTitle(res.data.ProductHighlight[categoryname].title);
+        setProductDetails(res.data.ProductHighlight[categoryname].Products);
       })
       .catch((error) => console.log(error));
-  });
+  },[]);
+  console.log(categoryname)
   return (
     <div className="h-auto bg-white mb-[16px] ">
       <div className="flex flex-col relative z-0">
@@ -28,7 +31,7 @@ const ProductsDisplay = () => {
               <ProductCard product={productdetail} key={index} />
             ))}
           </div>
-          <button className="absolute   bottom-0 top-20 right-0 flex h-[88px] w-10 shadow-[0px_1px_4px_rgba(0,0,0,.12)] rounded-[4px_0px_0px_4px] bg-white">
+          <button className=" hidden absolute   bottom-0 top-20 right-0 lg:flex h-[88px] w-10 shadow-[0px_1px_4px_rgba(0,0,0,.12)] rounded-[4px_0px_0px_4px] bg-white">
             <span className="absolute right-[16px] top-[50%] transform-[scale(1)_translateY(-50%)] before: [content:''] before:relative before:border-[#878787] before:border-[2px_2px_0px_0px] before:inline-block before:h-[6px] before:w-[6px] before:transform-[rotate(45deg)] ">
 
             </span>
