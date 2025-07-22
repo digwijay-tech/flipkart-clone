@@ -1,13 +1,15 @@
+import AdsBanner from "../component/AdsBanner/AdsBanner";
 import HeroCarousel from "../component/Hero/HeroCarousel";
 import ProductCategoryList from "../component/ProductCategoryList/ProductCategoryList";
 import ProductsDisplay from "../component/ProductDisplay.tsx/ProductsDisplay";
+import ProductDisplayLimited from "../component/ProductDisplayLimited/ProductDisplayLimited";
 import SuggestedForMe from "../component/Suggestion/SuggestedForMe";
 
 
 const Home = () => {
   return (
     <div className="md:px-4 min-h-lvh bg-[#f1f2f4] md:pt-2 md:[scrollbar-width:none] ">
-      <div className="grid grid-cols-[repeat(12,1fr)] gap-x-[16px]  w-full">
+      <div className="grid grid-cols-[repeat(12,1fr)] gap-x-[12px]  w-full">
         <ProductCategoryList />
         <HeroCarousel />
 
@@ -42,6 +44,8 @@ const Home = () => {
         <ProductsDisplay categoryname={"SportsHealth&Toy"}/>
         </div>
         <SuggestedForMe/>
+        <AdsBanner/>
+        <ProductDisplayLimited/>
       </div>
     </div>
   );
