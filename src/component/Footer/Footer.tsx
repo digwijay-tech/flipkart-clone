@@ -1,7 +1,9 @@
 const Footer = () => {
   return (
     <footer className=" bg-[#212121] mt-[25px] border-t-[1] border-[#f5f5f5]">
-      <div className="px-[60px] pt-10 gap-x-5 grid grid-cols-[auto_auto_auto_auto_auto_auto]">
+        
+        <div className="hidden md:block">
+      <div className="px-[60px] pt-10 gap-x-5 grid grid-cols-[auto_auto_auto] min-[1190px]:grid-cols-[auto_auto_auto_auto_auto_auto] ">
         <div>
           <div className="text-[#878787] text-[12px] mb-3 font-[inter-regular] uppercase">
             About
@@ -230,6 +232,7 @@ const Footer = () => {
             </a>
         </div>
         <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/payment-method-c454fb.svg" />
+      </div>
       </div>
     </footer>
   );
