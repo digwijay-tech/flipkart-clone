@@ -14,7 +14,7 @@ const HeroCarousel = () => {
   // Carousel timer
   useEffect(() => {
     const interval = setInterval(() => {
-      SetCurrentSlide((prev) => (prev >= carousel.length - 1 ? 0 : prev + 1));
+      SetCurrentSlide((prev) => (prev >= carousel.length - 1 ? 0 :prev= prev + 1));
     }, 4000);
     return () => {
       clearInterval(interval);
@@ -48,7 +48,8 @@ const HeroCarousel = () => {
   return (
     <div className="relative flex flex-col md:mb-4 md:bg-white overflow-hidden z-0 col-[1/13]">
       <div
-        className={`  flex scroll-smooth snap-x snap-mandatory transition-[transform_.4s_ease-in-out] transform-[translateX(-${currentSlide * 100}%)] `}
+      style={{ transform: `translateX(-${currentSlide*100}%)` }}
+        className={`  flex scroll-smooth snap-x snap-mandatory transition-[transform_.4s_ease-in-out] `}
       >
         {carousel.map((item) => (
           <div className="snap-start shrink-0 w-full " key={item.id}>

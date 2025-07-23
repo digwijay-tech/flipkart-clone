@@ -9,7 +9,7 @@ type ProductCardsProps={
 }
 const ProductCardLimited = ({product}:ProductCardsProps) => {
   return (
-    <div className="basis-[25%] max-w-[25%] grow-0 shrink-0 ">
+    <div className="basis-[25%] max-w-[25%] grow-0 shrink-0  min-[1190px]:basis-[50%] min-[1190px]:max-w-[50%]">
       <div className="mx-1.5 mb-2 ">
         <a
           href="#"
@@ -17,7 +17,7 @@ const ProductCardLimited = ({product}:ProductCardsProps) => {
         >
           <div className="flex basis-auto flex-col px-3 pt-3 w-full">
             <div className="px-2 pt-2 flex items-stretch ">
-              <div className=" flex-[1_1_0] overflow-hidden w-full">
+              <div className=" flex-[1_1_0] overflow-hidden w-full hover:scale-[104%]">
                 <picture>
                   <source
                     srcSet={product.srcset1}
@@ -30,7 +30,7 @@ const ProductCardLimited = ({product}:ProductCardsProps) => {
                   <img
                     src={product.src}
                     alt="Image"
-                    className="w-[full]  block object-contain m-auto"
+                    className="w-full  block object-contain m-auto aspect-square"
                     srcSet="https://rukminim1.flixcart.com/image/90/90/xif0q/mobile/g/r/b/-original-imahd872ftjsb6xh.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/180/180/xif0q/mobile/g/r/b/-original-imahd872ftjsb6xh.jpeg?q=60 2x, "
                   />
                 </picture>

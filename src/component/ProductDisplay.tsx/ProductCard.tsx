@@ -10,7 +10,7 @@ type ProductCardProps = {
 
 const ProductCard = ({ product }: ProductCardProps) => {
   return (
-    <div className="w-[172px] lg:w-[216px] flex snap-start shrink-0">
+    <div className="w-[172px]  flex snap-start shrink-0 ">
       <div className="m-2 flex-[1] ">
         <div className="h-full w-full ">
           <a
@@ -18,7 +18,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
             className="flex flex-row relative rounded-[4px] justify-between px-6 py-3"
           >
             <div className="flex flex-col flex-[1] ">
-              <div className="flex-[1] overflow-hidden rounded-[2px] w-full ">
+              <div className="flex-[1] overflow-hidden rounded-[2px] w-full hover:scale-[104%]">
                 <picture>
                   <source
                     srcSet={product.srcset1}
@@ -32,8 +32,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
                   <img
                     src={product.src}
                     alt="Image"
-                    className="object-contain [aspect-ratio:1/1]  block  m-auto lg:h-[152px] w-full"
-                   
+                    className="object-contain [aspect-ratio:1/1]  block  m-auto lg:h-[108px] lg:w-[108px] w-full"
                   />
                   {/* </div> */}
                 </picture>

@@ -5,8 +5,9 @@ import  ProductNotFound from "../../pages/ProductNotFound";
 
 type CategoryProps ={
     category : string 
+    style? : string
 }
-const ProductDisplayLimited = ({category}: CategoryProps) => {
+const ProductDisplayLimited = ({category,style}: CategoryProps) => {
     const [products,setProducts]= useState([])
     const [title , setTitle]= useState("")
     useEffect(()=>{
@@ -17,9 +18,9 @@ const ProductDisplayLimited = ({category}: CategoryProps) => {
         })
         .catch(error=> console.log(error))
     },[])
-    
+    console.log(style)
   return (
-    <div className=" min-h-[381px] col-[1/13] ">
+    <div className={` min-h-[381px] col-[1/13] ${style}`}>
       <div className="bg-white mb-4 flex flex-col  "> 
         <div className="flex flex-col ">
           {/* Heading of the component */}

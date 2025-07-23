@@ -247,8 +247,308 @@
           "pricestartfrom": "from $79"
         }
       ]
+    },
+    "FurnitureDeal": {
+      "title": "Furniture Deals",
+      "Products": [
+        {
+          "title": "Mattresses",
+          "src": "https://rukminim1.flixcart.com/image/110/110/j5ihlzk0/bed-mattress/2/y/c/6-48-75-skbnnldb75x48x06-bonnell-spring-peps-original-imaevnpjqz2mwyrz.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/110/110/j5ihlzk0/bed-mattress/2/y/c/6-48-75-skbnnldb75x48x06-bonnell-spring-peps-original-imaevnpjqz2mwyrz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/j5ihlzk0/bed-mattress/2/y/c/6-48-75-skbnnldb75x48x06-bonnell-spring-peps-original-imaevnpjqz2mwyrz.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/j5ihlzk0/bed-mattress/2/y/c/6-48-75-skbnnldb75x48x06-bonnell-spring-peps-original-imaevnpjqz2mwyrz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/j5ihlzk0/bed-mattress/2/y/c/6-48-75-skbnnldb75x48x06-bonnell-spring-peps-original-imaevnpjqz2mwyrz.jpeg?q=60 2x, ",
+          "pricestartfrom": "From $2,990"
+        },
+        {
+          "title": "Sofa & Sectional",
+          "src": "https://rukminim1.flixcart.com/image/110/110/l4d2ljk0/sofa-sectional/x/j/l/left-facing-180-34-aqua-blue-241-3-polyester-80-steffan-l-sheped-original-imagf9zer8ptqhrh.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/l4d2ljk0/sofa-sectional/x/j/l/left-facing-180-34-aqua-blue-241-3-polyester-80-steffan-l-sheped-original-imagf9zer8ptqhrh.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/l4d2ljk0/sofa-sectional/x/j/l/left-facing-180-34-aqua-blue-241-3-polyester-80-steffan-l-sheped-original-imagf9zer8ptqhrh.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/l4d2ljk0/sofa-sectional/x/j/l/left-facing-180-34-aqua-blue-241-3-polyester-80-steffan-l-sheped-original-imagf9zer8ptqhrh.jpeg?q=90",
+          "pricestartfrom": "From $7,999"
+        },
+        {
+          "title": "Office Study ...",
+          "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/office-study-chair/z/t/2/1-teak-sagun-58-42-js-29-beaatho-121-92-original-imagrwgshgp2bhwv.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/xif0q/office-study-chair/z/t/2/1-teak-sagun-58-42-js-29-beaatho-121-92-original-imagrwgshgp2bhwv.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/xif0q/office-study-chair/z/t/2/1-teak-sagun-58-42-js-29-beaatho-121-92-original-imagrwgshgp2bhwv.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/xif0q/office-study-chair/z/t/2/1-teak-sagun-58-42-js-29-beaatho-121-92-original-imagrwgshgp2bhwv.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/office-study-chair/z/t/2/1-teak-sagun-58-42-js-29-beaatho-121-92-original-imagrwgshgp2bhwv.jpeg?q=60 2x, ",
+          "pricestartfrom": "Form $1,790"
+        },
+        {
+          "title": "Beds",
+          "src": "https://rukminim1.flixcart.com/image/110/110/jm9hfgw0/bed/h/g/g/king-na-rosewood-sheesham-bkwl05nhbs0401d1p-flipkart-perfect-original-imaf97cwhvgnwg95.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/jm9hfgw0/bed/h/g/g/king-na-rosewood-sheesham-bkwl05nhbs0401d1p-flipkart-perfect-original-imaf97cwhvgnwg95.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/jm9hfgw0/bed/h/g/g/king-na-rosewood-sheesham-bkwl05nhbs0401d1p-flipkart-perfect-original-imaf97cwhvgnwg95.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/jm9hfgw0/bed/h/g/g/king-na-rosewood-sheesham-bkwl05nhbs0401d1p-flipkart-perfect-original-imaf97cwhvgnwg95.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/jm9hfgw0/bed/h/g/g/king-na-rosewood-sheesham-bkwl05nhbs0401d1p-flipkart-perfect-original-imaf97cwhvgnwg95.jpeg?q=60 2x, ",
+          "pricestartfrom": "$1,790"
+        },
+        {
+          "title": "TV Units",
+          "src": "https://rukminim1.flixcart.com/image/110/110/kb9ou4w0/tv-entertainment-unit/f/x/h/particle-board-za0022wh-barewether-white-with-walnut-original-imafsnnntmvsysap.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/kb9ou4w0/tv-entertainment-unit/f/x/h/particle-board-za0022wh-barewether-white-with-walnut-original-imafsnnntmvsysap.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/kb9ou4w0/tv-entertainment-unit/f/x/h/particle-board-za0022wh-barewether-white-with-walnut-original-imafsnnntmvsysap.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/kb9ou4w0/tv-entertainment-unit/f/x/h/particle-board-za0022wh-barewether-white-with-walnut-original-imafsnnntmvsysap.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/kb9ou4w0/tv-entertainment-unit/f/x/h/particle-board-za0022wh-barewether-white-with-walnut-original-imafsnnntmvsysap.jpeg?q=60 2x, ",
+          "pricestartfrom": "From $1,249"
+        },
+        {
+          "title": "Outdoor Chairs",
+          "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/outdoor-set/i/j/d/110-brown-4-1-rattan-760-apple-brown-alisha-craft-550-brown-original-imagb5ffcq82hcxz.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/xif0q/outdoor-set/i/j/d/110-brown-4-1-rattan-760-apple-brown-alisha-craft-550-brown-original-imagb5ffcq82hcxz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/xif0q/outdoor-set/i/j/d/110-brown-4-1-rattan-760-apple-brown-alisha-craft-550-brown-original-imagb5ffcq82hcxz.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/xif0q/outdoor-set/i/j/d/110-brown-4-1-rattan-760-apple-brown-alisha-craft-550-brown-original-imagb5ffcq82hcxz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/outdoor-set/i/j/d/110-brown-4-1-rattan-760-apple-brown-alisha-craft-550-brown-original-imagb5ffcq82hcxz.jpeg?q=60 2x, ",
+          "pricestartfrom": "From $6,099"
+        },
+        {
+          "title": "Sofa Set",
+          "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/sofa-set/x/o/p/blue-cotton-3-2-1-1-sofa-set-blue-amorini-aqua-blue-original-imagwgmtf5gu4ycc.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/xif0q/sofa-set/x/o/p/blue-cotton-3-2-1-1-sofa-set-blue-amorini-aqua-blue-original-imagwgmtf5gu4ycc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/xif0q/sofa-set/x/o/p/blue-cotton-3-2-1-1-sofa-set-blue-amorini-aqua-blue-original-imagwgmtf5gu4ycc.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/xif0q/sofa-set/x/o/p/blue-cotton-3-2-1-1-sofa-set-blue-amorini-aqua-blue-original-imagwgmtf5gu4ycc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/sofa-set/x/o/p/blue-cotton-3-2-1-1-sofa-set-blue-amorini-aqua-blue-original-imagwgmtf5gu4ycc.jpeg?q=60 2x, ",
+          "pricestartfrom": "From $6,099"
+        },
+        {
+          "title": "Sofa Beds",
+          "src": "https://rukminim1.flixcart.com/image/110/110/jsc3ssw0/sofa-bed/z/u/m/double-beige-jute-ritz-sofa-bed-beige-sofame-brown-original-imafdxg7dgg3tkty.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/jsc3ssw0/sofa-bed/z/u/m/double-beige-jute-ritz-sofa-bed-beige-sofame-brown-original-imafdxg7dgg3tkty.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/jsc3ssw0/sofa-bed/z/u/m/double-beige-jute-ritz-sofa-bed-beige-sofame-brown-original-imafdxg7dgg3tkty.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/jsc3ssw0/sofa-bed/z/u/m/double-beige-jute-ritz-sofa-bed-beige-sofame-brown-original-imafdxg7dgg3tkty.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/jsc3ssw0/sofa-bed/z/u/m/double-beige-jute-ritz-sofa-bed-beige-sofame-brown-original-imafdxg7dgg3tkty.jpeg?q=60 2x, ",
+          "pricestartfrom": "From $6,099"
+        }
+      ]
+    },
+    "FashionTopDeal": {
+      "title": "Fashion Top Deals",
+      "Products": [
+        {
+          "title": "puma , Adidas ...",
+          "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/shoe/s/c/x/-original-imagn9na9ysruzgs.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/xif0q/shoe/s/c/x/-original-imagn9na9ysruzgs.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/xif0q/shoe/s/c/x/-original-imagn9na9ysruzgs.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/xif0q/shoe/s/c/x/-original-imagn9na9ysruzgs.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/shoe/s/c/x/-original-imagn9na9ysruzgs.jpeg?q=60 2x, ",
+          "pricestartfrom": "Min.40% Off"
+        },
+        {
+          "title": "Women's Shirts",
+          "src": "https://rukminim1.flixcart.com/image/110/110/j19lhu80/top/a/6/a/m-tgt38s-forelevy-original-imaestjmcbv5gc4g.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/j19lhu80/top/a/6/a/m-tgt38s-forelevy-original-imaestjmcbv5gc4g.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/j19lhu80/top/a/6/a/m-tgt38s-forelevy-original-imaestjmcbv5gc4g.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/j19lhu80/top/a/6/a/m-tgt38s-forelevy-original-imaestjmcbv5gc4g.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/j19lhu80/top/a/6/a/m-tgt38s-forelevy-original-imaestjmcbv5gc4g.jpeg?q=60 2x, ",
+          "pricestartfrom": "Min 70% off"
+        },
+        {
+          "title": "Women Dresses",
+          "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/dress/8/x/u/l-aa-0171white-pink-floral-yoke-dress-aayu-original-imaggd2hszpruetz.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/xif0q/dress/8/x/u/l-aa-0171white-pink-floral-yoke-dress-aayu-original-imaggd2hszpruetz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/xif0q/dress/8/x/u/l-aa-0171white-pink-floral-yoke-dress-aayu-original-imaggd2hszpruetz.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/xif0q/dress/8/x/u/l-aa-0171white-pink-floral-yoke-dress-aayu-original-imaggd2hszpruetz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/dress/8/x/u/l-aa-0171white-pink-floral-yoke-dress-aayu-original-imaggd2hszpruetz.jpeg?q=60 2x, ",
+          "pricestartfrom": "50-80% Off"
+        },
+        {
+          "title": "Women Nigh...",
+          "src": "https://rukminim1.flixcart.com/image/110/110/kxkqavk0/night-suit/q/e/r/xl-vvcoedfs2794rd-vvoguish-original-imag9zr8cazh5vch.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/kxkqavk0/night-suit/q/e/r/xl-vvcoedfs2794rd-vvoguish-original-imag9zr8cazh5vch.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/kxkqavk0/night-suit/q/e/r/xl-vvcoedfs2794rd-vvoguish-original-imag9zr8cazh5vch.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/kxkqavk0/night-suit/q/e/r/xl-vvcoedfs2794rd-vvoguish-original-imag9zr8cazh5vch.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/kxkqavk0/night-suit/q/e/r/xl-vvcoedfs2794rd-vvoguish-original-imag9zr8cazh5vch.jpeg?q=60 2x, ",
+          "pricestartfrom": "Upto 80% Off"
+        },
+        {
+          "title": "Swim & Beach...",
+          "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/dress/8/x/u/l-aa-0171white-pink-floral-yoke-dress-aayu-original-imaggd2hszpruetz.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/xif0q/dress/8/x/u/l-aa-0171white-pink-floral-yoke-dress-aayu-original-imaggd2hszpruetz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/xif0q/dress/8/x/u/l-aa-0171white-pink-floral-yoke-dress-aayu-original-imaggd2hszpruetz.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/xif0q/dress/8/x/u/l-aa-0171white-pink-floral-yoke-dress-aayu-original-imaggd2hszpruetz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/dress/8/x/u/l-aa-0171white-pink-floral-yoke-dress-aayu-original-imaggd2hszpruetz.jpeg?q=60 2x, ",
+          "pricestartfrom": "under $699"
+        },
+        {
+          "title": "Alan Jones...",
+          "src": "https://rukminim1.flixcart.com/image/110/110/l4bn5ow0/kids-vest/t/i/r/9-10-years-boy22-vtc09-alan-jones-original-imagf8tdhxxstu7p.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/l4bn5ow0/kids-vest/t/i/r/9-10-years-boy22-vtc09-alan-jones-original-imagf8tdhxxstu7p.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/l4bn5ow0/kids-vest/t/i/r/9-10-years-boy22-vtc09-alan-jones-original-imagf8tdhxxstu7p.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/l4bn5ow0/kids-vest/t/i/r/9-10-years-boy22-vtc09-alan-jones-original-imagf8tdhxxstu7p.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/l4bn5ow0/kids-vest/t/i/r/9-10-years-boy22-vtc09-alan-jones-original-imagf8tdhxxstu7p.jpeg?q=60 2x, ",
+          "pricestartfrom": "Under $499"
+        },
+        {
+          "title": "Lingerie Sets",
+          "src": "https://rukminim1.flixcart.com/image/110/110/kxkqavk0/night-suit/q/e/r/xl-vvcoedfs2794rd-vvoguish-original-imag9zr8cazh5vch.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/kxkqavk0/night-suit/q/e/r/xl-vvcoedfs2794rd-vvoguish-original-imag9zr8cazh5vch.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/kxkqavk0/night-suit/q/e/r/xl-vvcoedfs2794rd-vvoguish-original-imag9zr8cazh5vch.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/kxkqavk0/night-suit/q/e/r/xl-vvcoedfs2794rd-vvoguish-original-imag9zr8cazh5vch.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/kxkqavk0/night-suit/q/e/r/xl-vvcoedfs2794rd-vvoguish-original-imag9zr8cazh5vch.jpeg?q=60 2x, ",
+          "pricestartfrom": "Under $299"
+        },
+        {
+          "title": "Panty",
+          "src": "https://rukminim1.flixcart.com/image/110/110/l4bn5ow0/kids-vest/t/i/r/9-10-years-boy22-vtc09-alan-jones-original-imagf8tdhxxstu7p.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/l4bn5ow0/kids-vest/t/i/r/9-10-years-boy22-vtc09-alan-jones-original-imagf8tdhxxstu7p.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/l4bn5ow0/kids-vest/t/i/r/9-10-years-boy22-vtc09-alan-jones-original-imagf8tdhxxstu7p.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/l4bn5ow0/kids-vest/t/i/r/9-10-years-boy22-vtc09-alan-jones-original-imagf8tdhxxstu7p.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/l4bn5ow0/kids-vest/t/i/r/9-10-years-boy22-vtc09-alan-jones-original-imagf8tdhxxstu7p.jpeg?q=60 2x, ",
+          "pricestartfrom": "Under $299"
+        }
+      ]
+    },
+    
+    "TopDeals": {
+      "title": "Top Deals",
+      "Products": [
+        {
+          "title": "Apple iPads",
+          "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/tablet/u/u/n/-original-imahayydffmgtmyr.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/xif0q/tablet/u/u/n/-original-imahayydffmgtmyr.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/xif0q/tablet/u/u/n/-original-imahayydffmgtmyr.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/xif0q/tablet/u/u/n/-original-imahayydffmgtmyr.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/tablet/u/u/n/-original-imahayydffmgtmyr.jpeg?q=60 2x, ",
+          "pricestartfrom": "Shop Now!"
+        },
+        {
+          "title": "Chocolates",
+          "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/chocolate/v/5/h/150-rakhi-chocolate-gift-pack-for-sister-with-roli-chawal-and-original-imahd9zyaamfwygd.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/xif0q/chocolate/v/5/h/150-rakhi-chocolate-gift-pack-for-sister-with-roli-chawal-and-original-imahd9zyaamfwygd.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/xif0q/chocolate/v/5/h/150-rakhi-chocolate-gift-pack-for-sister-with-roli-chawal-and-original-imahd9zyaamfwygd.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/xif0q/chocolate/v/5/h/150-rakhi-chocolate-gift-pack-for-sister-with-roli-chawal-and-original-imahd9zyaamfwygd.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/chocolate/v/5/h/150-rakhi-chocolate-gift-pack-for-sister-with-roli-chawal-and-original-imahd9zyaamfwygd.jpeg?q=60 2x, ",
+          "pricestartfrom": "Up to 65% Off"
+        },
+        {
+          "title": "Instax Cameras",
+          "src": "https://rukminim1.flixcart.com/image/110/110/kbzergw0/instant-camera/m/h/u/instax-instant-camera-mini-11-fujifilm-original-imaft7fpfzkcsequ.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/kbzergw0/instant-camera/m/h/u/instax-instant-camera-mini-11-fujifilm-original-imaft7fpfzkcsequ.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/kbzergw0/instant-camera/m/h/u/instax-instant-camera-mini-11-fujifilm-original-imaft7fpfzkcsequ.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/kbzergw0/instant-camera/m/h/u/instax-instant-camera-mini-11-fujifilm-original-imaft7fpfzkcsequ.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/kbzergw0/instant-camera/m/h/u/instax-instant-camera-mini-11-fujifilm-original-imaft7fpfzkcsequ.jpeg?q=60 2x, ",
+          "pricestartfrom": "From $3,999"
+        },
+        {
+          "title": "Camera Bags",
+          "src": "https://rukminim1.flixcart.com/image/110/110/kqidx8w0/camera-bag/backpack/r/u/3/dslr-slr-camera-lens-shoulder-printed-backpack-bnp-0197p-camera-original-imag4hjhzcsz3grw.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/kqidx8w0/camera-bag/backpack/r/u/3/dslr-slr-camera-lens-shoulder-printed-backpack-bnp-0197p-camera-original-imag4hjhzcsz3grw.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/kqidx8w0/camera-bag/backpack/r/u/3/dslr-slr-camera-lens-shoulder-printed-backpack-bnp-0197p-camera-original-imag4hjhzcsz3grw.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/kqidx8w0/camera-bag/backpack/r/u/3/dslr-slr-camera-lens-shoulder-printed-backpack-bnp-0197p-camera-original-imag4hjhzcsz3grw.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/kqidx8w0/camera-bag/backpack/r/u/3/dslr-slr-camera-lens-shoulder-printed-backpack-bnp-0197p-camera-original-imag4hjhzcsz3grw.jpeg?q=60 2x, ",
+          "pricestartfrom": "Min 50% Off"
+        },
+        {
+          "title": "Allen Solly & V...",
+          "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/sandal/w/l/0/-original-imaggcb2jp2a7dzk.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/xif0q/sandal/w/l/0/-original-imaggcb2jp2a7dzk.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/xif0q/sandal/w/l/0/-original-imaggcb2jp2a7dzk.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/xif0q/sandal/w/l/0/-original-imaggcb2jp2a7dzk.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/sandal/w/l/0/-original-imaggcb2jp2a7dzk.jpeg?q=60 2x, ",
+          "pricestartfrom": "Min.40% Off"
+        },
+        {
+          "title": "Perfume & more",
+          "src": "https://rukminim1.flixcart.com/image/110/110/xif0q/perfume/a/k/i/100-mystic-bloom-perfume-for-women-floral-musky-notes-long-original-imahbyjrakcvmgqh.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/xif0q/perfume/a/k/i/100-mystic-bloom-perfume-for-women-floral-musky-notes-long-original-imahbyjrakcvmgqh.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/xif0q/perfume/a/k/i/100-mystic-bloom-perfume-for-women-floral-musky-notes-long-original-imahbyjrakcvmgqh.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/xif0q/perfume/a/k/i/100-mystic-bloom-perfume-for-women-floral-musky-notes-long-original-imahbyjrakcvmgqh.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/xif0q/perfume/a/k/i/100-mystic-bloom-perfume-for-women-floral-musky-notes-long-original-imahbyjrakcvmgqh.jpeg?q=60 2x, ",
+          "pricestartfrom": "Min.50% Off"
+        },
+        {
+          "title": " Bata ,Khadim'...",
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/110/110/image/345cef25f4179b5c.jpg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/170/170/image/345cef25f4179b5c.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/340/340/image/345cef25f4179b5c.jpg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/110/110/image/345cef25f4179b5c.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/220/220/image/345cef25f4179b5c.jpg?q=60 2x, ",
+          "pricestartfrom": "Under $499"
+        },
+        {
+          "title": "Grab Now",
+          "src": "https://rukminim1.flixcart.com/image/110/110/k0bbb0w0/data-cable/usb-type-c-cable/u/t/w/flipkart-smartbuy-acrbb1m01-original-imafk4vq3kedyxku.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/k0bbb0w0/data-cable/usb-type-c-cable/u/t/w/flipkart-smartbuy-acrbb1m01-original-imafk4vq3kedyxku.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/k0bbb0w0/data-cable/usb-type-c-cable/u/t/w/flipkart-smartbuy-acrbb1m01-original-imafk4vq3kedyxku.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/k0bbb0w0/data-cable/usb-type-c-cable/u/t/w/flipkart-smartbuy-acrbb1m01-original-imafk4vq3kedyxku.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/k0bbb0w0/data-cable/usb-type-c-cable/u/t/w/flipkart-smartbuy-acrbb1m01-original-imafk4vq3kedyxku.jpeg?q=60 2x, ",
+          "pricestartfrom": "From $49"
+        }
+      ]
+    },
+    "PickForYou": {
+      "title": "Pick Your Styles",
+      "Products": [
+        {
+          "title": "U.S.Polo Assn...",
+          "src": "https://rukminim1.flixcart.com/image/110/110/kb9ou4w0/shoe/j/g/6/11391306-40-u-s-polo-assn-white-original-imafsnetwnyzu8x2.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/kb9ou4w0/shoe/j/g/6/11391306-40-u-s-polo-assn-white-original-imafsnetwnyzu8x2.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/kb9ou4w0/shoe/j/g/6/11391306-40-u-s-polo-assn-white-original-imafsnetwnyzu8x2.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/kb9ou4w0/shoe/j/g/6/11391306-40-u-s-polo-assn-white-original-imafsnetwnyzu8x2.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/kb9ou4w0/shoe/j/g/6/11391306-40-u-s-polo-assn-white-original-imafsnetwnyzu8x2.jpeg?q=60 2x, ",
+          "pricestartfrom": "Min.40% Off"
+        },
+        {
+          "title": "Bags, Trolleys...",
+          "src": "https://rukminim1.flixcart.com/image/110/110/k2z1t3k0/jacket/z/v/x/m-9298233-mast-harbour-original-imafm78vbfvdzph7.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/k2z1t3k0/jacket/z/v/x/m-9298233-mast-harbour-original-imafm78vbfvdzph7.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/k2z1t3k0/jacket/z/v/x/m-9298233-mast-harbour-original-imafm78vbfvdzph7.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/k2z1t3k0/jacket/z/v/x/m-9298233-mast-harbour-original-imafm78vbfvdzph7.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/k2z1t3k0/jacket/z/v/x/m-9298233-mast-harbour-original-imafm78vbfvdzph7.jpeg?q=60 2x, ",
+          "pricestartfrom": "50-70%+Extr..."
+        },
+        {
+          "title": "Sweatshirts, H...",
+          "src": "https://rukminim1.flixcart.com/image/110/110/k2z1t3k0/jacket/z/v/x/m-9298233-mast-harbour-original-imafm78vbfvdzph7.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/k2z1t3k0/jacket/z/v/x/m-9298233-mast-harbour-original-imafm78vbfvdzph7.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/k2z1t3k0/jacket/z/v/x/m-9298233-mast-harbour-original-imafm78vbfvdzph7.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/k2z1t3k0/jacket/z/v/x/m-9298233-mast-harbour-original-imafm78vbfvdzph7.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/k2z1t3k0/jacket/z/v/x/m-9298233-mast-harbour-original-imafm78vbfvdzph7.jpeg?q=60 2x, ",
+          "pricestartfrom": "From $249"
+        },
+        {
+          "title": "Ketch, Mast & ...",
+          "src": "https://rukminim1.flixcart.com/image/110/110/kylvr0w0/shirt/u/p/t/m-1596-fs-maple-killer-original-imagasvf8qupbpuz.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/kylvr0w0/shirt/u/p/t/m-1596-fs-maple-killer-original-imagasvf8qupbpuz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/kylvr0w0/shirt/u/p/t/m-1596-fs-maple-killer-original-imagasvf8qupbpuz.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/kylvr0w0/shirt/u/p/t/m-1596-fs-maple-killer-original-imagasvf8qupbpuz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/kylvr0w0/shirt/u/p/t/m-1596-fs-maple-killer-original-imagasvf8qupbpuz.jpeg?q=60 2x, ",
+          "pricestartfrom": "Up to 60% Off"
+        },
+        {
+          "title": "Nivia, Van He...",
+          "src": "https://rukminim1.flixcart.com/image/110/110/jvmpci80/track-pant/g/w/j/s-7224489-hrx-by-hrithik-roshan-original-imafghfrgedw3zq8.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/jvmpci80/track-pant/g/w/j/s-7224489-hrx-by-hrithik-roshan-original-imafghfrgedw3zq8.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/jvmpci80/track-pant/g/w/j/s-7224489-hrx-by-hrithik-roshan-original-imafghfrgedw3zq8.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/jvmpci80/track-pant/g/w/j/s-7224489-hrx-by-hrithik-roshan-original-imafghfrgedw3zq8.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/jvmpci80/track-pant/g/w/j/s-7224489-hrx-by-hrithik-roshan-original-imafghfrgedw3zq8.jpeg?q=60 2x, ",
+          "pricestartfrom": "Up to 60% Off"
+        },
+        {
+          "title": "Being Human, ...",
+          "src": "https://rukminim1.flixcart.com/image/110/110/ktyp8cw0/t-shirt/a/y/n/s-14806378-mast-harbour-original-imag76r6ba6kgj8f.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/ktyp8cw0/t-shirt/a/y/n/s-14806378-mast-harbour-original-imag76r6ba6kgj8f.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/ktyp8cw0/t-shirt/a/y/n/s-14806378-mast-harbour-original-imag76r6ba6kgj8f.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/ktyp8cw0/t-shirt/a/y/n/s-14806378-mast-harbour-original-imag76r6ba6kgj8f.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/ktyp8cw0/t-shirt/a/y/n/s-14806378-mast-harbour-original-imag76r6ba6kgj8f.jpeg?q=60 2x, ",
+          "pricestartfrom": "Min.50% Off"
+        },
+        {
+          "title": "Crazy Deals o...",
+          "src": "https://rukminim1.flixcart.com/image/110/110/j2w6jrk0/hand-messenger-bag/d/2/u/hpbv468022k3-hpbv468022k3-satchel-lavie-original-imaeu56n9vmgwhnk.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/170/170/j2w6jrk0/hand-messenger-bag/d/2/u/hpbv468022k3-hpbv468022k3-satchel-lavie-original-imaeu56n9vmgwhnk.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/340/340/j2w6jrk0/hand-messenger-bag/d/2/u/hpbv468022k3-hpbv468022k3-satchel-lavie-original-imaeu56n9vmgwhnk.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/110/110/j2w6jrk0/hand-messenger-bag/d/2/u/hpbv468022k3-hpbv468022k3-satchel-lavie-original-imaeu56n9vmgwhnk.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/220/220/j2w6jrk0/hand-messenger-bag/d/2/u/hpbv468022k3-hpbv468022k3-satchel-lavie-original-imaeu56n9vmgwhnk.jpeg?q=60 2x, ",
+          "pricestartfrom": "Min 60% Off"
+        }
+      ]
+    },
+    "AppliancesDeal": {
+      "title": "Top Deals On TV & Appliances",
+      "Products": [
+        {
+          "title": "Godrej Refrigerator",
+          "src": "https://rukminim1.flixcart.com/image/120/120/xif0q/refrigerator-new/y/a/x/-original-imahdwkppgj9fezy.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/refrigerator-new/y/a/x/-original-imahdwkppgj9fezy.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/refrigerator-new/y/a/x/-original-imahdwkppgj9fezy.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/refrigerator-new/y/a/x/-original-imahdwkppgj9fezy.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/refrigerator-new/y/a/x/-original-imahdwkppgj9fezy.jpeg?q=60 2x, ",
+          "pricestartfrom": "From $7,240"
+        },
+        {
+          "title": "Double Door Refriger...",
+          "src": "https://rukminim1.flixcart.com/image/120/120/xif0q/refrigerator-new/d/q/d/fp-283d-protton-roy-1760-na-na-55-whirlpool-760-610-original-imah3m3w2hpccsen.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/refrigerator-new/d/q/d/fp-283d-protton-roy-1760-na-na-55-whirlpool-760-610-original-imah3m3w2hpccsen.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/refrigerator-new/d/q/d/fp-283d-protton-roy-1760-na-na-55-whirlpool-760-610-original-imah3m3w2hpccsen.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/refrigerator-new/d/q/d/fp-283d-protton-roy-1760-na-na-55-whirlpool-760-610-original-imah3m3w2hpccsen.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/refrigerator-new/d/q/d/fp-283d-protton-roy-1760-na-na-55-whirlpool-760-610-original-imah3m3w2hpccsen.jpeg?q=60 2x, ",
+          "pricestartfrom": "from $16,129"
+        },
+        {
+          "title": "Big Washing Machines",
+          "src": "https://rukminim1.flixcart.com/image/120/120/xif0q/washing-machine-new/f/r/x/-original-imah2tx7xhbs298m.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/washing-machine-new/f/r/x/-original-imah2tx7xhbs298m.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/washing-machine-new/f/r/x/-original-imah2tx7xhbs298m.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/washing-machine-new/f/r/x/-original-imah2tx7xhbs298m.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/washing-machine-new/f/r/x/-original-imah2tx7xhbs298m.jpeg?q=60 2x, ",
+          "pricestartfrom": "Buy Now "
+        },
+        {
+          "title": "Semi Automatic Was...",
+          "src": "https://rukminim1.flixcart.com/image/120/120/xif0q/washing-machine-new/f/6/s/7-480-p7020ngaz-5-0-0133-805-27-lg-980-original-imah7n4sjezznxvr.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/washing-machine-new/f/6/s/7-480-p7020ngaz-5-0-0133-805-27-lg-980-original-imah7n4sjezznxvr.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/washing-machine-new/f/6/s/7-480-p7020ngaz-5-0-0133-805-27-lg-980-original-imah7n4sjezznxvr.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/washing-machine-new/f/6/s/7-480-p7020ngaz-5-0-0133-805-27-lg-980-original-imah7n4sjezznxvr.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/washing-machine-new/f/6/s/7-480-p7020ngaz-5-0-0133-805-27-lg-980-original-imah7n4sjezznxvr.jpeg?q=60 2x, ",
+          "pricestartfrom": "Buy Now"
+        },
+        {
+          "title": "Samsung Refrigerator",
+          "src": "https://rukminim1.flixcart.com/image/120/120/xif0q/refrigerator-new/a/s/f/-original-imah4c6p6gzzh9bz.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/refrigerator-new/a/s/f/-original-imah4c6p6gzzh9bz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/refrigerator-new/a/s/f/-original-imah4c6p6gzzh9bz.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/refrigerator-new/a/s/f/-original-imah4c6p6gzzh9bz.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/refrigerator-new/a/s/f/-original-imah4c6p6gzzh9bz.jpeg?q=60 2x, ",
+          "pricestartfrom": "$12,690"
+        },
+        {
+          "title": "front Load Washing...",
+          "src": "https://rukminim1.flixcart.com/image/120/120/xif0q/washing-machine-new/n/g/y/-original-imah2d6gj2butauy.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/washing-machine-new/n/g/y/-original-imah2d6gj2butauy.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/washing-machine-new/n/g/y/-original-imah2d6gj2butauy.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/washing-machine-new/n/g/y/-original-imah2d6gj2butauy.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/washing-machine-new/n/g/y/-original-imah2d6gj2butauy.jpeg?q=60 2x, ",
+          "pricestartfrom": "Buy Now"
+        },
+        {
+          "title": " Top Load Washing M...",
+          "src": "https://rukminim1.flixcart.com/image/120/120/xif0q/washing-machine-new/r/k/6/-original-imahfeswzjhsfzbn.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/washing-machine-new/r/k/6/-original-imahfeswzjhsfzbn.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/washing-machine-new/r/k/6/-original-imahfeswzjhsfzbn.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/washing-machine-new/r/k/6/-original-imahfeswzjhsfzbn.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/washing-machine-new/r/k/6/-original-imahfeswzjhsfzbn.jpeg?q=60 2x, ",
+          "pricestartfrom": "Buy Now"
+        },
+        {
+          "title": "Energy Effcient Refri...",
+          "src": "https://rukminim1.flixcart.com/image/120/120/xif0q/refrigerator-new/0/h/i/-original-imah4c6p334th8sg.jpeg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/image/120/120/xif0q/refrigerator-new/0/h/i/-original-imah4c6p334th8sg.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/xif0q/refrigerator-new/0/h/i/-original-imah4c6p334th8sg.jpeg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/image/70/70/xif0q/refrigerator-new/0/h/i/-original-imah4c6p334th8sg.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/140/140/xif0q/refrigerator-new/0/h/i/-original-imah4c6p334th8sg.jpeg?q=60 2x, ",
+          "pricestartfrom": "From $14,000"
+        }
+      ]
     }
-  },
+    
+  }, 
 
   "ProductDisplayBtn": {
     "MobiletoCheckout": {
@@ -484,7 +784,7 @@
       ]
     },
     "MonsoonStyle": {
-      "title": "MonSoon Ready Style",
+      "title": "Monsoon Ready Style",
       "products": [
         {
           "srcset1": "https://rukminim1.flixcart.com/image/310/310/xif0q/slipper-flip-flop/n/q/h/6-213-blue-06-arotek-blue-original-imah7fyzexvmjg7g.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/620/620/xif0q/slipper-flip-flop/n/q/h/6-213-blue-06-arotek-blue-original-imah7fyzexvmjg7g.jpeg?q=60 2x, ",
