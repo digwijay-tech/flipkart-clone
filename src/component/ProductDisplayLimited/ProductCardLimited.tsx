@@ -1,18 +1,20 @@
-type ProductCardsProps={
-    product : {
-        title : string
-        description : string
-        src: string 
-        srcset1 : string 
-        srcset2 : string
-    }
-}
-const ProductCardLimited = ({product}:ProductCardsProps) => {
+import { Link } from "react-router-dom";
+
+type ProductCardsProps = {
+  product: {
+    title: string;
+    description: string;
+    src: string;
+    srcset1: string;
+    srcset2: string;
+  };
+};
+const ProductCardLimited = ({ product }: ProductCardsProps) => {
   return (
     <div className="basis-[25%] max-w-[25%] grow-0 shrink-0  min-[1190px]:basis-[50%] min-[1190px]:max-w-[50%]">
       <div className="mx-1.5 mb-2 ">
-        <a
-          href="#"
+        <Link
+          to="/products"
           className="pb-3 flex border-[1px] border-[#ebebeb] rounded-[4px] flex-col items-center"
         >
           <div className="flex basis-auto flex-col px-3 pt-3 w-full">
@@ -47,7 +49,7 @@ const ProductCardLimited = ({product}:ProductCardsProps) => {
               </div>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
     </div>
   );

@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import ProductCard from "./ProductCard";
 import axios from "axios";
-type ProductProps={
-  categoryname :string
-  style? :string
-}
-const ProductsDisplay = ({categoryname,style}:ProductProps) => {
+type ProductProps = {
+  categoryname: string;
+  style?: string;
+};
+const ProductsDisplay = ({ categoryname, style }: ProductProps) => {
   const [productTitle, setProductTitle] = useState();
   const [productDetails, setProductDetails] = useState([]);
   useEffect(() => {
@@ -16,8 +16,8 @@ const ProductsDisplay = ({categoryname,style}:ProductProps) => {
         setProductDetails(res.data.ProductHighlight[categoryname].Products);
       })
       .catch((error) => console.log(error));
-  },[]);
-  console.log(categoryname)
+  }, []);
+  console.log(categoryname);
   return (
     <div className={`h-auto bg-white mb-[16px] ${style}`}>
       <div className="flex flex-col relative z-0">
@@ -31,10 +31,9 @@ const ProductsDisplay = ({categoryname,style}:ProductProps) => {
             {productDetails.map((productdetail, index) => (
               <ProductCard product={productdetail} key={index} />
             ))}
-          </div>  
+          </div>
           <button className=" hidden absolute   bottom-0 top-20 right-0 min-[1190px]:flex h-[88px] w-10 shadow-[0px_1px_4px_rgba(0,0,0,.12)] rounded-[4px_0px_0px_4px] bg-white">
-            <span className="absolute right-[16px] top-[50%] transform-[scale(1)_translateY(-50%)] before: [content:''] before:relative before:border-[#878787] before:border-[2px_2px_0px_0px] before:inline-block before:h-[6px] before:w-[6px] before:transform-[rotate(45deg)] ">
-            </span>   
+            <span className="absolute right-[16px] top-[50%] transform-[scale(1)_translateY(-50%)] before: [content:''] before:relative before:border-[#878787] before:border-[2px_2px_0px_0px] before:inline-block before:h-[6px] before:w-[6px] before:transform-[rotate(45deg)] "></span>
           </button>
         </div>
       </div>

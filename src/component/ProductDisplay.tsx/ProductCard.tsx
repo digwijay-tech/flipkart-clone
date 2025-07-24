@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 type ProductCardProps = {
   product: {
     title: string;
@@ -13,8 +15,8 @@ const ProductCard = ({ product }: ProductCardProps) => {
     <div className="w-[172px] min-[1190px]:w-[216px] flex snap-start shrink-0 ">
       <div className="m-2 flex-[1] ">
         <div className="h-full w-full ">
-          <a
-            href="#"
+          <Link
+            to="/products"
             className="flex flex-row relative rounded-[4px] justify-between px-6 py-3"
           >
             <div className="flex flex-col flex-[1] ">
@@ -46,7 +48,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

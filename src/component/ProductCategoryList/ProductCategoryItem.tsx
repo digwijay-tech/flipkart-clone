@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 type CategoryItemsProps ={
   item :{
     title:string
@@ -9,7 +11,7 @@ type CategoryItemsProps ={
 const ProductCategoryItem = ({item,index}:CategoryItemsProps) => {
   return (
     <div className={`p-4  ${index===0 && "ps-6"}`}>
-      <a href="" className="min-w-[90px] block relative cursor-pointer">
+      <Link to="/products" className="min-w-[90px] block relative cursor-pointer">
         <div>
           <div className="mb-1 text-center ">
             <div className="mx-auto h-16 w-16 " >
@@ -20,7 +22,7 @@ const ProductCategoryItem = ({item,index}:CategoryItemsProps) => {
             <span>{item.title}</span>
           </div>
         </div>
-      </a>
+      </Link>
     </div>
   );
 };
