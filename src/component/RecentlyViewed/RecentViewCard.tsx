@@ -20,7 +20,7 @@ const RecentViewCard = ({ product }: RecentCardProps) => {
             href="#"
             className="flex border-[1px] border-[#ebebeb] p-1.5 rounded-[4px] items-stretch flex-col w-full"
           >
-            <div className="flex- overflow-hidden  w-full aspect-square">
+            <div className="flex- overflow-hidden  w-full aspect-square hover:scale-[104%]">
               <picture >
                 <source
                   srcSet={product.image.srcset1}
