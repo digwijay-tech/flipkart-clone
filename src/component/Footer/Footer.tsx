@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className=" bg-[#212121] mt-[25px] border-t-[1] border-[#f5f5f5]">
-        
+
         <div className="hidden md:block">
       <div className="px-[60px] pt-10 gap-x-5 grid grid-cols-[auto_auto_auto] min-[1190px]:grid-cols-[auto_auto_auto_auto_auto_auto] ">
         <div>
@@ -15,7 +15,7 @@ const Footer = () => {
               </li>
               <li className="!leading-[18px]">
                 <a href="#">About Us</a>
-              </li>
+              </li> 
               <li className="!leading-[18px]">
                 <a href="#">Careers</a>
               </li>
@@ -168,7 +168,7 @@ const Footer = () => {
         </div>
         <div>
           <div className="text-[#878787] text-[12px] mb-3 font-[inter-regular] ">
-            Registered Office Address:
+            Registered Office Address: 
           </div>
           <div className="font-[inter-regular] text-[12px] text-[#fff] w-full">
             <div>

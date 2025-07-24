@@ -1,8 +1,7 @@
-import React from 'react'
 
 const PageNotFound = () => {
   return (
-    <div>PageNotFound</div>
+    <div className='h-lvh'>PageNotFound</div>
   )
 }
 

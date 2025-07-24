@@ -1,14 +1,16 @@
 import AdsBanner from "../component/AdsBanner/AdsBanner";
+import AdsBannerBig from "../component/AdsBanner/AdsBannerBig";
 import HeroCarousel from "../component/Hero/HeroCarousel";
 import ProductCategoryList from "../component/ProductCategoryList/ProductCategoryList";
 import ProductsDisplay from "../component/ProductDisplay.tsx/ProductsDisplay";
 import ProductDisplayLimited from "../component/ProductDisplayLimited/ProductDisplayLimited";
+import RecentlyViewed from "../component/RecentlyViewed/RecentlyViewed";
 import SuggestedForMe from "../component/Suggestion/SuggestedForMe";
 
 const Home = () => {
   return (
     <div className="bg-[#f1f2f4]">
-      <div className="md:px-4 min-h-lvh  md:pt-2 md:[scrollbar-width:none] max-[1190px]:max-w-[996px] mx-auto">
+      <div className="md:px-4 min-h-lvh  md:pt-2 md:[scrollbar-width:none] max-[1190px]:max-w-[996px] lg:max-w-[1600px] mx-auto">
         <div className="grid grid-cols-[repeat(12,1fr)] gap-x-[12px]  w-full">
           <ProductCategoryList />
           <HeroCarousel />
@@ -48,11 +50,14 @@ const Home = () => {
           <ProductDisplayLimited category={"EssensialDeals"} style="min-[1190px]:col-[9/13]"/>
           <ProductsDisplay categoryname={"FurnitureDeal"} style="col-[1/13]" />
           <ProductDisplayLimited category={"MonsoonStyle"} style="min-[1190px]:col-[1/5]"/>
+          <AdsBannerBig category="topsmartphone"/>
           <ProductsDisplay categoryname={"FashionTopDeal"} style="col-[1/13]"/>
           <ProductDisplayLimited category={"TrendGadgetDeals"} style="min-[1190px]:col-[1/5]"/>
+          <AdsBannerBig category="plantotrip"/>
           <ProductsDisplay categoryname={"TopDeals"} style="col-[1/13]"/>
           <ProductsDisplay categoryname={"PickForYou"} style="col-[1/13]"/>
           <ProductsDisplay categoryname={"AppliancesDeal"} style="col-[1/13]"/>
+          <RecentlyViewed/>
         </div>
       </div>
     </div>

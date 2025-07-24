@@ -55,6 +55,18 @@
       "src": "https://rukminim1.flixcart.com/fk-p-flap/480/230/image/86ed7d4e8d3adeae.jpeg?q=90"
     }
   ],
+  "adBanner":{
+    "topsmartphone":{
+      "src":"https://rukminim1.flixcart.com/www/1070/750/promos/26/09/2023/ed27f892-1bc6-462f-805b-953f5add4f6a.jpg?q=90",
+      "srcset1":"https://rukminim1.flixcart.com/www/1070/750/promos/26/09/2023/ed27f892-1bc6-462f-805b-953f5add4f6a.jpg?q=80 1x, https://rukminim1.flixcart.com/www/2140/1500/promos/26/09/2023/ed27f892-1bc6-462f-805b-953f5add4f6a.jpg?q=60 2x, ",
+      "srcset2":"https://rukminim1.flixcart.com/www/660/460/promos/26/09/2023/ed27f892-1bc6-462f-805b-953f5add4f6a.jpg?q=80 1x, https://rukminim1.flixcart.com/www/1320/920/promos/26/09/2023/ed27f892-1bc6-462f-805b-953f5add4f6a.jpg?q=60 2x, "
+    },
+    "plantotrip":{
+      "src":"https://rukminim1.flixcart.com/www/1070/750/promos/15/09/2023/9b08f194-51e5-4e6a-a052-f5f91d75b8a0.jpg?q=90",
+      "srcset1":"https://rukminim1.flixcart.com/www/1070/750/promos/15/09/2023/9b08f194-51e5-4e6a-a052-f5f91d75b8a0.jpg?q=80 1x, https://rukminim1.flixcart.com/www/2140/1500/promos/15/09/2023/9b08f194-51e5-4e6a-a052-f5f91d75b8a0.jpg?q=60 2x, ",
+      "srcset2":"https://rukminim1.flixcart.com/www/660/460/promos/15/09/2023/9b08f194-51e5-4e6a-a052-f5f91d75b8a0.jpg?q=80 1x, https://rukminim1.flixcart.com/www/1320/920/promos/15/09/2023/9b08f194-51e5-4e6a-a052-f5f91d75b8a0.jpg?q=60 2x, "
+    }
+  },
 
   "categoryItems": [
     {
@@ -882,5 +894,58 @@
         }
       ]
     }
-  }
+  },
+
+  "RecentViewProducts":[
+    {
+      "title":"Galaxy F16 5G (Glam Green, 128 GB)",
+      "image":{
+        "src":"https://img.fkcdn.com/image/xif0q/mobile/g/a/j/-original-imahcqcwhvvxsrgd.jpeg?q=90",
+        "srcset1":"https://img.fkcdn.com/image/xif0q/mobile/g/a/j/-original-imahcqcwhvvxsrgd.jpeg 1x, https://img.fkcdn.com/image/xif0q/mobile/g/a/j/-original-imahcqcwhvvxsrgd.jpeg 2x, ",
+        "srcset2":"https://img.fkcdn.com/image/xif0q/mobile/g/a/j/-original-imahcqcwhvvxsrgd.jpeg 1x, https://img.fkcdn.com/image/xif0q/mobile/g/a/j/-original-imahcqcwhvvxsrgd.jpeg 2x, "
+      },
+      "previousPrice":"₹15,999",
+      "discountPrice":"₹12499"
+    },
+     {
+      "title":"K13 5G with 7000mAh and 80W SUPERVOOC Charger In-The-Box (Icy Purple, 128 GB)",
+      "image":{
+        "src":"https://img.fkcdn.com/image/xif0q/mobile/f/k/e/-original-imahbfd4zqn9zazz.jpeg?q=90",
+        "srcset1":"https://img.fkcdn.com/image/xif0q/mobile/f/k/e/-original-imahbfd4zqn9zazz.jpeg 1x, https://img.fkcdn.com/image/xif0q/mobile/f/k/e/-original-imahbfd4zqn9zazz.jpeg 2x, ",
+        "srcset2":"https://img.fkcdn.com/image/xif0q/mobile/f/k/e/-original-imahbfd4zqn9zazz.jpeg 1x, https://img.fkcdn.com/image/xif0q/mobile/f/k/e/-original-imahbfd4zqn9zazz.jpeg 2x, "
+      },
+      "previousPrice":"₹22,999",
+      "discountPrice":"₹17999"
+    },
+     {
+      "title":"Galaxy F16 5G (Vibing Blue, 128 GB)",
+      "image":{
+        "src":"https://img.fkcdn.com/image/xif0q/mobile/g/d/p/-original-imahcre2gqhfqgd8.jpeg?q=90",
+        "srcset1":"https://img.fkcdn.com/image/xif0q/mobile/g/d/p/-original-imahcre2gqhfqgd8.jpeg 1x, https://img.fkcdn.com/image/xif0q/mobile/g/d/p/-original-imahcre2gqhfqgd8.jpeg 2x, ",
+        "srcset2":"https://img.fkcdn.com/image/xif0q/mobile/g/d/p/-original-imahcre2gqhfqgd8.jpeg 1x, https://img.fkcdn.com/image/xif0q/mobile/g/d/p/-original-imahcre2gqhfqgd8.jpeg 2x, "
+      },
+      "previousPrice":"₹17,499",
+      "discountPrice":"₹13999"
+    },
+     {
+      "title":"X200 FE (Luxe Grey, 256 GB)",
+      "image":{
+        "src":"https://img.fkcdn.com/image/xif0q/mobile/j/m/t/-original-imahe47s6dzrmbfh.jpeg?q=90",
+        "srcset1":"https://img.fkcdn.com/image/xif0q/mobile/j/m/t/-original-imahe47s6dzrmbfh.jpeg 1x, https://img.fkcdn.com/image/xif0q/mobile/j/m/t/-original-imahe47s6dzrmbfh.jpeg 2x, ",
+        "srcset2":"https://img.fkcdn.com/image/xif0q/mobile/j/m/t/-original-imahe47s6dzrmbfh.jpeg 1x, https://img.fkcdn.com/image/xif0q/mobile/j/m/t/-original-imahe47s6dzrmbfh.jpeg 2x, "
+      },
+      "previousPrice":"₹59,999",
+      "discountPrice":"₹54999"
+    },
+     {
+      "title":"Galaxy F06 5G (Bahama Blue, 128 GB)",
+      "image":{
+        "src":"https://img.fkcdn.com/image/xif0q/mobile/w/h/f/-original-imahbk7pzzgc58gw.jpeg?q=90",
+        "srcset1":"https://img.fkcdn.com/image/xif0q/mobile/w/h/f/-original-imahbk7pzzgc58gw.jpeg 1x, https://img.fkcdn.com/image/xif0q/mobile/w/h/f/-original-imahbk7pzzgc58gw.jpeg 2x, ",
+        "srcset2":"https://img.fkcdn.com/image/xif0q/mobile/w/h/f/-original-imahbk7pzzgc58gw.jpeg 1x, https://img.fkcdn.com/image/xif0q/mobile/w/h/f/-original-imahbk7pzzgc58gw.jpeg 2x, "
+      },
+      "previousPrice":"₹13,999",
+      "discountPrice":"₹9999"
+    }
+  ]
 }

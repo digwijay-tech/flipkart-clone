@@ -20,8 +20,8 @@ const ProductDisplayLimited = ({category,style}: CategoryProps) => {
     },[])
     console.log(style)
   return (
-    <div className={` min-h-[381px] col-[1/13] ${style}`}>
-      <div className="bg-white mb-4 flex flex-col  "> 
+    <div className={` mb-4 min-h-[381px] col-[1/13] ${style} bg-white`}>
+      <div className="  flex flex-col  "> 
         <div className="flex flex-col ">
           {/* Heading of the component */}
           <a href="#" className="flex items-center z-0">
