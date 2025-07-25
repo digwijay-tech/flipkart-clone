@@ -2,7 +2,6 @@ import { useState } from "react";
 import SideNavbar from "./SideNavbar";
 import NavProfileDropDown from "./NavProfileDropDown";
 import NavVerticalMenu from "./NavVerticalMenu";
-import HeaderSearchArea from "./HeaderSearchArea";
  
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -21,14 +20,14 @@ const Navbar = () => {
     setIsVerticalMenuOpen(!isverticalMenuOpen);
   };  
   return (
-    <nav className="sticky top-0 z-50" >
+    <nav className="min-[1024px]:sticky top-0 z-50" >
       <div className="bg-white flex justify-center flex-col text-[12px] tracking-normal ">
         <div className="h-[48px] md:h-[unset] sticky top-0 z-50 transition-all ease-in flex justify-center w-full max-[1190px]:max-w-[996px] mx-auto ">
           <header className="py-2 px-4 md:p-3 min-[1192px]:py-3 min-[1192px]:px-7 max-w-[480px] md:max-w-[996px] lg:max-w-[1600px] flex items-center sticky top-0 w-full justify-between z-[9999] font-[family-name:inter-regular]">
             {/* Section One */}
             <div className="flex items-center grow">
               {/* Menu icon  */}
-              <a
+              {/* <a
                 href="#"
                 className="me-3 text-[#333] h-[27px] md:hidden"
                 onClick={() => setIsVisible(!isVisible)}
@@ -39,7 +38,7 @@ const Navbar = () => {
                   width="24"
                   className="h-[24px]"
                 />
-              </a>
+              </a> */}
 
               {/* brand logo */}
               <div className="pt-0.5 md:pt-[unset] md:me-9   max-w-[120px] md:max-w-[unset]">
@@ -56,7 +55,7 @@ const Navbar = () => {
                     <img
                       src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"
                       height="40px"
-                      width="160px"
+                      width="120px"
                       title="Flipkart"
                       className="!h-[40px] ![display:unset] ![vertical-align:unset] ![max-width:unset]"
                     />
@@ -236,7 +235,7 @@ const Navbar = () => {
       </div>
       {/* Side NavBar */}
       <SideNavbar isvisible={isVisible} setIsVisible={setIsVisible} />
-      <HeaderSearchArea />
+      
     </nav>
   );
 };

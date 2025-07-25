@@ -1,10 +1,10 @@
 const HeaderSearchArea = () => {
   return (
-    <div className="md:hidden">
+    <div className="md:hidden sticky top-[-25px] z-50 bg-white">
       {/* Need to add scroll functionallity to the div below */}
       <div className="">
         <div className="">
-          <div className="px-4 pt-1">
+          <div className="px-4 pt-1 mb-1">
             <div>
               <div className="flex items-center ">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -41,9 +41,10 @@ const HeaderSearchArea = () => {
             </div>
           </div>
         </div>
-        <div className="sticky -top-[1px] z-[5]">
+        {/* search area  */}
+        <div className=" z-[5]">
           <div className="px-4 py-3 ">
-            <div className="flex ps-[12px] pe-[4px] border-[1.6px] border-[#ebebeb] min-h-[50px] rounded-[12px]">
+            <div className="flex ps-[12px] pe-[4px] border-[1.6px] border-[#58ABFA] min-h-[50px] rounded-[12px]">
               <div className="flex items-center justify-center">
                 <svg width="24" height="24" viewBox="0 0 256 256">
                   <path fill="none" d="M0 0h256v256H0z"></path>

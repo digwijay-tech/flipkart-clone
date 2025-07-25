@@ -9,7 +9,7 @@ import SuggestedForMe from "../component/Suggestion/SuggestedForMe";
 
 const LargeHome = () => {
   return (
-    <div className="hidden bg-[#f1f2f4] md:block">
+    <div className="hidden bg-[#f1f2f4] min-[1024px]:block">
       <div className="md:px-4 min-h-lvh  md:pt-2 md:[scrollbar-width:none] max-[1190px]:max-w-[996px] lg:max-w-[1600px] mx-auto">
         <div className="grid grid-cols-[repeat(12,1fr)] gap-x-[12px]  w-full">
           <ProductCategoryList />
