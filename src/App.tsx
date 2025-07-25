@@ -12,8 +12,8 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home/> }/>
-        <Route path="/productcategory" element={<ProductCategoryPage/>}/>
-        <Route path="/products" element={<ProductsPage/> }/>
+        <Route path="productcategory" element={<ProductCategoryPage/>}/>
+        <Route path="products" element={<ProductsPage/> }/>
         <Route path="*" element={<PageNotFound/> }/>
       </Routes>
       <Footer/>

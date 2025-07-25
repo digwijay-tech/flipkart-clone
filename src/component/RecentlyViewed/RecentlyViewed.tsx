@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import RecentViewCard from "./RecentViewCard";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const RecentlyViewed = () => {
   const[products,setProducts]=useState([])
@@ -13,7 +14,7 @@ const RecentlyViewed = () => {
     <div className="col-[1/13] h-full bg-white">
       <div className="flex flex-col items-stretch">
         {/* Title  */}
-        <a href="#" className="flex items-center flex-[1_1_0%]">
+        <Link to="/" className="flex items-center flex-[1_1_0%]">
           <div className="px-3 py-4 flex items-center min-h-[80px] w-full">
             <div className="flex flex-[1_1_0%]">
               <div className="w-full font-[inter-semibold] text-[22px] !leading-[30px] tracking-[-.02px] text-[#1f1f1f] inline max-w-full whitespace-nowrap truncate ">
@@ -37,7 +38,7 @@ const RecentlyViewed = () => {
               </div>
             </div>
           </div>
-        </a>
+        </Link>
         {/* content  */}
         <div className="flex flex-row items-center w-full">
           <div className="flex flex-row pb-3 px-1.5 overflow-y-hidden overflow-x-scroll scroll-smooth [scrollbar-width:none] w-full ">

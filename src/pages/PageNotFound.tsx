@@ -1,7 +1,9 @@
 
+
 const PageNotFound = () => {
+
   return (
-    <div className='h-lvh'>PageNotFound</div>
+    <div className='h-lvh'>Page Not Found</div>
   )
 }
 
