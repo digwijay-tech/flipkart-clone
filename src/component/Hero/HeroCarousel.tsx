@@ -51,7 +51,7 @@ const HeroCarousel = () => {
   }, []);
 
   return (
-    <div className="relative flex flex-col md:mb-4 md:bg-white overflow-hidden z-0 col-[1/13]">
+    <div className="relative flex flex-col min-[1024px]:mb-4 md:bg-white overflow-hidden z-0 col-[1/13]">
       <div
         style={{ transform: `translateX(-${currentSlide * 100}%)` }}
         className={`  flex scroll-smooth snap-x snap-mandatory transition-[transform_.4s_ease-in-out] relative`}
@@ -61,18 +61,18 @@ const HeroCarousel = () => {
             <div className="h-full w-full ">
               <a
                 href=""
-                className="rounded-[16px] flex flex-col mx-4 mt-3 md:mx-[unset] md:mt-[unset]"
+                className="rounded-[16px] flex flex-col mx-4 mt-3 min-[1024px]:mx-[unset] min-[1024px]:mt-[unset]"
               >
                 <picture>
                   <source srcSet={item.srcset1} media="(min-width: 1192px)" />
                   <source
                     srcSet={item.srcset2}
-                    media="(min-width: 768px) and (max-width: 1191px)"
+                    media="(min-width: 1024px) and (max-width: 1191px)"
                   />
                   <img
                     src={item.src}
                     alt="Image"
-                    className="opacity-[1] w-full block object-cover  rounded-2xl md:rounded-none"
+                    className="opacity-[1] w-full block object-cover  rounded-2xl min=[1024px]:rounded-none"
                   />
                 </picture>
               </a>
