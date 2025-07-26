@@ -1,6 +1,8 @@
 import HeroCarousel from "../component/Hero/HeroCarousel";
 import SmallCategoryList from "../component/ProductCategoryList/SmallCategoryList";
 import NewOffers from "../component/SmallHome/NewOffers/NewOffers";
+import SmallProductDisplay from "../component/SmallHome/SmallScreenProductDisplay/SmallProductDisplay";
+import Sponsors from "../component/SmallHome/Sponsors/Sponsors";
 
 const SmallHome = () => {
   return (
@@ -10,6 +12,8 @@ const SmallHome = () => {
           <HeroCarousel />
           <SmallCategoryList/>
           <NewOffers/>
+          <Sponsors/>
+          <SmallProductDisplay/>
         </div>
       </div>
     </div>

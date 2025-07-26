@@ -26,14 +26,14 @@ const SmallCategoryList = () => {
                             </div>
                         </div>
                     </div>
-                    {products.slice(0,8).map(item=>(
-                        <SmallCategoryitems product={item}/>
+                    {products.slice(0,8).map((item,index)=>(
+                        <SmallCategoryitems product={item} key={index}/>
                     ))}
                      
                 </div>
                <div className="flex flex-row shrink-0 mb-2">
-                {products.slice(8).map(item=>(
-                     <SmallCategoryitems product={item}/>
+                {products.slice(8).map((item,index)=>(
+                     <SmallCategoryitems product={item} key={index}/>
                 ))}
                
                </div>

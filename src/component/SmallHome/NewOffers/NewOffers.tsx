@@ -12,8 +12,7 @@ const NewOffers = () => {
     <div className="h-full col-[1/13] bg-white">
         <div className="my-3 ms-4 me-1 flex flex-row ">
             {/* NewOfer Card  */}
-            {products.map(item=>(<OfferCard product={item}/>))}
-            
+            {products.map((item,index)=>(<OfferCard product={item} key={index}/>))}
         </div>
     </div>
   )
