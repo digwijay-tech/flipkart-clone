@@ -10,22 +10,22 @@ const Footer = () => {
           </div>
           <div className="font-[inter-semibold] text-[12px] text-[#fff] ">
             <ul>
-              <li className="!leading-[18px]">
+              <li className="!leading-[18px] hover:underline">
                 <a href="#">Contact Us</a>
               </li>
-              <li className="!leading-[18px]">
+              <li className="!leading-[18px] hover:underline">
                 <a href="#">About Us</a>
               </li> 
-              <li className="!leading-[18px]">
+              <li className="!leading-[18px] hover:underline">
                 <a href="#">Careers</a>
               </li>
-              <li className="!leading-[18px]">
+              <li className="!leading-[18px] hover:underline">
                 <a href="#">Flipkart Stories</a>
               </li>
-              <li className="!leading-[18px]">
+              <li className="!leading-[18px] hover:underline">
                 <a href="#">Press</a>
               </li>
-              <li className="!leading-[18px]">
+              <li className="!leading-[18px] hover:underline">
                 <a href="#">
                   Corporate <br /> information
                 </a>
@@ -39,13 +39,13 @@ const Footer = () => {
           </div>
           <div className="font-[inter-semibold] text-[12px] text-[#fff] ">
             <ul>
-              <li className="!leading-[18px]">
+              <li className="!leading-[18px] hover:underline">
                 <a href="#">Myntra</a>
               </li>
-              <li className="!leading-[18px]">
+              <li className="!leading-[18px] hover:underline">
                 <a href="#">Cleartrip</a>
               </li>
-              <li className="!leading-[18px]">
+              <li className="!leading-[18px] hover: underline">
                 <a href="#">shopsy</a>
               </li>
             </ul>
@@ -56,19 +56,19 @@ const Footer = () => {
             Help
           </div>
           <div className="font-[inter-semibold] text-[12px] text-[#fff] ">
-            <ul>
-              <li className="!leading-[18px]">
+            <ul> 
+              <li className="!leading-[18px] hover:underline">
                 <a href="#">Payments</a>
               </li>
-              <li className="!leading-[18px]">
+              <li className="!leading-[18px] hover:underline">
                 <a href="#">Shipping</a>
               </li>
-              <li className="!leading-[18px]">
+              <li className="!leading-[18px] hover:underline">
                 <a href="#">
                   cancellation & <br /> Returns
                 </a>
               </li>
-              <li className="!leading-[18px]">
+              <li className="!leading-[18px] hover:underline">
                 <a href="#">FAQ</a>
               </li>
             </ul>
@@ -80,27 +80,27 @@ const Footer = () => {
           </div>
           <div className="font-[inter-semibold] text-[12px] text-[#fff] ">
             <div>
-              <div className="!leading-[18px]">
+              <div className="!leading-[18px] hover:underline">
                 <a href="#">
                   cancellation & <br /> Returns
                 </a>
               </div>
-              <div className="!leading-[18px]">
+              <div className="!leading-[18px] hover:underline">
                 <a href="#">Terms Of Use</a>
               </div>
-              <div className="!leading-[18px]">
+              <div className="!leading-[18px] hover:underline">
                 <a href="#">Security</a>
               </div>
-              <div className="!leading-[18px]">
+              <div className="!leading-[18px] hover:underline">
                 <a href="#">Privacy</a>
               </div>
-              <div className="!leading-[18px]">
+              <div className="!leading-[18px] hover:underline">
                 <a href="#">Sitemap</a>
               </div>
-              <div className="!leading-[18px]">
+              <div className="!leading-[18px] hover:underline">
                 <a href="#">Grievance Redressal </a>
               </div>
-              <div className="!leading-[18px]">
+              <div className="!leading-[18px] hover:underline">
                 <a href="#">ERP Compliance</a>
               </div>
             </div>
@@ -121,7 +121,7 @@ const Footer = () => {
                     {" "}
                     Buildings Alyssa, Begonia &{" "}
                   </p>
-                  <p className="!leading-[18px] ">
+                  <p className="!leading-[18px]">
                     {" "}
                     Clove Embassy Tech Village,{" "}
                   </p>
@@ -133,7 +133,7 @@ const Footer = () => {
                   <p className="!leading-[18px]">Karnataka, india</p>
                 </div>
               </div>
-              <div className="text-[#878787] text-[12px] mb-3 font-[inter-regular] ">
+              <div className="text-[#878787] text-[12px] mb-3 font-[inter-regular]">
                 Social:
               </div>
               <div className="flex items-center h-[27px] whitespace-nowrap">
@@ -167,7 +167,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <div className="text-[#878787] text-[12px] mb-3 font-[inter-regular] ">
+          <div className="text-[#878787] text-[12px] mb-3 font-[inter-regular]">
             Registered Office Address: 
           </div>
           <div className="font-[inter-regular] text-[12px] text-[#fff] w-full">
