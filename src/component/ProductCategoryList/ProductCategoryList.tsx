@@ -7,7 +7,7 @@ const ProductCategoryList = () => {
     const[categoryListItem , setCategoryListItem]=useState([])
     useEffect(()=>{
         axios.get("/carouse.json")
-        .then(res=>setCategoryListItem(res.data.categoryItems))
+        .then(res=>setCategoryListItem(res.data.categoryItems.categorylarge))
         .catch(error=>console.log(error))
     })
   return (
