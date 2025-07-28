@@ -15,7 +15,7 @@ const SmallCategoryitems = ({product}:SmallItem) => {
         <img src={product.src} alt="" className="w-full h-full m-auto object-contain aspect-[auto_50.7273_/_50.7273;]" />
       </div>
       </div>
-      <div className=" text-[10px] mt-1.5 text-center font-[inter-semibold] whitespace-nowrap !leading-[14px] ">
+      <div className=" text-[10px] mt-1.5 text-center font-[inter-semibold] whitespace-nowrap !leading-[14px] truncate">
         {product.title}
       </div>
       </Link>
