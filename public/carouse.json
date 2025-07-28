@@ -1115,145 +1115,194 @@
       "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/210/280/image/47919b242b07352b.jpeg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/420/560/image/47919b242b07352b.jpeg?q=60 2x, "
     }
   ],
-  "superdeals":{
-  "Highlightsofsale": {
-    "title": "Highlights of the sale",
-    "dealbg": {
-      "bgsrc": "https://rukminim1.flixcart.com/fk-p-flap/460/190/image/50807c065db58a31.jpg?q=80",
-      "bgsrcset1": "https://rukminim1.flixcart.com/fk-p-flap/1540/620/image/50807c065db58a31.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3080/1240/image/50807c065db58a31.jpg?q=60 2x,",
-      "bgsrcset2": "https://rukminim1.flixcart.com/fk-p-flap/960/390/image/50807c065db58a31.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/1920/780/image/50807c065db58a31.jpg?q=60 2x,",
-      "bgcolor": "bg-[rgb(222,234,255)]"
+  "superdeals": {
+    "Highlightsofsale": {
+      "title": "Highlights of the sale",
+      "dealbg": {
+        "bgsrc": "https://rukminim1.flixcart.com/fk-p-flap/460/190/image/50807c065db58a31.jpg?q=80",
+        "bgsrcset1": "https://rukminim1.flixcart.com/fk-p-flap/1540/620/image/50807c065db58a31.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3080/1240/image/50807c065db58a31.jpg?q=60 2x,",
+        "bgsrcset2": "https://rukminim1.flixcart.com/fk-p-flap/960/390/image/50807c065db58a31.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/1920/780/image/50807c065db58a31.jpg?q=60 2x,",
+        "bgcolor": "bg-[rgb(222,234,255)]"
+      },
+      "dealimage": [
+        {
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/52069f906060187a.jpg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/52069f906060187a.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/52069f906060187a.jpg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/52069f906060187a.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/52069f906060187a.jpg?q=60 2x, "
+        },
+        {
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/8d66dff7b0291db4.jpg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/8d66dff7b0291db4.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/8d66dff7b0291db4.jpg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/8d66dff7b0291db4.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/8d66dff7b0291db4.jpg?q=60 2x, "
+        },
+        {
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/3d8caa47b7a38785.jpg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/3d8caa47b7a38785.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/3d8caa47b7a38785.jpg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/3d8caa47b7a38785.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/3d8caa47b7a38785.jpg?q=60 2x, "
+        },
+        {
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/9f12c25a117f2834.jpg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/9f12c25a117f2834.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/9f12c25a117f2834.jpg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/9f12c25a117f2834.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/9f12c25a117f2834.jpg?q=60 2x, "
+        },
+        {
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/908cf75ea111a7c8.jpg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/908cf75ea111a7c8.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/908cf75ea111a7c8.jpg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/908cf75ea111a7c8.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/908cf75ea111a7c8.jpg?q=60 2x, "
+        },
+        {
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/ac02dd50657f2a76.jpg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/ac02dd50657f2a76.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/ac02dd50657f2a76.jpg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/ac02dd50657f2a76.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/ac02dd50657f2a76.jpg?q=60 2x, "
+        },
+        {
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/cba672d15eb8a8c6.jpg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/cba672d15eb8a8c6.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/cba672d15eb8a8c6.jpg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/cba672d15eb8a8c6.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/cba672d15eb8a8c6.jpg?q=60 2x, "
+        },
+        {
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/e037a08fd8cf5aee.jpg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/e037a08fd8cf5aee.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/e037a08fd8cf5aee.jpg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/e037a08fd8cf5aee.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/e037a08fd8cf5aee.jpg?q=60 2x, "
+        }
+      ]
     },
-    "dealimage": [
-      {
-        "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/52069f906060187a.jpg?q=90",
-        "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/52069f906060187a.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/52069f906060187a.jpg?q=60 2x, ",
-        "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/52069f906060187a.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/52069f906060187a.jpg?q=60 2x, "
+    "bargainbuys": {
+      "title": "Bargain buys",
+      "dealbg": {
+        "bgsrc": "https://rukminim1.flixcart.com/fk-p-flap/460/190/image/65718ff8e7133f71.jpg?q=90",
+        "bgsrcset1": "https://rukminim1.flixcart.com/fk-p-flap/1540/620/image/65718ff8e7133f71.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3080/1240/image/65718ff8e7133f71.jpg?q=60 2x, ",
+        "bgsrcset2": "https://rukminim1.flixcart.com/fk-p-flap/960/390/image/65718ff8e7133f71.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/1920/780/image/65718ff8e7133f71.jpg?q=60 2x, ",
+        "bgcolor": "bg-[rgb(230,255,230)]"
       },
-      {
-        "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/8d66dff7b0291db4.jpg?q=90",
-        "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/8d66dff7b0291db4.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/8d66dff7b0291db4.jpg?q=60 2x, ",
-        "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/8d66dff7b0291db4.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/8d66dff7b0291db4.jpg?q=60 2x, "
+      "dealimage": [
+        {
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/c6bf83a12a569e50.jpg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/c6bf83a12a569e50.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/c6bf83a12a569e50.jpg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/c6bf83a12a569e50.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/c6bf83a12a569e50.jpg?q=60 2x, "
+        },
+        {
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/dc433531ad457db3.jpg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/dc433531ad457db3.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/dc433531ad457db3.jpg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/dc433531ad457db3.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/dc433531ad457db3.jpg?q=60 2x, "
+        },
+        {
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/e37801f8b16a57b5.jpg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/e37801f8b16a57b5.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/e37801f8b16a57b5.jpg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/e37801f8b16a57b5.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/e37801f8b16a57b5.jpg?q=60 2x, "
+        },
+        {
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/b56c64b949127364.jpg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/b56c64b949127364.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/b56c64b949127364.jpg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/b56c64b949127364.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/b56c64b949127364.jpg?q=60 2x, "
+        },
+        {
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/3094569dadb3ec6b.jpg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/3094569dadb3ec6b.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/3094569dadb3ec6b.jpg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/3094569dadb3ec6b.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/3094569dadb3ec6b.jpg?q=60 2x, "
+        },
+        {
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/5bd7539aaa64a545.jpg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/5bd7539aaa64a545.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/5bd7539aaa64a545.jpg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/5bd7539aaa64a545.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/5bd7539aaa64a545.jpg?q=60 2x, "
+        },
+        {
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/2c8799f34f05d84a.jpg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/2c8799f34f05d84a.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/2c8799f34f05d84a.jpg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/2c8799f34f05d84a.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/2c8799f34f05d84a.jpg?q=60 2x, "
+        },
+        {
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/efe86259b52ad9c3.jpg?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/efe86259b52ad9c3.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/efe86259b52ad9c3.jpg?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/efe86259b52ad9c3.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/efe86259b52ad9c3.jpg?q=60 2x, "
+        }
+      ]
+    },
+    "traveldeal": {
+      "title": "Massive Travel deals",
+      "dealbg": {
+        "bgsrc": "https://rukminim1.flixcart.com/fk-p-flap/460/190/image/806d7b627fa7d1f1.jpg?q=90",
+        "bgsrcset1": "https://rukminim1.flixcart.com/fk-p-flap/1540/620/image/806d7b627fa7d1f1.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3080/1240/image/806d7b627fa7d1f1.jpg?q=60 2x, ",
+        "bgsrcset2": "https://rukminim1.flixcart.com/fk-p-flap/960/390/image/806d7b627fa7d1f1.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/1920/780/image/806d7b627fa7d1f1.jpg?q=60 2x, ",
+        "bgcolor": "bg-[rgb(197,249,255)]"
       },
-      {
-        "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/3d8caa47b7a38785.jpg?q=90",
-        "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/3d8caa47b7a38785.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/3d8caa47b7a38785.jpg?q=60 2x, ",
-        "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/3d8caa47b7a38785.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/3d8caa47b7a38785.jpg?q=60 2x, "
-      },
-      {
-        "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/9f12c25a117f2834.jpg?q=90",
-        "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/9f12c25a117f2834.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/9f12c25a117f2834.jpg?q=60 2x, ",
-        "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/9f12c25a117f2834.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/9f12c25a117f2834.jpg?q=60 2x, "
-      },
-      {
-        "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/908cf75ea111a7c8.jpg?q=90",
-        "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/908cf75ea111a7c8.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/908cf75ea111a7c8.jpg?q=60 2x, ",
-        "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/908cf75ea111a7c8.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/908cf75ea111a7c8.jpg?q=60 2x, "
-      },
-      {
-        "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/ac02dd50657f2a76.jpg?q=90",
-        "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/ac02dd50657f2a76.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/ac02dd50657f2a76.jpg?q=60 2x, ",
-        "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/ac02dd50657f2a76.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/ac02dd50657f2a76.jpg?q=60 2x, "
-      },
-      {
-        "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/cba672d15eb8a8c6.jpg?q=90",
-        "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/cba672d15eb8a8c6.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/cba672d15eb8a8c6.jpg?q=60 2x, ",
-        "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/cba672d15eb8a8c6.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/cba672d15eb8a8c6.jpg?q=60 2x, "
-      },
-      {
-        "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/e037a08fd8cf5aee.jpg?q=90",
-        "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/e037a08fd8cf5aee.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/e037a08fd8cf5aee.jpg?q=60 2x, ",
-        "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/e037a08fd8cf5aee.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/e037a08fd8cf5aee.jpg?q=60 2x, "
-      }
-    ]
+      "dealimage": [
+        {
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/8a3724297b2ecc31.png?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/8a3724297b2ecc31.png?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/8a3724297b2ecc31.png?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/8a3724297b2ecc31.png?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/8a3724297b2ecc31.png?q=60 2x, "
+        },
+        {
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/44031e3cc8241587.png?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/44031e3cc8241587.png?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/44031e3cc8241587.png?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/44031e3cc8241587.png?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/44031e3cc8241587.png?q=60 2x, "
+        },
+        {
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/b15046c6c9421f54.png?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/b15046c6c9421f54.png?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/b15046c6c9421f54.png?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/b15046c6c9421f54.png?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/b15046c6c9421f54.png?q=60 2x, "
+        },
+        {
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/3d7df0efd2740e77.png?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/3d7df0efd2740e77.png?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/3d7df0efd2740e77.png?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/3d7df0efd2740e77.png?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/3d7df0efd2740e77.png?q=60 2x, "
+        },
+        {
+          "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/8ca93557c1639f36.png?q=90",
+          "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/8ca93557c1639f36.png?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/8ca93557c1639f36.png?q=60 2x, ",
+          "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/8ca93557c1639f36.png?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/8ca93557c1639f36.png?q=60 2x, "
+        }
+      ]
+    }
   },
-  "bargainbuys":{
-    "title": "Bargain buys",
-    "dealbg": {
-      "bgsrc": "https://rukminim1.flixcart.com/fk-p-flap/460/190/image/65718ff8e7133f71.jpg?q=90",
-      "bgsrcset1": "https://rukminim1.flixcart.com/fk-p-flap/1540/620/image/65718ff8e7133f71.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3080/1240/image/65718ff8e7133f71.jpg?q=60 2x, ",
-      "bgsrcset2": "https://rukminim1.flixcart.com/fk-p-flap/960/390/image/65718ff8e7133f71.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/1920/780/image/65718ff8e7133f71.jpg?q=60 2x, ",
-      "bgcolor": "bg-[rgb(230,255,230)]"
+  "Suggestionforme": [
+    {
+      "title": "Samsung Galaxy F16 5G (Glam Green, 128 GB) 4 GB RAM",
+      "image": {
+        "src": "https://rukminim1.flixcart.com/image/130/170/xif0q/mobile/g/a/j/-original-imahcqcwhvvxsrgd.jpeg?q=90",
+        "srcset1": "https://rukminim1.flixcart.com/image/430/560/xif0q/mobile/g/a/j/-original-imahcqcwhvvxsrgd.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/860/1120/xif0q/mobile/g/a/j/-original-imahcqcwhvvxsrgd.jpeg?q=60 2x, ",
+        "srcset2": "https://rukminim1.flixcart.com/image/270/350/xif0q/mobile/g/a/j/-original-imahcqcwhvvxsrgd.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/540/700/xif0q/mobile/g/a/j/-original-imahcqcwhvvxsrgd.jpeg?q=60 2x, "
+      },
+      "currentprice": "₹10,749",
+      "previousPrice": "15,999"
     },
-    "dealimage": [
-      {
-        "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/c6bf83a12a569e50.jpg?q=90",
-        "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/c6bf83a12a569e50.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/c6bf83a12a569e50.jpg?q=60 2x, ",
-        "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/c6bf83a12a569e50.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/c6bf83a12a569e50.jpg?q=60 2x, "
+    {
+      "title": "vivo T4x 5G (Pronto Purple, 256 GB) 8 GB RAM",
+      "image": {
+        "src": "https://rukminim1.flixcart.com/image/130/170/xif0q/mobile/j/t/v/-original-imahavdv28z4nrkn.jpeg?q=90",
+        "srcset1": "https://rukminim1.flixcart.com/image/430/560/xif0q/mobile/j/t/v/-original-imahavdv28z4nrkn.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/860/1120/xif0q/mobile/j/t/v/-original-imahavdv28z4nrkn.jpeg?q=60 2x, ",
+        "srcset2": "https://rukminim1.flixcart.com/image/270/350/xif0q/mobile/j/t/v/-original-imahavdv28z4nrkn.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/540/700/xif0q/mobile/j/t/v/-original-imahavdv28z4nrkn.jpeg?q=60 2x, "
       },
-      {
-        "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/dc433531ad457db3.jpg?q=90",
-        "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/dc433531ad457db3.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/dc433531ad457db3.jpg?q=60 2x, ",
-        "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/dc433531ad457db3.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/dc433531ad457db3.jpg?q=60 2x, "
-      },
-      {
-        "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/e37801f8b16a57b5.jpg?q=90",
-        "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/e37801f8b16a57b5.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/e37801f8b16a57b5.jpg?q=60 2x, ",
-        "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/e37801f8b16a57b5.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/e37801f8b16a57b5.jpg?q=60 2x, "
-      },
-      {
-        "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/b56c64b949127364.jpg?q=90",
-        "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/b56c64b949127364.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/b56c64b949127364.jpg?q=60 2x, ",
-        "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/b56c64b949127364.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/b56c64b949127364.jpg?q=60 2x, "
-      },
-      {
-        "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/3094569dadb3ec6b.jpg?q=90",
-        "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/3094569dadb3ec6b.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/3094569dadb3ec6b.jpg?q=60 2x, ",
-        "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/3094569dadb3ec6b.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/3094569dadb3ec6b.jpg?q=60 2x, "
-      },
-      {
-        "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/5bd7539aaa64a545.jpg?q=90",
-        "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/5bd7539aaa64a545.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/5bd7539aaa64a545.jpg?q=60 2x, ",
-        "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/5bd7539aaa64a545.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/5bd7539aaa64a545.jpg?q=60 2x, "
-      },
-      {
-        "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/2c8799f34f05d84a.jpg?q=90",
-        "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/2c8799f34f05d84a.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/2c8799f34f05d84a.jpg?q=60 2x, ",
-        "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/2c8799f34f05d84a.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/2c8799f34f05d84a.jpg?q=60 2x, "
-      },
-      {
-        "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/efe86259b52ad9c3.jpg?q=90",
-        "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/efe86259b52ad9c3.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/efe86259b52ad9c3.jpg?q=60 2x, ",
-        "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/efe86259b52ad9c3.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/efe86259b52ad9c3.jpg?q=60 2x, "
-      }
-    ]
-  },
-  "traveldeal":{
-    "title": "Massive Travel deals",
-    "dealbg": {
-      "bgsrc": "https://rukminim1.flixcart.com/fk-p-flap/460/190/image/806d7b627fa7d1f1.jpg?q=90",
-      "bgsrcset1": "https://rukminim1.flixcart.com/fk-p-flap/1540/620/image/806d7b627fa7d1f1.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3080/1240/image/806d7b627fa7d1f1.jpg?q=60 2x, ",
-      "bgsrcset2": "https://rukminim1.flixcart.com/fk-p-flap/960/390/image/806d7b627fa7d1f1.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/1920/780/image/806d7b627fa7d1f1.jpg?q=60 2x, ",
-      "bgcolor": "bg-[rgb(197,249,255)]"
+      "currentprice": "₹16,999",
+      "previousPrice": "20,999"
     },
-    "dealimage": [
-      {
-        "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/8a3724297b2ecc31.png?q=90",
-        "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/8a3724297b2ecc31.png?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/8a3724297b2ecc31.png?q=60 2x, ",
-        "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/8a3724297b2ecc31.png?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/8a3724297b2ecc31.png?q=60 2x, "
+    {
+      "title": "vivo T4 5G (Phantom Grey, 128 GB) 8 GB RAM",
+      "image": {
+        "src": "https://rukminim1.flixcart.com/image/130/170/xif0q/mobile/k/t/x/-original-imahbgpzbumfzkbh.jpeg?q=90",
+        "srcset1": "https://rukminim1.flixcart.com/image/430/560/xif0q/mobile/k/t/x/-original-imahbgpzbumfzkbh.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/860/1120/xif0q/mobile/k/t/x/-original-imahbgpzbumfzkbh.jpeg?q=60 2x, ",
+        "srcset2": "https://rukminim1.flixcart.com/image/270/350/xif0q/mobile/k/t/x/-original-imahbgpzbumfzkbh.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/540/700/xif0q/mobile/k/t/x/-original-imahbgpzbumfzkbh.jpeg?q=60 2x, "
       },
-      {
-        "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/44031e3cc8241587.png?q=90",
-        "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/44031e3cc8241587.png?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/44031e3cc8241587.png?q=60 2x, ",
-        "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/44031e3cc8241587.png?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/44031e3cc8241587.png?q=60 2x, "
-      },
-      {
-        "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/b15046c6c9421f54.png?q=90",
-        "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/b15046c6c9421f54.png?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/b15046c6c9421f54.png?q=60 2x, ",
-        "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/b15046c6c9421f54.png?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/b15046c6c9421f54.png?q=60 2x, "
-      },
-      {
-        "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/3d7df0efd2740e77.png?q=90",
-        "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/3d7df0efd2740e77.png?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/3d7df0efd2740e77.png?q=60 2x, ",
-        "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/3d7df0efd2740e77.png?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/3d7df0efd2740e77.png?q=60 2x, "
-      },
-      {
-        "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/8ca93557c1639f36.png?q=90",
-        "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/8ca93557c1639f36.png?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/8ca93557c1639f36.png?q=60 2x, ",
-        "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/8ca93557c1639f36.png?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/8ca93557c1639f36.png?q=60 2x, "
-      }
-    ]
-  }
-
-  }
+      "currentprice": "₹21,999",
+      "previousprice": "25,999"
+    }
+  ],
+  "trendumaylike": [
+    {
+      "title": "white Out",
+      "src": "https://rukminim1.flixcart.com/fk-p-image/280/374/cf-ce-calvin-prod5/114871efe14014821ebb1ac64a54fb76.JPEG?q=90"
+    },
+    {
+      "title": "Ankle Boots",
+      "src": "https://rukminim1.flixcart.com/fk-p-image/280/374/cf-ce-calvin-prod6/6516542a854a56e99554bdccb28e7126.JPEG?q=90"
+    },
+    {
+      "title": "Baggy",
+      "src": "https://rukminim1.flixcart.com/fk-p-image/280/374/cf-ce-calvin-prod1/b72dbe5b7249cf6c5f4277784241478e.JPEG?q=90"
+    },
+    {
+      "title": "Behencode Lehenga",
+      "src": "https://rukminim1.flixcart.com/fk-p-image/280/374/cf-ce-calvin-prod9/ead1c36323dad9c9450382fa3f40168d.JPEG?q=90"
+    }
+  ]
 }

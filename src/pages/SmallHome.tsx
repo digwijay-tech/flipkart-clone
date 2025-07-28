@@ -1,9 +1,11 @@
 import HeroCarousel from "../component/Hero/HeroCarousel";
 import SmallCategoryList from "../component/ProductCategoryList/SmallCategoryList";
+import ColoredSection from "../component/SmallHome/ColoredSection/ColoredSection";
 import NewOffers from "../component/SmallHome/NewOffers/NewOffers";
 import SmallProductDisplay from "../component/SmallHome/SmallScreenProductDisplay/SmallProductDisplay";
 import SpecialDeals from "../component/SmallHome/SpecialDealsSmall/SpecialDeals";
 import Sponsors from "../component/SmallHome/Sponsors/Sponsors";
+import SuggestedSmall from "../component/SmallHome/SuggestedSmall/SuggestedSmall";
 import SuperDeals from "../component/SmallHome/SuperDeals/SuperDeals";
 
 const SmallHome = () => {
@@ -16,10 +18,13 @@ const SmallHome = () => {
           <NewOffers />
           <SpecialDeals path="Highlightsofsale"/>
           <Sponsors />
+          <SuggestedSmall/>
+          <SpecialDeals path="bargainbuys"/>
+          <ColoredSection/>
           <SuperDeals />
           <SmallProductDisplay />
-          <SpecialDeals path="bargainbuys"/>
           <SpecialDeals path="traveldeal"/>
+          
         </div>
       </div>
     </div>

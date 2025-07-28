@@ -47,8 +47,6 @@ const HeroCarousel = () => {
       .then((res) => setCarousel(res.data.carosel))
       .catch((error) => console.log(error));
   }, []);
-
- console.log("hello")
   return (
     <div className="relative flex flex-col min-[1024px]:mb-4 md:bg-white overflow-hidden z-0 col-[1/13]">
       <div
