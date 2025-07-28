@@ -10,12 +10,10 @@ const HeroCarousel = () => {
   const [carousel, setCarousel] = useState<Carosel[]>([]);
   const [currentSlide, SetCurrentSlide] = useState(0);
   const [progress, setProgress] = useState(0);
-
   // Carousel timer
   useEffect(() => {
-    const interval = setInterval(() => {
-      nextSlide();
-    }, 4000);
+    if(carousel.length === 0) return;
+    const interval = setInterval(nextSlide, 4000);
     return () => {
       clearInterval(interval);
     };
@@ -24,7 +22,7 @@ const HeroCarousel = () => {
   const nextSlide = () => {
     SetCurrentSlide((prev) =>
       prev >= carousel.length - 1 ? 0 : (prev = prev + 1)
-    );
+    ); 
   };
 
   const previousSlide = () => {
@@ -50,6 +48,7 @@ const HeroCarousel = () => {
       .catch((error) => console.log(error));
   }, []);
 
+ console.log("hello")
   return (
     <div className="relative flex flex-col min-[1024px]:mb-4 md:bg-white overflow-hidden z-0 col-[1/13]">
       <div

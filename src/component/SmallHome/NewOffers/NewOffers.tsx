@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import OfferCard from "./OfferCard"
 import axios from "axios"
 
+
 const NewOffers = () => {
     const [products ,setProducts]=useState([])
     useEffect(()=>{
