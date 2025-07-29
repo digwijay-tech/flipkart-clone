@@ -1,5 +1,5 @@
 import LargeHome from "./LargeHome"
-import SmallHome from "./SmallHome"
+import SmallHome from "./SmallHome" 
 
 const Home = () => {
   return (
@@ -9,5 +9,4 @@ const Home = () => {
     </div>
   )
 }
-
 export default Home

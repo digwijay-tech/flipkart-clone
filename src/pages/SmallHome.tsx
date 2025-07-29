@@ -15,16 +15,15 @@ const SmallHome = () => {
         <div className="grid grid-cols-[repeat(12,1fr)] gap-x-[12px]  w-full">
           <HeroCarousel />
           <SmallCategoryList />
-          <NewOffers />
+          <NewOffers /> 
           <SpecialDeals path="Highlightsofsale"/>
           <Sponsors />
-          <SuggestedSmall/>
+          <SuggestedSmall/>   
           <SpecialDeals path="bargainbuys"/>
           <ColoredSection/>
           <SuperDeals />
           <SmallProductDisplay />
           <SpecialDeals path="traveldeal"/>
-          
         </div>
       </div>
     </div>
