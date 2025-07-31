@@ -15,7 +15,7 @@ const QuickCategoryCard = ({item}:QuickCardProps) => {
                 </div>
             </div>
             <div className="flex flex-col h-full leading-[14px]" >
-                <span className=" text-[12px] whitespace-pre-wrap break-words font-roboto !leading-[16px]">{item.title}</span>
+                <span className=" text-[12px] whitespace-pre-wrap break-words font-roboto !leading-[19px]">{item.title}</span>
             </div>
         </div>
     </div>
