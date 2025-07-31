@@ -5,7 +5,7 @@ const BottomNavBar = () => {
   const show = useIsScroll();
   return (
     <div
-      className={`fixed bottom-0 z-50 bg-white min-h-[50px] flex w-svw col-[1/13] transition-[transform_0.3s_ease-in-out,opacity_0.3s_ease-in-out] ${
+      className={`fixed bottom-0 z-50 bg-white min-h-[50px] flex w-svw col-[1/13] transition-all  ${
         show ? "" : "transform translate-y-full opacity-0"
       }`}
     >

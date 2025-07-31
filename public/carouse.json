@@ -1352,6 +1352,7 @@
       "srcset2" : "https://rukminim1.flixcart.com/fk-p-flap/990/1310/image/228b1b5c5035893c.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/1980/2620/image/228b1b5c5035893c.jpg?q=60 2x, "
     }
   ],
+
   "products":{
     "homeproducts":[
       {
@@ -1449,5 +1450,28 @@
       }
       
     ]
-  }
+  },
+  "QuickFilter":[
+    {
+      "title":"Top Sale Discounts",
+      "src":"https://rukminim1.flixcart.com/www/64/64/promos/30/07/2025/c516512f-7529-44d9-a969-5928908efd1d.png?q=90" ,
+      "srcset":"https://rukminim1.flixcart.com/www/32/32/promos/30/07/2025/c516512f-7529-44d9-a969-5928908efd1d.png?q=80 1x, https://rukminim1.flixcart.com/www/64/64/promos/30/07/2025/c516512f-7529-44d9-a969-5928908efd1d.png?q=60 2x, "
+    },
+    {
+      "title":"Popular Brands",
+      "src":"https://rukminim1.flixcart.com/www/64/64/promos/20/09/2023/c21bda20-718d-465b-a220-89814366b293.jpeg?q=90",
+      "srcset":"https://rukminim1.flixcart.com/www/32/32/promos/20/09/2023/c21bda20-718d-465b-a220-89814366b293.jpeg? 1x, https://rukminim1.flixcart.com/www/64/64/promos/20/09/2023/c21bda20-718d-465b-a220-89814366b293.jpeg? 2x, " 
+    },
+    {
+      "title":"Latest trends",
+      "src":"https://rukminim1.flixcart.com/www/64/64/promos/26/06/2024/ab4e6d76-ca81-434b-91fc-30daa6e34110.png?q=90",
+      "srcset":"https://rukminim1.flixcart.com/www/32/32/promos/26/06/2024/ab4e6d76-ca81-434b-91fc-30daa6e34110.png?q=80 1x, https://rukminim1.flixcart.com/www/64/64/promos/26/06/2024/ab4e6d76-ca81-434b-91fc-30daa6e34110.png?q=60 2x, "
+    },
+    {
+      "title":"Top Rated",
+      "src":"https://rukminim1.flixcart.com/www/64/64/promos/31/05/2023/76591812-f303-42bd-8f98-b87c06a93191.png?q=90",
+      "srcset":"https://rukminim1.flixcart.com/www/32/32/promos/31/05/2023/76591812-f303-42bd-8f98-b87c06a93191.png?q=80 1x, https://rukminim1.flixcart.com/www/64/64/promos/31/05/2023/76591812-f303-42bd-8f98-b87c06a93191.png?q=60 2x, " 
+    }
+  ]
+  
 }

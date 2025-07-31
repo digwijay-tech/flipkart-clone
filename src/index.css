@@ -2,7 +2,14 @@
 @import "tailwindcss";
 
 @theme {
-  --font-roboto: "Roboto", sans-serif; 
+  --font-roboto: "Roboto"; 
+}
+.main{
+  font: 14px"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+@font-face {
+  font-family: Segoe UI;
+  src: url('./assets/Font/Segoe\ UI.woff') 
 }
 @font-face {
   font-family: inter-regular;

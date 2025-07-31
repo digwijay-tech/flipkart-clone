@@ -1,4 +1,8 @@
-const SmallSortFilter = () => {
+type SortFilterProps ={
+  isScroll : boolean
+}
+
+const SmallSortFilter = ({isScroll}:SortFilterProps) => {
   const handleSortButtonClick=()=>{
     console.log("Sort button Click")
   }
@@ -6,7 +10,7 @@ const SmallSortFilter = () => {
     console.log("filter button click")
   }
   return (
-    <div className="h-12 overflow-hidden ">
+    <div className={`h-12 overflow-hidden transition-all transform relative  z-3 bg-white  ${isScroll?"":"translate-y-[-110%]"}`}>
       <div className="h-full w-full border-y border-y-[#dcdfe6] flex flex-row items-center">
         {/* Sort button  */}
         <button onClick={handleSortButtonClick} className="flex-[1_1_0%] ">

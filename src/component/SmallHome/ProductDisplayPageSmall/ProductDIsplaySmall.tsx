@@ -2,8 +2,8 @@ import ProductNavbarsmall from "../../Navbar/ProductPageNavbar/ProductNavbarsmal
 
 const ProductDIsplaySmall = () => {
   return (
-    <div className="min-h-svh bg-white relative" >
-        <ProductNavbarsmall/>
+    <div className="h-[500px] bg-white relative ">
+        <ProductNavbarsmall/>  
     </div>
   )
 }

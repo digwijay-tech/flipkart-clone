@@ -1,15 +1,18 @@
 import { Link, useNavigate } from "react-router-dom";
 import SmallSortFilter from "./SmallSortFilter";
+import QuickFilterSmall from "../../SmallHome/QuickFiltersmall/QuickFilterSmall";
+import { useIsScroll } from "../../../Hooks/useIsScroll";
 
 const ProductNavbarsmall = () => {
   const navigate = useNavigate();
   const handleonBackClick = () => {
     navigate(-1);
   };
+  const isScroll = useIsScroll()
   return (
-    <div className="w-full absolute h-[156px] overflow-hidden top-0 left-0 right-0">
+    <div className="w-full fixed z-30 h-[156px] overflow-hidden top-0 left-0 right-0 ">
       {/* Navbar  */}
-      <div className="h-[52px] w-full overflow-hidden flex items-center ">
+      <div className={`h-[52px] w-full overflow-hidden flex items-center transition-all transform  bg-white ${isScroll?"":"translate-y-[-100%]"}`}>
         {/* Go back button  */}
         <button
           onClick={handleonBackClick}
@@ -120,7 +123,8 @@ const ProductNavbarsmall = () => {
         <span>Login</span>
         </Link>
       </div>
-      <SmallSortFilter/>
+      <SmallSortFilter isScroll={isScroll}/>
+      <QuickFilterSmall isScroll={isScroll}/>
     </div>
   );
 };
