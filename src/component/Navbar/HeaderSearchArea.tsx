@@ -1,6 +1,13 @@
-const HeaderSearchArea = () => {
+type ShowProps = {
+  show: boolean;
+};
+const HeaderSearchArea = ({ show }: ShowProps) => {
   return (
-    <div className="md:hidden sticky top-[-25px] z-50 bg-white">
+    <div
+      className={`md:hidden   w-full z-50 bg-white ${
+        show ? "" : "fixed top-[-25px]"
+      }`}
+    >
       {/* Need to add scroll functionallity to the div below */}
       <div className="">
         <div className="">
@@ -23,7 +30,10 @@ const HeaderSearchArea = () => {
                 <div className="text-[#1f1f1f] inline whitespace-nowrap max-w-full overflow-hidden overflow-ellipsis text-[12px] ms-1 !leading-[18px] font-[inter-semibold]">
                   Location not set
                 </div>
-                <a href="#" className="flex flex-row items-center flex-[1] ms-[6px] relative ">
+                <a
+                  href="#"
+                  className="flex flex-row items-center flex-[1] ms-[6px] relative "
+                >
                   <div className="text-[#2a55e5] inline whitespace-nowrap max-w-full  font-[inter-semibold] text-[12px] !leading-[18px]">
                     Select delivery location
                   </div>
@@ -69,7 +79,13 @@ const HeaderSearchArea = () => {
                 </svg>
               </div>
               <div className="flex justify-center flex-col  min-h-[30px] flex-[1] overflow-hidden ps-2 ">
-              <a href="#" className=" !leading-[20px] tracking-[-0.01px] text-[14px] font-[inter-regular] "> Search for Products</a>
+                <a
+                  href="#"
+                  className=" !leading-[20px] tracking-[-0.01px] text-[14px] font-[inter-regular] "
+                >
+                  {" "}
+                  Search for Products
+                </a>
               </div>
             </div>
           </div>

@@ -10,7 +10,7 @@ type OfferProps ={
 const OfferCard = ({product}:OfferProps) => {
   return (
     <div className="basis-[33.33333%] max-w-[33.33333%] shrink-0 grow-0 ">
-      <Link to="/" className="flex flex-col me-3 md:me-6 items-stretch">
+      <Link to="/smallproductpage" className="flex flex-col me-3 md:me-6 items-stretch">
         <div className="w-full aspect-[3/4]">
           <picture>
             <source

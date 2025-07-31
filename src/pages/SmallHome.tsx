@@ -1,7 +1,10 @@
 import HeroCarousel from "../component/Hero/HeroCarousel";
+import MoreDetails from "../component/MoreDetails/MoreDetails";
 import SmallCategoryList from "../component/ProductCategoryList/SmallCategoryList";
 import AdBannerSmall from "../component/SmallHome/Adbanner/AdBannerSmall";
+import BottomNavBar from "../component/SmallHome/Bottombar/BottomNavBar";
 import ColoredSection from "../component/SmallHome/ColoredSection/ColoredSection";
+import MainProductDIsplay from "../component/SmallHome/MainProductDisplay/MainProductDIsplay";
 import NewOffers from "../component/SmallHome/NewOffers/NewOffers";
 import SmallProductDisplay from "../component/SmallHome/SmallScreenProductDisplay/SmallProductDisplay";
 import SpecialDeals from "../component/SmallHome/SpecialDealsSmall/SpecialDeals";
@@ -28,6 +31,9 @@ const SmallHome = () => {
           <SuggestedSmall/> 
           <SmallProductDisplay />
           <SpecialDeals path="traveldeal"/>
+          <MainProductDIsplay/>
+          <MoreDetails/>
+          <BottomNavBar/>
         </div>
       </div>
     </div>

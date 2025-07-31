@@ -2,26 +2,34 @@ import { useState } from "react";
 import SideNavbar from "./SideNavbar";
 import NavProfileDropDown from "./NavProfileDropDown";
 import NavVerticalMenu from "./NavVerticalMenu";
- 
+import { useIsScroll } from "../../Hooks/useIsScroll";
+import HeaderSearchArea from "./HeaderSearchArea";
+
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isLoginDropDown, setIsLoginDropDown] = useState(false);
   const [isverticalMenuOpen, setIsVerticalMenuOpen] = useState(false);
   const [search, setSearch] = useState("");
+
   const handleSearchhandle = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearch(e.target.value);
-    console.log(search); 
+    console.log(search);
   };
-  const showLoginDetails = () => {      
+  const showLoginDetails = () => {
     setIsLoginDropDown(!isLoginDropDown);
-  };       
-    
+  };
+
   const handleVerticalMenuClick = () => {
     setIsVerticalMenuOpen(!isverticalMenuOpen);
-  };  
+  };
+  const show = useIsScroll();
   return (
-    <nav className="min-[1024px]:sticky top-0 z-50" >
-      <div className="bg-white flex justify-center flex-col text-[12px] tracking-normal ">
+    <nav className="sticky top-0 z-50 ">
+      <div
+        className={`bg-white flex justify-center flex-col text-[12px] tracking-normal ${
+          show ? "" : "transform -translate-y-full"
+        }`}
+      >
         <div className="h-[48px] md:h-[unset] sticky top-0 z-50 transition-all ease-in flex justify-center w-full max-[1190px]:max-w-[996px] mx-auto ">
           <header className="py-2 px-4 md:p-3 min-[1192px]:py-3 min-[1192px]:px-7 max-w-[480px] md:max-w-[996px] lg:max-w-[1600px] flex items-center sticky top-0 w-full justify-between z-[9999] font-[family-name:inter-regular]">
             {/* Section One */}
@@ -235,7 +243,7 @@ const Navbar = () => {
       </div>
       {/* Side NavBar */}
       <SideNavbar isvisible={isVisible} setIsVisible={setIsVisible} />
-      
+      <HeaderSearchArea show={show} />
     </nav>
   );
 };

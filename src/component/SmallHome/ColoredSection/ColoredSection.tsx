@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import ColoredSectionCard from "./ColoredSectionCard";
 import axios from "axios";
 import ColoredSectionBtn from "./ColoredSectionBtn";
-type ColorSectionProps={
-  visiblility?:string|null
-}
-const ColoredSection = ({visiblility}:ColorSectionProps) => {
+type ColorSectionProps = {
+  visiblility?: string | null;
+};
+const ColoredSection = ({ visiblility }: ColorSectionProps) => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     axios
@@ -21,7 +21,7 @@ const ColoredSection = ({visiblility}:ColorSectionProps) => {
               {" "}
               Popular nearby
             </span>
-            <ColoredSectionBtn property={visiblility}/>
+            <ColoredSectionBtn property={visiblility} />
           </div>
         </div>
         <div className=" flex flex-[1_1_0%] flex-col relative z-0  rounded-[12px] bg-white mx-3 mb-3 mt-[-56px] pt-2 ps-2">

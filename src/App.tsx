@@ -5,20 +5,18 @@ import Footer from "./component/Footer/Footer";
 import PageNotFound from "./pages/PageNotFound";
 import ProductCategoryPage from "./pages/ProductCategoryPage";
 import ProductsPage from "./pages/ProductsPage";
-import HeaderSearchArea from "./component/Navbar/HeaderSearchArea";
+import ProductDIsplaySmall from "./component/SmallHome/ProductDisplayPageSmall/ProductDIsplaySmall";
 
 const App = () => {
   return (
     <>
-      <Navbar />
-      <HeaderSearchArea />
       <Routes>
-        <Route path="/" element={<Home/> }/>
-        <Route path="productcategory" element={<ProductCategoryPage/>}/>
-        <Route path="products" element={<ProductsPage/> }/>
-        <Route path="*" element={<PageNotFound/> }/>
+        <Route path="/" element={<Home />} />
+        <Route path="productcategory" element={<ProductCategoryPage />} />
+        <Route path="products" element={<ProductsPage />} />
+        <Route path="/smallproductpage" element={<ProductDIsplaySmall/>}/>
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
-      <Footer/>
     </>
   );
 };
