@@ -21,6 +21,7 @@ const QuickCategoryCard = ({item}:QuickCardProps) => {
     </div>
   )
 }
+     
 
 export default QuickCategoryCard
 

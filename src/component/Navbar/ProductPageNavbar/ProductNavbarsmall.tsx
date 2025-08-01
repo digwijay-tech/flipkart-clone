@@ -8,11 +8,15 @@ const ProductNavbarsmall = () => {
   const handleonBackClick = () => {
     navigate(-1);
   };
-  const isScroll = useIsScroll()
+  const isScroll = useIsScroll();
   return (
-    <div className="w-full fixed z-30 h-[156px] overflow-hidden top-0 left-0 right-0 ">
+    <div className={`w-full sticky z-30 h-[156px] overflow-hidden top-0 left-0 right-0  `}>
       {/* Navbar  */}
-      <div className={`h-[52px] w-full overflow-hidden flex items-center transition-all transform  bg-white ${isScroll?"":"translate-y-[-100%]"}`}>
+      <div
+        className={`h-[52px] w-full overflow-hidden flex items-center transition-all transform  bg-white ${
+          isScroll ? "" : "translate-y-[-100%]"
+        }`}
+      >
         {/* Go back button  */}
         <button
           onClick={handleonBackClick}
@@ -119,14 +123,17 @@ const ProductNavbarsmall = () => {
             ></path>
           </svg>
         </Link>
-        <Link to="/login" className="flex items-center justify-center w-[90px] !leading-2.5 overflow-hidden font-roboto">
-        <span>Login</span>
+        <Link
+          to="/login"
+          className="flex items-center justify-center w-[90px] !leading-2.5 overflow-hidden font-roboto"
+        >
+          <span>Login</span>
         </Link>
       </div>
-      <SmallSortFilter isScroll={isScroll}/>
-      <QuickFilterSmall isScroll={isScroll}/>
+      <SmallSortFilter isScroll={isScroll} />
+      <QuickFilterSmall isScroll={isScroll} />
     </div>
   );
 };
 
-export default ProductNavbarsmall;       
+export default ProductNavbarsmall;

@@ -16,7 +16,7 @@ type FetchDataType ={
 }
 const QuickFilterSmall = ({isScroll}:QuickFilterProps) => {
     const fetchData= useFetch<FetchDataType>("QuickFilter")
-console.log(fetchData.result)    
+// console.log(fetchData.result)    
   return ( 
     <div className={`flex relative flex-col h-[56px] bg-white transition-all transform  z-[1] ${isScroll?"":"translate-y-[-200%]"}`}>
         <div className="flex flex-col overflow-x-scroll [scrollbar-width:none] ">
