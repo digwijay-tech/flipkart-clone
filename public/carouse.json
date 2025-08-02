@@ -1034,13 +1034,13 @@
       "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/7e8c5c4467f01192.jpg?q=90",
       "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/7e8c5c4467f01192.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/7e8c5c4467f01192.jpg?q=60 2x, ",
       "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/7e8c5c4467f01192.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/7e8c5c4467f01192.jpg?q=60 2x, s://rukminim1.flixcart.com/fk-p-flap/420/560/image/0937266e0bab9e74.jpeg?q=60 2x, ",
-      "path": "wirelessEarphones"
+      "path": "kitchen"
     },
     {
       "src": "https://rukminim1.flixcart.com/fk-p-flap/510/770/image/972b0c0b6b89d38f.jpg?q=90",
       "srcset1": "https://rukminim1.flixcart.com/fk-p-flap/1710/2580/image/972b0c0b6b89d38f.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/3420/5160/image/972b0c0b6b89d38f.jpg?q=60 2x, ",
       "srcset2": "https://rukminim1.flixcart.com/fk-p-flap/1060/1600/image/972b0c0b6b89d38f.jpg?q=80 1x, https://rukminim1.flixcart.com/fk-p-flap/2120/3200/image/972b0c0b6b89d38f.jpg?q=60 2x, ",
-      "path": "wirelessEarphones"
+      "path": "mobile"
     },
     {
       "src": "https://rukminim1.flixcart.com/fk-p-flap/100/130/image/2b21c68933ab637c.jpeg?q=90",
@@ -1477,127 +1477,130 @@
 
   "products": {
     "mobile": [],
-    "wirelessEarphones": [
-      {
-        "prod_id": "00WES1",
-        "brand": "boAt",
-        "title": "Airdopes 101v2, Flex Fit Eartips, 13mm Drivers, ENx, Fast Charge, 35Hrs Battery Bluetooth Headset",
-        "prod_image": {
-          "src": "https://rukminim1.flixcart.com/image/376/450/xif0q/headphone/4/p/2/-original-imahd2nujkvgkyrn.jpeg?q=90&crop=false",
-          "srcset1": "https://rukminim1.flixcart.com/image/188/225/xif0q/headphone/4/p/2/-original-imahd2nujkvgkyrn.jpeg?q=80&crop=false 1x, https://rukminim1.flixcart.com/image/376/450/xif0q/headphone/4/p/2/-original-imahd2nujkvgkyrn.jpeg?q=60&crop=false 2x, "
+    "wirelessEarphones": {
+      "navtitle": "Headset",
+      "items": [
+        {
+          "prod_id": "00WES1",
+          "brand": "boAt",
+          "title": "Airdopes 101v2, Flex Fit Eartips, 13mm Drivers, ENx, Fast Charge, 35Hrs Battery Bluetooth Headset",
+          "prod_image": {
+            "src": "https://rukminim1.flixcart.com/image/376/450/xif0q/headphone/4/p/2/-original-imahd2nujkvgkyrn.jpeg?q=90&crop=false",
+            "srcset1": "https://rukminim1.flixcart.com/image/188/225/xif0q/headphone/4/p/2/-original-imahd2nujkvgkyrn.jpeg?q=80&crop=false 1x, https://rukminim1.flixcart.com/image/376/450/xif0q/headphone/4/p/2/-original-imahd2nujkvgkyrn.jpeg?q=60&crop=false 2x, "
+          },
+          "discount_percentage": "79%",
+          "previous_price": "₹3,990",
+          "current_price": "₹799",
+          "emi_price": " ₹759",
+          "offered_banks": "with Bank offer",
+          "assuredby": "https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
+          "tag": "",
+          "isSponsored": true
         },
-        "discount_percentage": "79%",
-        "previous_price": "₹3,990",
-        "current_price": "₹799",
-        "emi_price": " ₹759",
-        "offered_banks": "with Bank offer",
-        "assuredby":"https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
-        "tag": "",
-        "isSponsored": true
-      },
-      {
-        "prod_id": "00WES2",
-        "brand": "Noise",
-        "title": "Buds VS102 with 50 Hrs Playtime, 11mm Driver, IPX5 and Unique Flybird Design Bluetooth Headset",
-        "prod_image": {
-          "src": "https://rukminim1.flixcart.com/image/376/450/xif0q/headphone/d/q/r/-original-imagp6skt77zsdjt.jpeg?q=90&crop=false",
-          "srcset1": "https://rukminim1.flixcart.com/image/188/225/xif0q/headphone/d/q/r/-original-imagp6skt77zsdjt.jpeg?q=80&crop=false 1x, https://rukminim1.flixcart.com/image/376/450/xif0q/headphone/d/q/r/-original-imagp6skt77zsdjt.jpeg?q=60&crop=false 2x, "
+        {
+          "prod_id": "00WES2",
+          "brand": "Noise",
+          "title": "Buds VS102 with 50 Hrs Playtime, 11mm Driver, IPX5 and Unique Flybird Design Bluetooth Headset",
+          "prod_image": {
+            "src": "https://rukminim1.flixcart.com/image/376/450/xif0q/headphone/d/q/r/-original-imagp6skt77zsdjt.jpeg?q=90&crop=false",
+            "srcset1": "https://rukminim1.flixcart.com/image/188/225/xif0q/headphone/d/q/r/-original-imagp6skt77zsdjt.jpeg?q=80&crop=false 1x, https://rukminim1.flixcart.com/image/376/450/xif0q/headphone/d/q/r/-original-imagp6skt77zsdjt.jpeg?q=60&crop=false 2x, "
+          },
+          "discount_percentage": "73%",
+          "previous_price": "₹2,999",
+          "current_price": "₹799",
+          "emi_price": "₹759",
+          "offered_banks": "with Bank offer",
+          "assuredby": "",
+          "tag": "",
+          "isSponsored": true
         },
-        "discount_percentage": "73%",
-        "previous_price": "₹2,999",
-        "current_price": "₹799",
-        "emi_price": "₹759",
-        "offered_banks": "with Bank offer",
-        "assuredby": "",
-        "tag": "",
-        "isSponsored": true
-      },
-      {
-        "prod_id": "00WES3",
-        "brand": "Number",
-        "title": "Super Buds Pro GT99 Dual Pair, 4 Mic ENC Gaming RGB TWS,35ms Latency,50H Battery Bluetooth Headset",
-        "prod_image": {
-          "src": "https://rukminim1.flixcart.com/image/376/450/xif0q/headphone/x/s/9/-original-imah4dahmmw9fdyd.jpeg?q=90&crop=false",
-          "srcset1": "https://rukminim1.flixcart.com/image/188/225/xif0q/headphone/x/s/9/-original-imah4dahmmw9fdyd.jpeg?q=80&crop=false 1x, https://rukminim1.flixcart.com/image/376/450/xif0q/headphone/x/s/9/-original-imah4dahmmw9fdyd.jpeg?q=60&crop=false 2x, "
+        {
+          "prod_id": "00WES3",
+          "brand": "Number",
+          "title": "Super Buds Pro GT99 Dual Pair, 4 Mic ENC Gaming RGB TWS,35ms Latency,50H Battery Bluetooth Headset",
+          "prod_image": {
+            "src": "https://rukminim1.flixcart.com/image/376/450/xif0q/headphone/x/s/9/-original-imah4dahmmw9fdyd.jpeg?q=90&crop=false",
+            "srcset1": "https://rukminim1.flixcart.com/image/188/225/xif0q/headphone/x/s/9/-original-imah4dahmmw9fdyd.jpeg?q=80&crop=false 1x, https://rukminim1.flixcart.com/image/376/450/xif0q/headphone/x/s/9/-original-imah4dahmmw9fdyd.jpeg?q=60&crop=false 2x, "
+          },
+          "discount_percentage": "84%",
+          "previous_price": "₹4,999",
+          "current_price": "₹799",
+          "emi_price": "₹759",
+          "offered_banks": "with Bank offer",
+          "assuredby": "",
+          "tag": "",
+          "isSponsored": false
         },
-        "discount_percentage": "84%",
-        "previous_price": "₹4,999",
-        "current_price": "₹799",
-        "emi_price": "₹759",
-        "offered_banks": "with Bank offer",
-        "assuredby": "",
-        "tag": "",
-        "isSponsored": false
-      },
-      {
-        "prod_id": "00WES4",
-        "brand": "boAt",
-        "title": "Airdopes 161/163 with ASAP Charge & 40 HRS Playback Bluetooth Headset",
-        "prod_image": {
-          "src": "https://rukminim1.flixcart.com/image/376/450/xif0q/headphone/q/m/s/-original-imah3zvdthupfejc.jpeg?q=90&crop=false",
-          "srcset1": "https://rukminim1.flixcart.com/image/188/225/xif0q/headphone/q/m/s/-original-imah3zvdthupfejc.jpeg?q=80&crop=false 1x, https://rukminim1.flixcart.com/image/376/450/xif0q/headphone/q/m/s/-original-imah3zvdthupfejc.jpeg?q=60&crop=false 2x, "           
+        {
+          "prod_id": "00WES4",
+          "brand": "boAt",
+          "title": "Airdopes 161/163 with ASAP Charge & 40 HRS Playback Bluetooth Headset",
+          "prod_image": {
+            "src": "https://rukminim1.flixcart.com/image/376/450/xif0q/headphone/q/m/s/-original-imah3zvdthupfejc.jpeg?q=90&crop=false",
+            "srcset1": "https://rukminim1.flixcart.com/image/188/225/xif0q/headphone/q/m/s/-original-imah3zvdthupfejc.jpeg?q=80&crop=false 1x, https://rukminim1.flixcart.com/image/376/450/xif0q/headphone/q/m/s/-original-imah3zvdthupfejc.jpeg?q=60&crop=false 2x, "
+          },
+          "discount_percentage": "67%",
+          "previous_price": "₹2,400",
+          "current_price": "₹799",
+          "emi_price": "₹759",
+          "offered_banks": "with Bank offer",
+          "assuredby": "https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
+          "tag": "",
+          "isSponsored": true
         },
-        "discount_percentage": "67%",
-        "previous_price": "₹2,400",
-        "current_price": "₹799",
-        "emi_price": "₹759",
-        "offered_banks": "with Bank offer",
-        "assuredby":"https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
-        "tag": "",
-        "isSponsored": true
-      },
-      {
-        "prod_id": "00WES5",
-        "brand": "Number",
-        "title": "",
-        "prod_image": {
-          "src": "",
-          "srcset1": ""
+        {
+          "prod_id": "00WES5",
+          "brand": "Number",
+          "title": "SuperBuds 555 with Dual Pair, 66H Battery, 32dB ANC|4Mic ENC|35ms Latency Gaming Bluetooth Headset",
+          "prod_image": {
+            "src": "https://rukminim1.flixcart.com/image/426/510/xif0q/headphone/g/h/p/-original-imah46ppnf7hfr6f.jpeg?q=90&crop=false",
+            "srcset1": "https://rukminim1.flixcart.com/image/213/255/xif0q/headphone/g/h/p/-original-imah46ppnf7hfr6f.jpeg?q=80&crop=false 1x, https://rukminim1.flixcart.com/image/426/510/xif0q/headphone/g/h/p/-original-imah46ppnf7hfr6f.jpeg?q=60&crop=false 2x, "
+          },
+          "discount_percentage": "87%",
+          "previous_price": "₹7,999",
+          "current_price": "₹999",
+          "emi_price": "₹949",
+          "offered_banks": "with Bank offer",
+          "assuredby": "",
+          "tag": "",
+          "isSponsored": false
         },
-        "discount_percentage": "",
-        "previous_price": "₹",
-        "current_price": "₹",
-        "emi_price": "₹",
-        "offered_banks": "",
-        "assuredby": "",
-        "tag": "",
-        "isSponsored": true
-      },
-      {
-        "prod_id": "00WES6",
-        "brand": "Number",
-        "title": "",
-        "prod_image": {
-          "src": "",
-          "srcset1": ""
+        {
+          "prod_id": "00WES6",
+          "brand": "boAt",
+          "title": "Airdopes 219, 40H Battery,4Mics ENx Tech,Signature Sound,BEAST Mode,ASAP Charge Bluetooth Headset",
+          "prod_image": {
+            "src": "https://rukminim1.flixcart.com/image/426/510/xif0q/headphone/5/b/b/-original-imahdt83yzyjqqhe.jpeg?q=90&crop=false",
+            "srcset1": "https://rukminim1.flixcart.com/image/213/255/xif0q/headphone/5/b/b/-original-imahdt83yzyjqqhe.jpeg?q=80&crop=false 1x, https://rukminim1.flixcart.com/image/426/510/xif0q/headphone/5/b/b/-original-imahdt83yzyjqqhe.jpeg?q=60&crop=false 2x, "
+          },
+          "discount_percentage": "77%",
+          "previous_price": "₹3,990",
+          "current_price": "₹899",
+          "emi_price": "₹854",
+          "offered_banks": "with Bank offer",
+          "assuredby": "https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
+          "tag": "",
+          "isSponsored": true
         },
-        "discount_percentage": "",
-        "previous_price": "₹",
-        "current_price": "₹",
-        "emi_price": "₹",
-        "offered_banks": "",
-        "assuredby": "",
-        "tag": "",
-        "isSponsored": true
-      },
-      {
-        "prod_id": "00WES7",
-        "brand": "Number",
-        "title": "",
-        "prod_image": {
-          "src": "",
-          "srcset1": ""
-        },
-        "discount_percentage": "",
-        "previous_price": "₹",
-        "current_price": "₹",
-        "emi_price": "₹",
-        "offered_banks": "",
-        "assuredby": "",
-        "tag": "",
-        "isSponsored": true
-      }
-    ],
+        {
+          "prod_id": "00WES7",
+          "brand": "realme",
+          "title": "Buds T310 with 12.4mm Driver, 46dB ANC, Spatial Audio and upto 40 hours Playback Bluetooth Headset",
+          "prod_image": {
+            "src": "https://rukminim1.flixcart.com/image/426/510/xif0q/headphone/6/9/j/-original-imah388mvfzxm2u8.jpeg?q=90&crop=false",
+            "srcset1": "https://rukminim1.flixcart.com/image/213/255/xif0q/headphone/6/9/j/-original-imah388mvfzxm2u8.jpeg?q=80&crop=false 1x, https://rukminim1.flixcart.com/image/426/510/xif0q/headphone/6/9/j/-original-imah388mvfzxm2u8.jpeg?q=60&crop=false 2x, "
+          },
+          "discount_percentage": "55%",
+          "previous_price": "₹3,999",
+          "current_price": "₹1,799",
+          "emi_price": "₹1,640",
+          "offered_banks": "with Bank offer",
+          "assuredby": "",
+          "tag": "New Arrival",
+          "isSponsored": false
+        }
+      ]
+    },
     "kitchen": {}
   }
 }

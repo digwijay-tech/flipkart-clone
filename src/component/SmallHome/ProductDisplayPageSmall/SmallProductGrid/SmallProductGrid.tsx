@@ -1,17 +1,32 @@
-import { useFetch } from "../../../../Hooks/useFetch";
-import SmallProductCard from "../SmallProductCard";
-type GridPath = {
-  path: string;
+import SmallProductCard from "../SmallProductCard"
+
+type Product = {
+  prod_id: string;
+  brand: string;
+  title: string;
+  prod_image: {
+    src: string;
+    srcset1: string;
+  };
+  discount_percentage: string;
+  previous_price: string;
+  current_price: string;
+  emi_price: string;
+  offered_banks: string;
+  assuredby: string;
+  tag: string;
+  isSponsored: boolean;
 };
-const SmallProductGrid = ({ path }: GridPath) => {
-  const { result } = useFetch("products");
-  if (!result) return null;
-  const products = Array.isArray(result[path]) ? result[path] : [];
+type GridProps = {
+  products: Product[];
+};
+const SmallProductGrid = ({ products }: GridProps) => {
   return (
     <div className="grid grid-cols-2">
-      {products.map((item) => (
-        <SmallProductCard key={item.prod_id} product={item} />
-      ))}
+      {Array.isArray(products) &&
+        products.map((item) => (
+          <SmallProductCard key={item.prod_id} product={item} />
+        ))}
     </div>
   );
 };

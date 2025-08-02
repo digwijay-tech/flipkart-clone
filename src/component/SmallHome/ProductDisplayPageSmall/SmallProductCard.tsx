@@ -4,11 +4,11 @@ type CardProductProps = {
   product: {
     prod_id: string;
     brand: string;
-    title : string
-    prod_image : {
-      src : string 
-      srcset1 : string 
-    }
+    title: string;
+    prod_image: {
+      src: string;
+      srcset1: string;
+    };
     discount_percentage: string;
     previous_price: string;
     current_price: string;
@@ -70,18 +70,26 @@ const SmallProductCard = ({ product }: CardProductProps) => {
       {/* Product content container  */}
       <div className="w-[187.5px] py-2 ps-3 pe-1 flex flex-col ">
         {/* hashtag Section  */}
-        {product.isSponsored  && <div className="text-[#b8bbbf] text-[10px] !leading-4 font-[inter-regular]">
-          Sponsored
-        </div>}
-        {product.tag === "" ? "":
-        <div className="mt-0.5 mb-1 flex flex-row items-center">
-          <div className="w-[5px] h-4 me-1 flex bg-[#7048c6]"></div>
-          <div className="text-[12px] text-[#7048c6] font-roboto">#</div>
-          <div className="text-[#7048c6] font-roboto text-[12px]">{product.tag}</div>
-        </div>
-        }
+        {product.isSponsored && (
+          <div className="text-[#b8bbbf] text-[10px] !leading-4 font-[inter-regular]">
+            Sponsored
+          </div>
+        )}
+        {product.tag === "" ? (
+          ""
+        ) : (
+          <div className="mt-0.5 mb-1 flex flex-row items-center">
+            <div className="w-[5px] h-4 me-1 flex bg-[#7048c6]"></div>
+            <div className="text-[12px] text-[#7048c6] font-roboto">#</div>
+            <div className="text-[#7048c6] font-roboto text-[12px]">
+              {product.tag}
+            </div>
+          </div>
+        )}
         <div className="me-1.5  h-[18px] font-[inter-semibold] text-[14px]">
-          <span className="!Leading-[20px] whitespace-nowrap">{product.brand}</span>
+          <span className="!Leading-[20px] whitespace-nowrap">
+            {product.brand}
+          </span>
         </div>
         <Link to="/">
           <div className=" pe-2 pb-0.5 me-1.5 flex flex-row items-center ">
@@ -112,7 +120,7 @@ const SmallProductCard = ({ product }: CardProductProps) => {
             ₹1,200
           </div>
         </div>
-        
+
         <div className="flex flex-row mt-1.5 items-center">
           <div className="w-[38px] h-[16px] flex relative me-0.5 ">
             <img
@@ -135,16 +143,17 @@ const SmallProductCard = ({ product }: CardProductProps) => {
             <div className="py-[5px] flex flex-row items-center  h-[22px]"></div>
           </div>
           {/* assured section  */}
-          {product.assuredby === ""? "" :
-          <div className="w-[60px] h-4 shrink-0 flex ">
-            <img
-              src={product.assuredby}
-              
-              className="w-full h-full m-auto object-contain"
-              alt=""
-            />
-          </div>
-          }
+          {product.assuredby === "" ? (
+            ""
+          ) : (
+            <div className="w-[60px] h-4 shrink-0 flex ">
+              <img
+                src={product.assuredby}
+                className="w-full h-full m-auto object-contain"
+                alt=""
+              />
+            </div>
+          )}
         </div>
       </div>
     </div>

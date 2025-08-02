@@ -2,8 +2,13 @@ import { Link, useNavigate } from "react-router-dom";
 import SmallSortFilter from "./SmallSortFilter";
 import QuickFilterSmall from "../../SmallHome/QuickFiltersmall/QuickFilterSmall";
 import { useIsScroll } from "../../../Hooks/useIsScroll";
-
-const ProductNavbarsmall = () => {
+import SortComponent from "../../SmallHome/SortSection/SortComponent";
+import { useState } from "react";
+type NavProps ={
+  title : string
+}
+const ProductNavbarsmall = ({title}:NavProps) => {
+   const [isSortVisible, setIsSortVisible] = useState(false);
   const navigate = useNavigate();
   const handleonBackClick = () => {
     navigate(-1);
@@ -49,7 +54,7 @@ const ProductNavbarsmall = () => {
         {/* Heading  */}
         <div className=" h-full flex   ps-3 items-center">
           <h1 className=" block text-[16px]  font-roboto  tracking-normal w-[124px]">
-            Men's Footwear
+            {title}
           </h1>
         </div>
         {/* Search icon  */}
@@ -130,8 +135,9 @@ const ProductNavbarsmall = () => {
           <span>Login</span>
         </Link>
       </div>
-      <SmallSortFilter isScroll={isScroll} />
+      <SmallSortFilter isScroll={isScroll} isSortVisible={isSortVisible} setIsSortVisible ={setIsSortVisible}/>
       <QuickFilterSmall isScroll={isScroll} />
+      <SortComponent isSortVisible={isSortVisible} setIsSortVisible={setIsSortVisible} />
     </div>
   );
 };

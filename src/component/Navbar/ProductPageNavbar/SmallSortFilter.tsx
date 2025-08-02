@@ -1,10 +1,12 @@
 type SortFilterProps ={
   isScroll : boolean
+  setIsSortVisible :React.Dispatch<React.SetStateAction<boolean>>
+  isSortVisible : boolean
 }
 
-const SmallSortFilter = ({isScroll}:SortFilterProps) => {
+const SmallSortFilter = ({isScroll , setIsSortVisible, isSortVisible}:SortFilterProps) => {
   const handleSortButtonClick=()=>{
-    console.log("Sort button Click")
+    setIsSortVisible(prev => prev= !isSortVisible)
   }
   const handleFilterButtonClick=()=>{
     console.log("filter button click")
