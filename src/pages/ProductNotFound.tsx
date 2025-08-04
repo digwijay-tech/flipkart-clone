@@ -5,4 +5,4 @@ const ProductNotFound = () => {
   )
 }
 
-export default ProductNotFound
+export default ProductNotFound     

@@ -1,12 +1,17 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect } from "react";
+import { SortContext } from "../../context/SortContext";
 
-type SortProps ={
-    isSortVisible : boolean
-    setIsSortVisible : React.Dispatch<React.SetStateAction<boolean>>
-}
+type SortProps = {
+  isSortVisible: boolean;
+  setIsSortVisible: React.Dispatch<React.SetStateAction<boolean>>;
+};
 
-const SortComponent = ({isSortVisible , setIsSortVisible}:SortProps) => {
- 
+const SortComponent = ({ isSortVisible, setIsSortVisible }: SortProps) => {
+  const { setSort } = useContext(SortContext);
+
+  const handleOnChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSort(e.target.value);
+  };
   const handleClick = () => {
     setIsSortVisible((prev) => (prev = !isSortVisible));
   };
@@ -17,13 +22,21 @@ const SortComponent = ({isSortVisible , setIsSortVisible}:SortProps) => {
   }, [isSortVisible]);
   return (
     <div
-      className={`fixed top-0 left-0 right-0 z-50 ease-linear   ${isSortVisible ? "visible ": "invisible"}  `} onClick={handleClick} >
+      className={`fixed top-0 left-0 right-0 z-50 ease-linear   ${
+        isSortVisible ? "visible " : "invisible"
+      }  `}
+      onClick={handleClick}
+    >
       <div
         className={`h-[925px] bg-black transition-opacity duration-300  ${
           isSortVisible ? " opacity-[0.5] " : "opacity-0"
         }`}
       ></div>
-      <div className={`fixed bottom-0 left-0 right-0 z-40 bg-white pb-6 ease-in-out duration-300 transform translate-y-[0%] ${isSortVisible ? "" : " translate-y-[100%]"}`}>
+      <div
+        className={`fixed bottom-0 left-0 right-0 z-40 bg-white pb-6 ease-in-out duration-300 transform translate-y-[0%] ${
+          isSortVisible ? "" : " translate-y-[100%]"
+        }`}
+      >
         <div className="m-3 text-[#878787] text-[14px] font-roboto uppercase">
           Sort by
         </div>
@@ -37,9 +50,10 @@ const SortComponent = ({isSortVisible , setIsSortVisible}:SortProps) => {
                 <input
                   type="radio"
                   name="sortby"
-                  value="Popularity"
+                  value="popularity"
                   className="h-4 w-4"
                   defaultChecked
+                  onChange={(e) => handleOnChange(e)}
                 />
               </div>
             </div>
@@ -55,6 +69,7 @@ const SortComponent = ({isSortVisible , setIsSortVisible}:SortProps) => {
                   name="sortby"
                   value="price-high_to_low"
                   className="h-4 w-4"
+                  onChange={(e) => handleOnChange(e)}
                 />
               </div>
             </div>
@@ -70,6 +85,7 @@ const SortComponent = ({isSortVisible , setIsSortVisible}:SortProps) => {
                   name="sortby"
                   value="price-low_to_high"
                   className="h-4 w-4"
+                  onChange={(e) => handleOnChange(e)}
                 />
               </div>
             </div>
@@ -83,6 +99,7 @@ const SortComponent = ({isSortVisible , setIsSortVisible}:SortProps) => {
                   name="sortby"
                   value="newsest_first"
                   className="h-4 w-4"
+                  onChange={(e) => handleOnChange(e)}
                 />
               </div>
             </div>
@@ -96,6 +113,7 @@ const SortComponent = ({isSortVisible , setIsSortVisible}:SortProps) => {
                   name="sortby"
                   value="discount"
                   className="h-4 w-4 "
+                  onChange={(e) => handleOnChange(e)}
                 />
               </div>
             </div>

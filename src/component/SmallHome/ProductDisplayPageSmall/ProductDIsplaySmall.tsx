@@ -3,12 +3,14 @@ import ProductNavbarsmall from "../../Navbar/ProductPageNavbar/ProductNavbarsmal
 import SmallProductGrid from "./SmallProductGrid/SmallProductGrid";
 import { useFetch } from "../../../Hooks/useFetch";
 import { useEffect, useState } from "react";
+import { SortContext } from "../../context/SortContext";
 
 const ProductDIsplaySmall = () => {
   const [products, setProducts] = useState([]);
+  const [sort, setSort] = useState("popularity");
   const [title, setTitle] = useState("");
   const { path } = useParams();
-  let typedPath = path || "";
+  const typedPath = path || "";
   const { result } = useFetch("products");
   useEffect(() => {
     if (result && result[typedPath]) {
@@ -16,13 +18,14 @@ const ProductDIsplaySmall = () => {
       setTitle(result[typedPath].navtitle);
     }
   }, [result, typedPath]);
-  console.log(title);
   if (!result) return null;
+
   return (
     <div className=" bg-white relative ">
-      <ProductNavbarsmall title={title} />
-      <SmallProductGrid products={products} />
-      
+      <SortContext.Provider value={{ sort, setSort }}>
+        <ProductNavbarsmall title={title} />
+        <SmallProductGrid products={products} />
+      </SortContext.Provider>
     </div>
   );
 };

@@ -9,9 +9,9 @@ type CardProductProps = {
       src: string;
       srcset1: string;
     };
-    discount_percentage: string;
-    previous_price: string;
-    current_price: string;
+    discount_percentage: number;
+    previous_price: number;
+    current_price: number;
     emi_price: string;
     offered_banks: string;
     assuredby: string;
@@ -26,7 +26,7 @@ const SmallProductCard = ({ product }: CardProductProps) => {
   return (
     <div className="w-[187.5px] flex flex-col justify-start items-start relative pb-2 border-r border-r-[#eaeaea]">
       {/* product image container  */}
-      <div className="w-[187.5px] flex-[1_1_0%] flex flex-col relative">
+      <div className="w-[187.5px]  flex flex-col relative">
         <div className="w-[187.5px] h-[225px] flex relative">
           <img
             src={product.prod_image.src}
@@ -86,6 +86,7 @@ const SmallProductCard = ({ product }: CardProductProps) => {
             </div>
           </div>
         )}
+        
         <div className="me-1.5  h-[18px] font-[inter-semibold] text-[14px]">
           <span className="!Leading-[20px] whitespace-nowrap">
             {product.brand}
@@ -108,16 +109,16 @@ const SmallProductCard = ({ product }: CardProductProps) => {
               ></path>
             </svg>
             <span className="text-[14px] !leading-[20px] font-[inter-semibold] text-[#008c00] ">
-              69%
+              {product.discount_percentage}%
             </span>
           </div>
           {/* previous Price  */}
           <div className="me-1 flex items-center font-[inter-semibold] text-[14px] !leading-5 text-[#727478] line-through">
-            ₹3,999
+            ₹{product.previous_price}
           </div>
           {/* current price  */}
           <div className="flex flex-row font-[inter-semibold] text-[#111112] !leading-5 text-[14px]">
-            ₹1,200
+            ₹{product.current_price}
           </div>
         </div>
 

@@ -60,11 +60,9 @@ const LargeHome = () => {
           <RecentlyViewed/>
         </div>
       </div>
-    </div>
-  );
+    </div> 
+  ); 
 };
 
 export default LargeHome;
-
-
-
+ 
