@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { FilterIcon } from "../../../assets/SVG/filterIcon"
 import { SortIcon } from "../../../assets/SVG/sortIcon"
 
@@ -10,9 +11,6 @@ type SortFilterProps ={
 const SmallSortFilter = ({isScroll , setIsSortVisible, isSortVisible}:SortFilterProps) => {
   const handleSortButtonClick=()=>{
     setIsSortVisible(prev => prev= !isSortVisible)
-  }
-  const handleFilterButtonClick=()=>{
-    console.log("filter button click")
   }
 
   return (
@@ -29,14 +27,14 @@ const SmallSortFilter = ({isScroll , setIsSortVisible, isSortVisible}:SortFilter
         </button>
         <div className="h-4 w-[1px] bg-[#d5d7db]"></div>
         {/* Filter Button  */}
-        <button onClick={handleFilterButtonClick} className="flex-[1_1_0%] ">
+        <Link to="filter" className="flex-[1_1_0%] ">
           <div className="flex flex-row items-center justify-center h-full relative w-[187px]">
             <FilterIcon/>
             <div className="ms-2 text-[14px] font-[inter-semibold] !leading-[20px] shrink-[1] tracking-[-0.01px]">
               Filter
             </div>
           </div>
-        </button>
+        </Link>
       </div>
     </div>
   );

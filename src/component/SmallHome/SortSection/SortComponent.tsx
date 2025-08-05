@@ -7,10 +7,11 @@ type SortProps = {
 };
 
 const SortComponent = ({ isSortVisible, setIsSortVisible }: SortProps) => {
-  const { setSort } = useContext(SortContext);
+  const { setSort, setSearchParam, sort } = useContext(SortContext);
 
   const handleOnChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSort(e.target.value);
+    setSearchParam({ sort: e.target.value });
   };
   const handleClick = () => {
     setIsSortVisible((prev) => (prev = !isSortVisible));
@@ -50,7 +51,8 @@ const SortComponent = ({ isSortVisible, setIsSortVisible }: SortProps) => {
                 <input
                   type="radio"
                   name="sortby"
-                  value="popularity"
+                  value={"popularity"}
+                  checked={sort === "popularity"}
                   className="h-4 w-4"
                   defaultChecked
                   onChange={(e) => handleOnChange(e)}
@@ -67,6 +69,7 @@ const SortComponent = ({ isSortVisible, setIsSortVisible }: SortProps) => {
                 <input
                   type="radio"
                   name="sortby"
+                  checked={sort === "price-high_to_low"}
                   value="price-high_to_low"
                   className="h-4 w-4"
                   onChange={(e) => handleOnChange(e)}
@@ -83,6 +86,7 @@ const SortComponent = ({ isSortVisible, setIsSortVisible }: SortProps) => {
                 <input
                   type="radio"
                   name="sortby"
+                  checked={sort === "price-low_to_high"}
                   value="price-low_to_high"
                   className="h-4 w-4"
                   onChange={(e) => handleOnChange(e)}
@@ -97,6 +101,7 @@ const SortComponent = ({ isSortVisible, setIsSortVisible }: SortProps) => {
                 <input
                   type="radio"
                   name="sortby"
+                  checked={sort === "newsest_first"}
                   value="newsest_first"
                   className="h-4 w-4"
                   onChange={(e) => handleOnChange(e)}
@@ -111,6 +116,7 @@ const SortComponent = ({ isSortVisible, setIsSortVisible }: SortProps) => {
                 <input
                   type="radio"
                   name="sortby"
+                  checked={sort === "discount"}
                   value="discount"
                   className="h-4 w-4 "
                   onChange={(e) => handleOnChange(e)}

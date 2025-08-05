@@ -1475,10 +1475,49 @@
     }
   ],
 
+  "Filter_category": [
+    {
+      "category": "Price",
+      "items": [
+        "Rs.600 and below",
+        "Rs.601 to Rs.1000",
+        "Rs. 1001 to Rs. 1500 ",
+        "Rs. 1501 to Rs. 2000",
+        "Rs. 2001 to Rs. 2600",
+        "Rs. 2601 to Rs. 4000",
+        "Rs. 4001 to Rs. 7000",
+        "Rs. 7001 to Rs.  10000",
+        "Rs. 10001 and above"
+      ]
+    },
+    {
+      "category": "F-Assured",
+      "items": [
+        "F-Assured"
+      ]
+    },
+    {
+      "category": "Brand",
+      "items": [
+        "boAt",
+        "Noise",
+        "Number",
+        "realme",
+        "GOBOULT",
+        "TRIGGR",
+        "CHIROX",
+        "truke"
+
+      ]
+    }       
+
+    
+  ],
+
   "products": {
     "mobile": {
       "navtitle": "Vivo T4 5G",
-      "items":[
+      "items": [
         {
           "prod_id": "00MBL1",
           "brand": "Vivo",
@@ -1517,9 +1556,9 @@
           "assuredby": "https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
           "tag": "",
           "isSponsored": true,
-          "rating":4.9
+          "rating": 4.9
         },
-        {  
+        {
           "prod_id": "00WES2",
           "brand": "Noise",
           "title": "Buds VS102 with 50 Hrs Playtime, 11mm Driver, IPX5 and Unique Flybird Design Bluetooth Headset",
@@ -1553,7 +1592,7 @@
           "assuredby": "",
           "tag": "",
           "isSponsored": false,
-          "rating":4.9
+          "rating": 4.9
         },
         {
           "prod_id": "00WES4",
@@ -1582,14 +1621,14 @@
             "srcset1": "https://rukminim1.flixcart.com/image/213/255/xif0q/headphone/g/h/p/-original-imah46ppnf7hfr6f.jpeg?q=80&crop=false 1x, https://rukminim1.flixcart.com/image/426/510/xif0q/headphone/g/h/p/-original-imah46ppnf7hfr6f.jpeg?q=60&crop=false 2x, "
           },
           "discount_percentage": 87,
-          "previous_price":7999,
+          "previous_price": 7999,
           "current_price": 999,
           "emi_price": 949,
           "offered_banks": "with Bank offer",
           "assuredby": "",
           "tag": "",
           "isSponsored": false,
-          "rating":3.3
+          "rating": 3.3
         },
         {
           "prod_id": "00WES6",
@@ -1607,7 +1646,7 @@
           "assuredby": "https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
           "tag": "",
           "isSponsored": true,
-          "rating":3.7
+          "rating": 3.7
         },
         {
           "prod_id": "00WES7",
@@ -1625,7 +1664,7 @@
           "assuredby": "",
           "tag": "New Arrival",
           "isSponsored": false,
-          "rating":4.5
+          "rating": 4.5
         },
         {
           "prod_id": "00WES8",
@@ -1661,7 +1700,7 @@
           "assuredby": "",
           "tag": "",
           "isSponsored": true,
-          "rating":4.1
+          "rating": 4.1
         },
         {
           "prod_id": "00WES10",
@@ -1679,7 +1718,7 @@
           "assuredby": "",
           "tag": "",
           "isSponsored": false,
-          "rating":3.2
+          "rating": 3.2
         },
         {
           "prod_id": "00WES11",
@@ -1697,7 +1736,7 @@
           "assuredby": "https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
           "tag": "",
           "isSponsored": true,
-          "rating":3.5
+          "rating": 3.5
         },
         {
           "prod_id": "00WES12",
@@ -1715,7 +1754,7 @@
           "assuredby": "",
           "tag": "",
           "isSponsored": false,
-          "rating":4.3
+          "rating": 4.3
         },
         {
           "prod_id": "00WES13",
@@ -1733,7 +1772,7 @@
           "assuredby": "https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
           "tag": "",
           "isSponsored": true,
-          "rating":3.2
+          "rating": 3.2
         },
         {
           "prod_id": "00WES14",
@@ -1751,7 +1790,7 @@
           "assuredby": "",
           "tag": "New Arrival",
           "isSponsored": false,
-          "rating":4.3
+          "rating": 4.3
         },
         {
           "prod_id": "00WES15",
@@ -1769,7 +1808,7 @@
           "assuredby": "https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
           "tag": "",
           "isSponsored": true,
-          "rating":2.9
+          "rating": 2.9
         },
         {
           "prod_id": "00WES16",
@@ -1787,7 +1826,7 @@
           "assuredby": "",
           "tag": "",
           "isSponsored": true,
-          "rating":4.4
+          "rating": 4.4
         },
         {
           "prod_id": "00WES17",
@@ -1823,7 +1862,7 @@
           "assuredby": "https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
           "tag": "",
           "isSponsored": true,
-          "rating":3.2
+          "rating": 3.2
         },
         {
           "prod_id": "00WES19",
@@ -1835,13 +1874,13 @@
           },
           "discount_percentage": 87,
           "previous_price": 7999,
-          "current_price":999,
+          "current_price": 999,
           "emi_price": 949,
           "offered_banks": "with Bank offer",
           "assuredby": "",
           "tag": "",
           "isSponsored": false,
-          "rating":3.5
+          "rating": 3.5
         },
         {
           "prod_id": "00WES20",
@@ -1859,7 +1898,7 @@
           "assuredby": "https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
           "tag": "",
           "isSponsored": true,
-          "rating":3.4
+          "rating": 3.4
         },
         {
           "prod_id": "00WES21",
@@ -1877,9 +1916,9 @@
           "assuredby": "",
           "tag": "New Arrival",
           "isSponsored": false,
-          "rating":3.4
+          "rating": 3.4
         },
-         {
+        {
           "prod_id": "00WES22",
           "brand": "boAt",
           "title": "Airdopes 101v2, Flex Fit Eartips, 13mm Drivers, ENx, Fast Charge, 35Hrs Battery Bluetooth Headset",
@@ -1895,7 +1934,7 @@
           "assuredby": "https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
           "tag": "",
           "isSponsored": true,
-          "rating":4.8
+          "rating": 4.8
         },
         {
           "prod_id": "00WES23",
@@ -1913,7 +1952,7 @@
           "assuredby": "",
           "tag": "",
           "isSponsored": true,
-          "rating":4.5
+          "rating": 4.5
         },
         {
           "prod_id": "00WES24",
@@ -1931,7 +1970,7 @@
           "assuredby": "",
           "tag": "",
           "isSponsored": false,
-          "rating":3.6
+          "rating": 3.6
         },
         {
           "prod_id": "00WES25",
@@ -1949,7 +1988,7 @@
           "assuredby": "https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
           "tag": "",
           "isSponsored": true,
-          "rating":3.4
+          "rating": 3.4
         },
         {
           "prod_id": "00WES26",
@@ -1967,7 +2006,7 @@
           "assuredby": "",
           "tag": "",
           "isSponsored": false,
-          "rating":3.4
+          "rating": 3.4
         },
         {
           "prod_id": "00WES27",
@@ -1985,7 +2024,7 @@
           "assuredby": "https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
           "tag": "",
           "isSponsored": true,
-          "rating":4.5
+          "rating": 4.5
         },
         {
           "prod_id": "00WES28",
@@ -2003,7 +2042,7 @@
           "assuredby": "",
           "tag": "New Arrival",
           "isSponsored": false,
-          "rating":4.7
+          "rating": 4.7
         },
         {
           "prod_id": "00WES29",
@@ -2021,7 +2060,7 @@
           "assuredby": "",
           "tag": "",
           "isSponsored": true,
-          "rating":4.5
+          "rating": 4.5
         },
         {
           "prod_id": "00WES30",
@@ -2039,7 +2078,7 @@
           "assuredby": "",
           "tag": "",
           "isSponsored": true,
-          "rating":3.5
+          "rating": 3.5
         },
         {
           "prod_id": "00WES31",
@@ -2075,7 +2114,7 @@
           "assuredby": "https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
           "tag": "",
           "isSponsored": true,
-          "rating":3.5
+          "rating": 3.5
         },
         {
           "prod_id": "00WES133",
@@ -2093,7 +2132,7 @@
           "assuredby": "",
           "tag": "",
           "isSponsored": false,
-          "rating":4.7
+          "rating": 4.7
         },
         {
           "prod_id": "00WES34",
@@ -2111,7 +2150,7 @@
           "assuredby": "https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
           "tag": "",
           "isSponsored": true,
-          "rating":3.8
+          "rating": 3.8
         },
         {
           "prod_id": "00WES35",
@@ -2129,7 +2168,7 @@
           "assuredby": "",
           "tag": "New Arrival",
           "isSponsored": false,
-          "rating":4.5
+          "rating": 4.5
         },
         {
           "prod_id": "00WES36",
@@ -2147,7 +2186,7 @@
           "assuredby": "https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
           "tag": "",
           "isSponsored": true,
-          "rating":3.9
+          "rating": 3.9
         },
         {
           "prod_id": "00WES37",
@@ -2165,7 +2204,7 @@
           "assuredby": "",
           "tag": "",
           "isSponsored": true,
-          "rating":4.5
+          "rating": 4.5
         },
         {
           "prod_id": "00WES38",
@@ -2183,7 +2222,7 @@
           "assuredby": "https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
           "tag": "",
           "isSponsored": false,
-          "rating":4.7
+          "rating": 4.7
         },
         {
           "prod_id": "00WES39",
@@ -2201,7 +2240,7 @@
           "assuredby": "https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
           "tag": "",
           "isSponsored": true,
-          "rating":3.8
+          "rating": 3.8
         },
         {
           "prod_id": "00WES40",
@@ -2219,7 +2258,7 @@
           "assuredby": "",
           "tag": "",
           "isSponsored": false,
-          "rating":4.8
+          "rating": 4.8
         },
         {
           "prod_id": "00WES41",
@@ -2237,7 +2276,7 @@
           "assuredby": "https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
           "tag": "",
           "isSponsored": true,
-          "rating":4.3
+          "rating": 4.3
         },
         {
           "prod_id": "00WES42",
@@ -2255,13 +2294,13 @@
           "assuredby": "https://rukminim1.flixcart.com/www/120/32/promos/25/06/2024/71af54bd-9160-41ff-81cc-c55e534dedeb.png?q=90",
           "tag": "New Arrival",
           "isSponsored": false,
-          "rating":4.5
+          "rating": 4.5
         }
       ]
     },
     "kitchen": {
-      "navtitle":"Kitchen Appliances",
-      "items":[
+      "navtitle": "Kitchen Appliances",
+      "items": [
         {
           "prod_id": "00KNS1",
           "brand": "",
@@ -2342,7 +2381,7 @@
           "previous_price": "₹",
           "current_price": "₹",
           "emi_price": "₹",
-          "offered_banks": "",  
+          "offered_banks": "",
           "assuredby": "",
           "tag": "",
           "isSponsored": false
@@ -2359,7 +2398,7 @@
           "previous_price": "₹",
           "current_price": "₹",
           "emi_price": "₹",
-          "offered_banks": "",  
+          "offered_banks": "",
           "assuredby": "",
           "tag": "",
           "isSponsored": false
@@ -2376,15 +2415,12 @@
           "previous_price": "₹",
           "current_price": "₹",
           "emi_price": "₹",
-          "offered_banks": "",  
+          "offered_banks": "",
           "assuredby": "",
           "tag": "",
           "isSponsored": false
         }
-       
       ]
     }
   }
 }
-
-
