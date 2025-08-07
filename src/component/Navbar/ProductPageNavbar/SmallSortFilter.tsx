@@ -13,7 +13,7 @@ const SmallSortFilter = ({isScroll , setIsSortVisible, isSortVisible}:SortFilter
     setIsSortVisible(prev => prev= !isSortVisible)
   }
 
-  return (
+  return ( 
     <div className={`h-12 overflow-hidden transition-all transform relative  z-3 bg-white  ${isScroll?"":"translate-y-[-110%]"}`}>
       <div className="h-full w-full border-y border-y-[#dcdfe6] flex flex-row items-center">
         {/* Sort button  */}

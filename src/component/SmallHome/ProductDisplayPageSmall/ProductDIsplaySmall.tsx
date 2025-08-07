@@ -11,7 +11,7 @@ const ProductDIsplaySmall = () => {
   const [products, setProducts] = useState([]);
   const [sort, setSort] = useState(currentvalue);
   const [title, setTitle] = useState("");
-
+  const [filterCategory,setFilterCategory]=useState([])
   const { path } = useParams();
   const typedPath = path || "";
   const { result } = useFetch("products");
@@ -19,19 +19,22 @@ const ProductDIsplaySmall = () => {
     if (result && result[typedPath]) {
       setProducts(result[typedPath].items);
       setTitle(result[typedPath].navtitle);
+      setFilterCategory(result[typedPath].filterCategory)
     }
   }, [result, typedPath]);
   if (!result) return null;
 
   return (
     <div className="relative">
-      <div className=" bg-white relative ">
-        <SortContext.Provider value={{ sort, setSort ,searchParam ,setSearchParam}}>
+      <SortContext.Provider
+        value={{ sort, setSort, searchParam, setSearchParam ,filterCategory}}
+      >
+        <div className=" bg-white relative ">
           <ProductNavbarsmall title={title} />
           <SmallProductGrid products={products} />
-        </SortContext.Provider>
-      </div>
-      <Outlet />
+        </div>
+        <Outlet />
+      </SortContext.Provider>
     </div>
   );
 };

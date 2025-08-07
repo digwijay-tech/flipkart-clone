@@ -6,6 +6,7 @@ import ProductsPage from "./pages/ProductsPage";
 import ProductDIsplaySmall from "./component/SmallHome/ProductDisplayPageSmall/ProductDIsplaySmall";
 import FilterSection from "./component/SmallHome/FilterSection/FilterSection";
 import FilterContent from "./component/SmallHome/FilterSection/FilterContent";
+import ProductDisplayLarge from "./component/ProductDisplayLarge/ProductDisplayLarge";
 
 const App = () => {
   return (
@@ -14,11 +15,13 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="productcategory" element={<ProductCategoryPage />} />
         <Route path="products" element={<ProductsPage />} />
-        <Route path="/smallproductpage/:path" element={<ProductDIsplaySmall />}/>
-        <Route path="smallproductpage/:id/filter" element={<FilterSection />} >
-        <Route index element={<Navigate to={"Price"} replace/> }/>
-        <Route path=":filter" element={<FilterContent/>} />
+        <Route path="/smallproductpage/:path" element={<ProductDIsplaySmall />}>
+          <Route path="filter" element={<FilterSection />}>
+            <Route index element={<Navigate to={"Price"} replace />} />
+            <Route path=":filter" element={<FilterContent />} />
+          </Route>
         </Route>
+        <Route path="/test" element={<ProductDisplayLarge/>}/>
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </>

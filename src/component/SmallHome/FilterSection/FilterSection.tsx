@@ -1,6 +1,10 @@
+import { useContext, useState } from "react";
 import { NavLink, Outlet, useNavigate } from "react-router-dom";
+import { FilterContext } from "../../context/FilterContext";
+import { SortContext } from "../../context/SortContext";
 
 const FilterSection = () => {
+  const { filterCategory } = useContext(SortContext);
   const filterList = [
     "Price",
     "F-Assured",
@@ -9,11 +13,14 @@ const FilterSection = () => {
     "Category",
     "Customer Ratings",
   ];
+
+  const [value, setValue] = useState("");
   const navigate = useNavigate();
   const handleOnClickApply = () => {
     console.log("Applied");
     navigate("-1");
   };
+
   return (
     <div className=" flex flex-col max-h-svh bg-white w-full  top-0 bottom-0 left-0 right-0 z-50 overflow-y-hidden ">
       {/* Navbar  */}
@@ -59,29 +66,31 @@ const FilterSection = () => {
             <div className="flex flex-col flex-1 overflow-y-scroll [scrollbar-width:none]">
               <div className="w-[125px] h-[896px] flex flex-col">
                 {filterList.map((item) => (
-                  <NavLink
-                    to={`${item}`}
-                    className="h-[56px] w-full"
-                  >
-                    {({ isActive }: { isActive: boolean }) => (
-                      <div>
-                        <div
-                          className={`py-3 ps-4 pe-2 flex items-center w-full ${
-                            isActive ? " bg-white text-[#2874f0]" : " "
-                          }`}
-                        >
-                          <span className="me-2 !leading-5 text-[14px] font-roboto  line-clamp-2">
-                            {item}
-                          </span>
+                  <NavLink to={`${item}`} className="h-[56px] w-full">
+                    {({ isActive }: { isActive: boolean }) => {
+                      setValue((prev )=> isActive ? prev = item : prev)
+                      return (
+                        <div>
+                          <div
+                            className={`py-3 ps-4 pe-2 flex items-center w-full ${
+                              isActive ? " bg-white text-[#2874f0]" : " "
+                            }`}
+                          >
+                            <span className="me-2 !leading-5 text-[14px] font-roboto  line-clamp-2">
+                              {item}
+                            </span>
+                          </div>
                         </div>
-                      </div>
-                    )}
+                      );
+                    }}
                   </NavLink>
                 ))}
               </div>
             </div>
           </div>
-          <Outlet />
+          <FilterContext.Provider value={{ value, filterCategory }}>
+            <Outlet />
+          </FilterContext.Provider>
         </div>
       </div>
       {/* bottom navbar  */}

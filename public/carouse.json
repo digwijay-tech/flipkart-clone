@@ -1475,48 +1475,42 @@
     }
   ],
 
-  "Filter_category": [
-    {
-      "category": "Price",
-      "items": [
-        "Rs.600 and below",
-        "Rs.601 to Rs.1000",
-        "Rs. 1001 to Rs. 1500 ",
-        "Rs. 1501 to Rs. 2000",
-        "Rs. 2001 to Rs. 2600",
-        "Rs. 2601 to Rs. 4000",
-        "Rs. 4001 to Rs. 7000",
-        "Rs. 7001 to Rs.  10000",
-        "Rs. 10001 and above"
-      ]
-    },
-    {
-      "category": "F-Assured",
-      "items": [
-        "F-Assured"
-      ]
-    },
-    {
-      "category": "Brand",
-      "items": [
-        "boAt",
-        "Noise",
-        "Number",
-        "realme",
-        "GOBOULT",
-        "TRIGGR",
-        "CHIROX",
-        "truke"
-
-      ]
-    }       
-
-    
-  ],
-
   "products": {
     "mobile": {
       "navtitle": "Vivo T4 5G",
+      "filterCategory": [
+        {
+          "category": "Price",
+          "items": [
+            "Rs.600 and below",
+            "Rs.601 to Rs.1000",
+            "Rs. 1001 to Rs. 1500 ",
+            "Rs. 1501 to Rs. 2000",
+            "Rs. 2001 to Rs. 2600",
+            "Rs. 2601 to Rs. 4000",
+            "Rs. 4001 to Rs. 7000",
+            "Rs. 7001 to Rs.  10000",
+            "Rs. 10001 and above"
+          ]
+        },
+        {
+          "category": "F-Assured",
+          "items": ["F-Assured"]
+        },
+        {
+          "category": "Brand",
+          "items": [
+            "boAt",
+            "Noise",
+            "Number",
+            "realme",
+            "GOBOULT",
+            "TRIGGR",
+            "CHIROX",
+            "truke"
+          ]
+        }
+      ],
       "items": [
         {
           "prod_id": "00MBL1",
@@ -1539,6 +1533,39 @@
     },
     "wirelessEarphones": {
       "navtitle": "Headset",
+      "filterCategory": [
+        {
+          "category": "Price",
+          "items": [
+            "Rs.600 and below",
+            "Rs.601 to Rs.1000",
+            "Rs. 1001 to Rs. 1500 ",
+            "Rs. 1501 to Rs. 2000",
+            "Rs. 2001 to Rs. 2600",
+            "Rs. 2601 to Rs. 4000",
+            "Rs. 4001 to Rs. 7000",
+            "Rs. 7001 to Rs.  10000",
+            "Rs. 10001 and above"
+          ]
+        },
+        {
+          "category": "F-Assured",
+          "items": ["F-Assured"]
+        },
+        {
+          "category": "Brand",
+          "items": [
+            "boAt",
+            "Noise",
+            "Number",
+            "realme",
+            "GOBOULT",
+            "TRIGGR",
+            "CHIROX",
+            "truke"
+          ]
+        }
+      ],
       "items": [
         {
           "prod_id": "00WES1",
@@ -2300,6 +2327,39 @@
     },
     "kitchen": {
       "navtitle": "Kitchen Appliances",
+      "Filter_category": [
+        {
+          "category": "Price",
+          "items": [
+            "Rs.600 and below",
+            "Rs.601 to Rs.1000",
+            "Rs. 1001 to Rs. 1500 ",
+            "Rs. 1501 to Rs. 2000",
+            "Rs. 2001 to Rs. 2600",
+            "Rs. 2601 to Rs. 4000",
+            "Rs. 4001 to Rs. 7000",
+            "Rs. 7001 to Rs.  10000",
+            "Rs. 10001 and above"
+          ]
+        },
+        {
+          "category": "F-Assured",
+          "items": ["F-Assured"]
+        },
+        {
+          "category": "Brand",
+          "items": [
+            "boAt",
+            "Noise",
+            "Number",
+            "realme",
+            "GOBOULT",
+            "TRIGGR",
+            "CHIROX",
+            "truke"
+          ]
+        }
+      ],
       "items": [
         {
           "prod_id": "00KNS1",

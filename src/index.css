@@ -7,10 +7,24 @@
 .main{
   font: 14px"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
+
 @font-face {
   font-family: Segoe UI;
   src: url('./assets/Font/Segoe\ UI.woff') 
 }
+@font-face {
+    size-adjust:95%;font-display: swap;
+    font-family: Inter;
+    src:url("https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/fonts/Inter-SemiBold.woff2") ;
+      font-weight: 500 800
+}
+
+@font-face {
+    size-adjust:95%;font-display: swap;
+    font-family: inter;
+    src:url("https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/fonts/Inter-Regular.woff2") 
+}
+
 @font-face {
   font-family: inter-regular;
   src: url("https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-Regular.woff2");
@@ -23,6 +37,14 @@
 @font-face {
   font-family: inter-bold;
   src: url("https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-Bold.woff2");
+}
+@font-face {
+  font-family: inter-italic ;
+  src: url("https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/fonts/Inter-Italic.woff2");
+}
+@font-face {
+  font-family: inter-semibold-itaic;
+  src: url("https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/fonts/Inter-SemiBoldItalic.woff2");
 }
 @font-face {
   font-family: roboto-regular;
