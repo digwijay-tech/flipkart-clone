@@ -94,7 +94,7 @@ const ProductCardVertical = () => {
                 <span className="mt-[5px] text-[#c70055] font-[inter] font-bold text-[12px] !leading-[1] block">
                   Only few left
                 </span>
-                <span className="inline-flex text-[#26a541] !leading-[1] text-[14px] font-bold mt-[5px]">
+                <span className="inline-flex text-[#26a541] !leading-[1] text-[14px] font-bold mt-[7px]">
                   <span className="!leading-[1]">Bank Offer</span>
                 </span>
               </div>

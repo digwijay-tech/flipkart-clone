@@ -21,6 +21,8 @@ const SortComponent = ({ isSortVisible, setIsSortVisible }: SortProps) => {
       ? document.body.classList.add("overflow-hidden")
       : document.body.classList.remove("overflow-hidden");
   }, [isSortVisible]);
+
+  
   return (
     <div
       className={`fixed top-0 left-0 right-0 z-50 ease-linear   ${

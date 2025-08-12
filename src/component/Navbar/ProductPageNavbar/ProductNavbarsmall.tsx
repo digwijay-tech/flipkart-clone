@@ -10,12 +10,14 @@ type NavProps = {
   title: string;
 };
 const ProductNavbarsmall = ({ title }: NavProps) => {
+  
   const [isSortVisible, setIsSortVisible] = useState(false);
   const navigate = useNavigate();
   const handleonBackClick = () => {
-    navigate(-1);
+    navigate('/');
   };
   const isScroll = useIsScroll();
+  
   
   return (
     <div

@@ -4,7 +4,7 @@ import { FilterContext } from "../../context/FilterContext";
 import { SortContext } from "../../context/SortContext";
 
 const FilterSection = () => {
-  const { filterCategory } = useContext(SortContext);
+  const { filterCategory,typedPath } = useContext(SortContext);
   const filterList = [
     "Price",
     "F-Assured",
@@ -18,7 +18,7 @@ const FilterSection = () => {
   const navigate = useNavigate();
   const handleOnClickApply = () => {
     console.log("Applied");
-    navigate("-1");
+    navigate(-1);
   };
 
   return (
@@ -29,7 +29,7 @@ const FilterSection = () => {
         <button
           className="flex flex-col w-[42px] max-h-4 !leading-2.5 relative justify-center items-center"
           onClick={() => {
-            navigate(-1);
+            navigate(`/products/${typedPath}`);
           }}
         >
           <svg
@@ -115,4 +115,4 @@ const FilterSection = () => {
     </div>
   );
 };
-export default FilterSection;
+export default FilterSection;         

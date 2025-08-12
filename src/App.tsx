@@ -14,8 +14,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="productcategory" element={<ProductCategoryPage />} />
-        <Route path="products" element={<ProductsPage />} />
-        <Route path="/smallproductpage/:path" element={<ProductDIsplaySmall />}>
+        {/* <Route path="products" element={<ProductsPage />} /> */}
+        <Route path="/products/:path" element={<ProductsPage />}>
           <Route path="filter" element={<FilterSection />}>
             <Route index element={<Navigate to={"Price"} replace />} />
             <Route path=":filter" element={<FilterContent />} />

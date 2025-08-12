@@ -25,9 +25,9 @@ const ProductDIsplaySmall = () => {
   if (!result) return null;
 
   return (
-    <div className="relative">
+    <div className="hidden relative max-[1024px]:block ">
       <SortContext.Provider
-        value={{ sort, setSort, searchParam, setSearchParam ,filterCategory}}
+        value={{ sort, setSort, searchParam, setSearchParam ,filterCategory,typedPath}}
       >
         <div className=" bg-white relative ">
           <ProductNavbarsmall title={title} />

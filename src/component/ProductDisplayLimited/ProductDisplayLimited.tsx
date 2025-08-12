@@ -26,7 +26,7 @@ const ProductDisplayLimited = ({ category, style }: CategoryProps) => {
       <div className="  flex flex-col  ">
         <div className="flex flex-col ">
           {/* Heading of the component */}
-          <Link to="/productcategory">
+          <Link to={`/products/${title}`}>
             <div className="flex items-center z-0">
               <div className="px-3 py-4 flex flex-[1_1_0%] flex-row min-h-[80px] items-center justify-between">
                 <div className="text-[#1f1f1f] inline truncate align-middle text-[22px] leading-[30px] tracking-[-.02px] font-[inter-semibold]">

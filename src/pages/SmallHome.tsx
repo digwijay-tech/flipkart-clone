@@ -23,13 +23,13 @@ const SmallHome = () => {
           <SpecialDeals path="Highlightsofsale"/>
           <AdBannerSmall/>
           <NewOffers startfrom={3}/>
-          <Sponsors />
+          <Sponsors /> 
           <SuggestedSmall visibility="hidden"/>   
           <SpecialDeals path="bargainbuys"/>
           <ColoredSection visiblility="hidden"/>
           <SuperDeals />
           <SuggestedSmall/> 
-          <SmallProductDisplay />
+          <SmallProductDisplay />  
           <SpecialDeals path="traveldeal"/>
           <MainProductDIsplay/>
           <MoreDetails/>

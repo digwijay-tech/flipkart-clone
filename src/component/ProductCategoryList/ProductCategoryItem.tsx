@@ -11,7 +11,7 @@ type CategoryItemsProps ={
 const ProductCategoryItem = ({item,index}:CategoryItemsProps) => {
   return (
     <div className={`p-4  ${index===0 && "ps-6"}`}>
-      <Link to="/products" className="min-w-[90px] block relative cursor-pointer">
+      <Link to={`/products/${item.title}`} className="min-w-[90px] block relative cursor-pointer">
         <div>
           <div className="mb-1 text-center ">
             <div className="mx-auto h-16 w-16 " >

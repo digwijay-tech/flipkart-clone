@@ -10,11 +10,13 @@ type Contexttype ={
     searchParam : URLSearchParams
     setSearchParam: SetURLSearchParams
     filterCategory : filterCategory[]
+    typedPath : string
 }
 export const SortContext = createContext<Contexttype>({
     sort: "",
     setSort: () => {},
     searchParam: new URLSearchParams(),
     setSearchParam: ()=>{},
-    filterCategory :[]
+    filterCategory :[],
+    typedPath :""
 })

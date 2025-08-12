@@ -1,8 +1,13 @@
+import ProductDisplayLarge from "../component/ProductDisplayLarge/ProductDisplayLarge"
+import ProductDIsplaySmall from "../component/SmallHome/ProductDisplayPageSmall/ProductDIsplaySmall"
 
 
 const ProductsPage = () => {
   return (
-    <div>ProductsPage</div>
+    <div>
+      <ProductDIsplaySmall/>
+      <ProductDisplayLarge/>
+    </div>
   )
 }
 
