@@ -1,12 +1,13 @@
-import { useState } from "react";
+import { useContext } from "react";
+import { SortContext } from "../../../context/SortContext";
 
 const SortSection = () => {
-  const [isActive, setIsActive] = useState("Popularity");
+  const { setSort, setSearchParam, sort } = useContext(SortContext);
 
   const handleOnclick = (value: string) => {
-    setIsActive(value);
+    setSort(value);
+    setSearchParam({ sort: value });
   };
-  console.log(isActive);
 
   return (
     <div className="flex w-full font-[inter] ">
@@ -15,48 +16,48 @@ const SortSection = () => {
       </span>
       <div
         className={`cursor-pointer pt-2 pb-1 mx-2.5  border-b-2  font-[inter]  text-[14px] !leading-[1.4] ${
-          isActive === "Popularity"
+          sort === "popularity"
             ? " text-[#2874f0] border-b-[#2874f0] cursor-default font-medium"
             : "border-b-transparent"
         } `}
-        onClick={(e) => {
-          handleOnclick((e.target as HTMLElement).innerText);
+        onClick={() => {
+          handleOnclick("popularity");
         }}
       >
         Popularity
       </div>
       <div
         className={`cursor-pointer pt-2 pb-1 mx-2.5  border-b-2  font-[inter] text-[14px] !leading-[1.4] ${
-          isActive === "Price -- Low to High"
+          sort === "price-low_to_high"
             ? " text-[#2874f0] border-b-[#2874f0] cursor-default font-medium"
             : "border-b-transparent"
         } `}
-        onClick={(e) => {
-          handleOnclick((e.target as HTMLElement).innerText);
+        onClick={() => {
+          handleOnclick("price-low_to_high");
         }}
       >
         Price -- Low to High
       </div>
       <div
         className={`cursor-pointer pt-2 pb-1 mx-2.5  border-b-2  font-[inter] text-[14px] !leading-[1.4] ${
-          isActive === "Price -- High to Low"
+          sort === "price-high_to_low"
             ? " text-[#2874f0] border-b-[#2874f0] cursor-default font-medium"
             : "border-b-transparent"
         } `}
-        onClick={(e) => {
-          handleOnclick((e.target as HTMLElement).innerText);
+        onClick={() => {
+          handleOnclick("price-high_to_low");
         }}
       >
         Price -- High to Low
       </div>
       <div
         className={`cursor-pointer pt-2 pb-1 mx-2.5  border-b-2  font-[inter]  text-[14px] !leading-[1.4] ${
-          isActive === "Newest First"
+          sort === "newsest_first"
             ? " text-[#2874f0] border-b-[#2874f0] cursor-default font-medium"
             : "border-b-transparent"
         } `}
-        onClick={(e) => {
-          handleOnclick((e.target as HTMLElement).innerText);
+        onClick={() => {
+          handleOnclick("newsest_first");
         }}
       >
         Newest First

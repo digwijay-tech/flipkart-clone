@@ -1,6 +1,25 @@
 import { Link } from "react-router-dom";
-
-const ProductCardVertical = () => {
+type ProductCardProps = {
+  product: {
+    prod_id: string;
+    brand: string;
+    title: string;
+    prod_image: {
+      src: string;
+      srcset1: string;
+    };
+    discount_percentage: number;
+    previous_price: number;
+    current_price: number;
+    emi_price: string;
+    offered_banks: string;
+    assuredby: string;
+    tag: string;
+    isSponsored: boolean;
+    rating: number;
+  };
+};
+const ProductCardVertical = ({ product }: ProductCardProps) => {
   return (
     <div className="w-full font-[inter] bg-white  !leading-[1]">
       <div className="pt-6 pb-[30px] ps-6 border-b border-b-[#f0f0f0]">
@@ -9,7 +28,7 @@ const ProductCardVertical = () => {
             <div className="h-[200px] w-[200px] mb-4">
               <img
                 className="mx-auto h-full "
-                src="https://rukminim2.flixcart.com/image/312/312/kbzergw0/instant-camera/m/h/u/instax-instant-camera-mini-11-fujifilm-original-imaft7fpfzkcsequ.jpeg?q=70"
+                src={product.prod_image.src}
                 alt=""
               />
             </div>
@@ -33,7 +52,7 @@ const ProductCardVertical = () => {
           <div className="flex-1 ps-[25px] flex flex-row ">
             <div className="w-[58.33%] ">
               <div className="font-medium font-[inter] text-[18px] cursor-pointer !leading-[1]">
-                FUJIFILM Instax Mini 11 Instant Camera
+                {product.title}
               </div>
               <div className="mt-1.5 flex flex-row">
                 <div className=" h-[19px]  p-[2px_4px_2px_6px] rounded-[3px] text-[12px]  bg-[#388e3c] text-white  font-[inter]  font-medium flex ">
@@ -74,10 +93,10 @@ const ProductCardVertical = () => {
               <div>
                 <div className="-mt-[1px] pe-2.5 inline-block !leading-[1]">
                   <span className="block text-[25px] text-[#212121] ![line-height:1] font-[inter] font-medium">
-                    ₹5,499
+                   ₹{product.current_price}
                   </span>
                   <span className="pt-2.5 text-[14px] text-[#878787] ![line-height:1] inline-block line-through">
-                    ₹7,999
+                    ₹{product.previous_price}
                   </span>
                   <span className="text-[#388e3c] text-[13px] tracking-[-.2px] font-medium ms-2 !leading-[1]">
                     31% off

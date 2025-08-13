@@ -3,13 +3,12 @@ import SmallSortFilter from "./SmallSortFilter";
 import QuickFilterSmall from "../../SmallHome/QuickFiltersmall/QuickFilterSmall";
 import { useIsScroll } from "../../../Hooks/useIsScroll";
 import SortComponent from "../../SmallHome/SortSection/SortComponent";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { CartIcon } from "../../../assets/SVG/cartIcon";
 import { SearchIcon } from "../../../assets/SVG/searchIcon";
-type NavProps = {
-  title: string;
-};
-const ProductNavbarsmall = ({ title }: NavProps) => {
+import { SortContext } from "../../context/SortContext";
+
+const ProductNavbarsmall = () => {
   
   const [isSortVisible, setIsSortVisible] = useState(false);
   const navigate = useNavigate();
@@ -17,7 +16,7 @@ const ProductNavbarsmall = ({ title }: NavProps) => {
     navigate('/');
   };
   const isScroll = useIsScroll();
-  
+  const {title} =useContext(SortContext)
   
   return (
     <div
