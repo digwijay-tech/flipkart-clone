@@ -10,9 +10,9 @@ const SuggestedForMe = () => {
           </div>
         </div>
         <div className="flex flex-row [flex-flow:wrap] items-center border-t border-t-[#ebebeb] h-full">
-          <div className="flex-[0.55_1_0%] py-3 flex flex-col relative ">
+          <div className="w-[55%] py-3 flex flex-col relative ">
             <div className="flex flex-col  ">
-              <Link to="/" className="max-w-[252.27px]">
+              <Link to="/" className="">
                 <div className="flex basis-auto flex-col px-2 ">
                   <div className="flex-[1_1_0%] rounded-[4px] overflow-hidden aspect-square">
                     <img
@@ -40,8 +40,8 @@ const SuggestedForMe = () => {
               </Link>
             </div>
           </div>
-          <div className="flex-[0.45_1_0%] flex flex-col">
-            <div className="flex-[0.5_1_0%] border-l border-b border-l-[#ebebeb] border-b-[#ebebeb] py-3 w-[206.39px]">
+          <div className="w-[45%] flex flex-col">
+            <div className="flex-[0.5_1_0%] border-l border-b border-l-[#ebebeb] border-b-[#ebebeb] py-3 ">
               <div className="flex flex-col basis-auto shrink-0 ">
                 <Link to="/">
                   <div className="flex flex-col items-stretch px-2 ">
@@ -72,7 +72,7 @@ const SuggestedForMe = () => {
               </div>
             </div>
             
-            <div className="flex-[0.5_1_0%] border-l border-b border-l-[#ebebeb] border-b-[#ebebeb] py-3 w-[206.39px]">
+            <div className="flex-[0.5_1_0%] border-l border-b border-l-[#ebebeb] border-b-[#ebebeb] py-3 ">
               <div className="flex flex-col basis-auto shrink-0 ">
                 <Link to="/">
                   <div className="flex flex-col items-stretch px-2 ">
