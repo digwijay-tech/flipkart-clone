@@ -1,11 +1,11 @@
-import Breadcrumbs from "../../../BreadCrumbs/BreadCrumbs";
+// import Breadcrumbs from "../../../BreadCrumbs/BreadCrumbs";
 import SortSection from "../SortSection/SortSection";
 
 const TopSection = () => {
   return (
     <div className="  text-[#212121] text-[14px] bg-white">
       <div className="px-4 pt-3 min-h-[72px] border-b border-b-[#f0f0f0]">
-        <Breadcrumbs />
+        {/* <Breadcrumbs /> */}
         <div className="text-[#878787] pt-3 pe-[5px] pb-1">
           <p className="text-[12px] !leading-[1.45] font-[inter]">
             Capture your special moments and relive them by using instant
