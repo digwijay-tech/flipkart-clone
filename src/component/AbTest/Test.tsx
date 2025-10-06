@@ -8,14 +8,14 @@ export default function Test() {
   const [minValue, setMinValue] = useState(1000);
   const [maxValue, setMaxValue] = useState(4000);
 
-  const getPercentage = (value) => ((value - minPrice) / (maxPrice - minPrice)) * 100;
+  const getPercentage = (value: number) => ((value - minPrice) / (maxPrice - minPrice)) * 100;
 
-  const handleMinChange = (e) => {
+  const handleMinChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = Math.min(Number(e.target.value), maxValue - step);
     setMinValue(value);
   };
 
-  const handleMaxChange = (e) => {
+  const handleMaxChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = Math.max(Number(e.target.value), minValue + step);
     setMaxValue(value);
   };

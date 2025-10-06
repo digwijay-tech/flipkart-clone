@@ -1,6 +1,6 @@
 import { useState } from "react";
 import FilterCheckbox from "./FilterCheckbox";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 type FilterCategoryProps = {
   title: string;
   checkbox?: string[];
@@ -8,7 +8,7 @@ type FilterCategoryProps = {
 };
 const FilterCategory = ({
   title,
-  checkbox,
+  // checkbox,
   initialValue,
 }: FilterCategoryProps) => {
   const [isCategoryOpen, setIscategoryOpen] = useState(initialValue?? false);

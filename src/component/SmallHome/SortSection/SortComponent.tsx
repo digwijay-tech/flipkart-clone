@@ -14,7 +14,7 @@ const SortComponent = ({ isSortVisible, setIsSortVisible }: SortProps) => {
     setSearchParam({ sort: e.target.value });
   };
   const handleClick = () => {
-    setIsSortVisible((prev) => (prev = !isSortVisible));
+    setIsSortVisible((prev) => (!prev ));
   };
   useEffect(() => {
     isSortVisible

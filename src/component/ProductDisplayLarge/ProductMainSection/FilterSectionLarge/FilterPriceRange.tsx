@@ -1,7 +1,7 @@
-import { useState } from "react";
+// import { useState } from "react";
 
 const FilterPriceRange = () => {
-  const [value, setValue] = useState(0);
+  // const [value, setValue] = useState(0);
   return (
     <section className="p-4 border-b border-b-[#f0f0f0] flex flex-col h-[134.19px] bg-white">
       <div className="flex flex-row ">

@@ -8,9 +8,9 @@ type SortFilterProps ={
   isSortVisible : boolean
 }
 
-const SmallSortFilter = ({isScroll , setIsSortVisible, isSortVisible}:SortFilterProps) => {
+const SmallSortFilter = ({isScroll , setIsSortVisible,}:SortFilterProps) => {
   const handleSortButtonClick=()=>{
-    setIsSortVisible(prev => prev= !isSortVisible)
+    setIsSortVisible(prev => !prev)
   }
 
   return ( 

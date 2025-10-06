@@ -3,10 +3,10 @@ import Home from "./pages/Home";
 import PageNotFound from "./pages/PageNotFound";
 import ProductCategoryPage from "./pages/ProductCategoryPage";
 import ProductsPage from "./pages/ProductsPage";
-import ProductDIsplaySmall from "./component/SmallHome/ProductDisplayPageSmall/ProductDIsplaySmall";
+// import ProductDIsplaySmall from "./component/SmallHome/ProductDisplayPageSmall/ProductDIsplaySmall";
 import FilterSection from "./component/SmallHome/FilterSection/FilterSection";
 import FilterContent from "./component/SmallHome/FilterSection/FilterContent";
-import ProductDisplayLarge from "./component/ProductDisplayLarge/ProductDisplayLarge";
+// import ProductDisplayLarge from "./component/ProductDisplayLarge/ProductDisplayLarge";
 import Test from "./component/AbTest/Test";
 
 const App = () => {

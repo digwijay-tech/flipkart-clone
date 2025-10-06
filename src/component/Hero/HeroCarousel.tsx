@@ -91,7 +91,7 @@ const HeroCarousel = () => {
       </button>
       {/* progress bar  */}
       <div className="w-full  pt-2 pb-3 flex items-center justify-center flex-row bg-white relative ">
-        {carousel.map((item, index) => (
+        {carousel.map((_item, index) => (
           <div
             className={` h-1 rounded-[2px] mx-1 bg-[#00000021] ${
               currentSlide === index ? "w-[48px]" : "w-3"
